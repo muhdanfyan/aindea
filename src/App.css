@@ -92,8 +92,10 @@ body {
 }
 
 .glass-card {
-  width: 92%;
-  max-width: 480px;
+  width: 95%;
+  /* Slightly more width on smaller screens */
+  max-width: 550px;
+  /* Increased from 480px */
   height: 82vh;
   max-height: calc(100dvh - 100px);
   background: var(--glass-bg);
