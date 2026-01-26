@@ -237,7 +237,7 @@ function App() {
             {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
           </div>
           <div className="header-info">
-            <h1>{mode === 'translate' ? 'Penerjemah Wolio' : 'Diskusi dengan Ayi'}</h1>
+            <h1>{mode === 'translate' ? 'Penerjemah Wolio' : 'Diskusi dengan La Ayi'}</h1>
             <p>{mode === 'translate' ? 'Didukung oleh Gemini AI' : 'Belajar Bahasa Wolio'}</p>
           </div>
         </header>
@@ -348,7 +348,7 @@ function App() {
               </div>
               <div className="message-bubble loading shadow-premium">
                 <Loader2 className="animate-spin" size={18} />
-                <span>{mode === 'translate' ? 'Menerjemahkan...' : 'Ayi sedang berpikir...'}</span>
+                <span>{mode === 'translate' ? 'Menerjemahkan...' : 'La Ayi sedang berpikir...'}</span>
               </div>
             </motion.div>
           )}
