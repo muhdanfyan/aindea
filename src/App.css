@@ -334,11 +334,16 @@ body {
   box-shadow: 0 6px 15px rgba(0, 209, 178, 0.2);
 }
 
-/* --- Mode Toggles --- */
+/* --- Controls Area (Stable Container) --- */
+.controls-area {
+  background: white;
+  border-bottom: 1px solid rgba(0, 209, 178, 0.05);
+}
+
 .mode-toggle {
   display: flex;
   gap: 10px;
-  padding: 12px 28px;
+  padding: 12px 28px 8px;
   background: white;
 }
 
@@ -370,6 +375,8 @@ body {
   justify-content: center;
   padding: 0 28px 12px;
   background: white;
+  overflow: hidden;
+  /* Important for height animation */
 }
 
 .direction-btn {

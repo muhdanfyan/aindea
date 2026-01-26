@@ -413,34 +413,43 @@ function App() {
               </div>
             </header>
 
-            {/* Mode Toggle */}
-            <div className="mode-toggle">
-              <button
-                className={`mode-btn ${mode === 'translate' ? 'active' : ''}`}
-                onClick={() => setMode('translate')}
-              >
-                <Languages size={16} />
-                <span>Terjemahan</span>
-              </button>
-              <button
-                className={`mode-btn ${mode === 'learn' ? 'active' : ''}`}
-                onClick={() => setMode('learn')}
-              >
-                <GraduationCap size={16} />
-                <span>Diskusi</span>
-              </button>
-            </div>
-
-            {/* Direction Toggle (only for translate mode) */}
-            {mode === 'translate' && (
-              <div className="direction-toggle">
-                <button className="direction-btn" onClick={toggleDirection}>
-                  <span className={translateDirection === 'id-wolio' ? 'active-lang' : ''}>Indonesia</span>
-                  <ArrowLeftRight size={16} />
-                  <span className={translateDirection === 'wolio-id' ? 'active-lang' : ''}>Wolio</span>
+            {/* Toggles Container */}
+            <div className="controls-area">
+              <div className="mode-toggle">
+                <button
+                  className={`mode-btn ${mode === 'translate' ? 'active' : ''}`}
+                  onClick={() => setMode('translate')}
+                >
+                  <Languages size={16} />
+                  <span>Terjemahan</span>
+                </button>
+                <button
+                  className={`mode-btn ${mode === 'learn' ? 'active' : ''}`}
+                  onClick={() => setMode('learn')}
+                >
+                  <GraduationCap size={16} />
+                  <span>Diskusi</span>
                 </button>
               </div>
-            )}
+
+              {/* Direction Toggle (only for translate mode) */}
+              <AnimatePresence>
+                {mode === 'translate' && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    className="direction-toggle"
+                  >
+                    <button className="direction-btn" onClick={toggleDirection}>
+                      <span className={translateDirection === 'id-wolio' ? 'active-lang' : ''}>Indonesia</span>
+                      <ArrowLeftRight size={16} />
+                      <span className={translateDirection === 'wolio-id' ? 'active-lang' : ''}>Wolio</span>
+                    </button>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
 
             <main className="chat-window">
               <AnimatePresence initial={false}>
