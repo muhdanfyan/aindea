@@ -528,8 +528,7 @@ function App() {
                     🧑‍🏫
                   </div>
                   <div className="message-bubble loading shadow-premium">
-                    <Loader2 className="animate-spin" size={18} />
-                    <span>{mode === 'translate' ? 'Menerjemahkan...' : 'La Ayi sedang berpikir...'}</span>
+                    <Loader2 className="animate-spin" size={20} />
                   </div>
                 </motion.div>
               )}
