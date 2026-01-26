@@ -213,6 +213,24 @@ html,
   border-top-right-radius: 4px;
 }
 
+/* --- Subtle Correction Style --- */
+.message-wrapper.correction {
+  align-self: flex-start;
+  margin-top: -12px;
+  margin-left: 46px;
+  /* Align with Ayi's text start */
+}
+
+.correction-bubble {
+  font-size: 0.82rem;
+  color: var(--primary-dark);
+  font-style: italic;
+  opacity: 0.7;
+  padding: 4px 0;
+  background: transparent;
+  border: none;
+}
+
 /* --- Subtle Translation Section --- */
 .translation-section {
   padding: 4px 0 0 4px;
