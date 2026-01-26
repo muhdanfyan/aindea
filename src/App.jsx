@@ -359,6 +359,9 @@ function App() {
                 <h2>🧑‍💻 Profil Pengembang</h2>
                 <div className="profile-card">
                   <div className="profile-header">
+                    <div className="profile-avatar developer-photo">
+                      <img src="https://res.cloudinary.com/duntlhjil/image/upload/v1765759801/pisantri/fotosantri/xcbhj9tffpopikh0mvrv.jpg" alt="Muhdan Fyan Syah Sofian" />
+                    </div>
                     <div className="profile-info">
                       <h3>Muhdan Fyan Syah Sofian</h3>
                       <p>Full Stack & AI Enthusiast</p>
