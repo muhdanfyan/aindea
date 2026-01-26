@@ -1,14 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle, Info, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 import dictionary from './dictionary.json';
 import grammar from './wolio_grammar.json';
 import phrases from './wolio_phrases.json';
 import './App.css';
 
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
-const genAI = new GoogleGenerativeAI(API_KEY);
+// Helper function to call Gemini via Netlify Function Proxy
+const callGeminiProxy = async (modelName, prompt) => {
+  const response = await fetch('/.netlify/functions/gemini', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ model: modelName, prompt }),
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json();
+    throw new Error(errorData.error || `Proxy error: ${response.status}`);
+  }
+
+  return await response.json();
+};
 
 // Helper function to strip markdown formatting
 const stripMarkdown = (text) => {
@@ -68,7 +80,7 @@ function App() {
   const startConversation = async () => {
     setIsLoading(true);
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1' });
+      // Use proxy instead of direct model
 
       // Helper to get relevant dictionary context
       const getRelevantContext = (query, limit = 50) => {
@@ -123,9 +135,8 @@ function App() {
         INDONESIA: [terjemahan ke Indonesia]
       `;
 
-      const result = await model.generateContent(prompt);
-      const response = await result.response;
-      const text = response.text();
+      const result = await callGeminiProxy("gemini-2.5-flash", prompt);
+      const text = result.text;
 
       const wolioMatch = text.match(/WOLIO:\s*(.+)/i);
       const indonesiaMatch = text.match(/INDONESIA:\s*(.+)/i);
@@ -163,7 +174,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1' });
+      // Use proxy instead of direct model
 
       const getRelevantContext = (query, limit = 40) => {
         if (!dictionary.entries) return "";
@@ -208,9 +219,8 @@ function App() {
           `;
         }
 
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        const text = stripMarkdown(response.text());
+        const result = await callGeminiProxy("gemini-2.5-flash", prompt);
+        const text = stripMarkdown(result.text);
 
         setMessages(prev => [...prev, { role: 'bot', primary: text, secondary: null }]);
       } else {
@@ -251,9 +261,8 @@ function App() {
           KOREKSI: [jika perlu koreksi, tuliskan cara yang benar. jika tepat, kosongkan]
         `;
 
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        const text = response.text();
+        const result = await callGeminiProxy("gemini-2.5-flash", prompt);
+        const text = result.text;
 
         const statusMatch = text.match(/STATUS:\s*(TEPAT|PERLU_KOREKSI)/i);
         const responsWolioMatch = text.match(/RESPONS_WOLIO:\s*(.+)/i);

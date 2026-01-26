@@ -1,6 +1,6 @@
 require('dotenv').config();
 async function listModels() {
-    const API_KEY = process.env.VITE_GEMINI_API_KEY;
+    const API_KEY = process.env.GEMINI_API_KEY_1;
     const genAI = new GoogleGenerativeAI(API_KEY);
 
     try {
