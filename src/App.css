@@ -329,27 +329,39 @@ html,
   color: var(--text-muted);
 }
 
-.clear-chat-btn {
+.header-actions {
   margin-left: auto;
-  background: #fef2f2;
-  border: 1px solid #fecaca;
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header-btn {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ef4444;
+  color: #64748b;
   cursor: pointer;
   transition: all 0.2s;
   flex-shrink: 0;
 }
 
-.clear-chat-btn:hover {
-  background: #ef4444;
-  color: white;
-  border-color: #ef4444;
+.header-btn:hover {
+  background: #e2e8f0;
+  color: var(--text-main);
 }
+
+.header-btn.clear-btn:hover {
+  background: #fef2f2;
+  color: #ef4444;
+  border-color: #fecaca;
+}
+
 
 /* --- Controls area --- */
 .controls-area {
@@ -565,26 +577,7 @@ html,
   justify-content: center;
 }
 
-/* --- Footer Link (moved to top-right in previous step but need to sync) --- */
-.app-footer-links {
-  position: absolute;
-  top: 22px;
-  right: 20px;
-  z-index: 101;
-}
-
-.dev-link {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  background: #f1f5f9;
-  padding: 4px 12px;
-  border-radius: 20px;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
+/* --- Animate Spin --- */
 
 .animate-spin {
   animation: spin 1s linear infinite;

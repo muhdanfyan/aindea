@@ -504,9 +504,14 @@ function App() {
                 <h1>{mode === 'translate' ? 'Aindea: Penerjemah' : 'Aindea: Tutor Wolio'}</h1>
                 <p>{mode === 'translate' ? 'Penerjemah Cerdas Bahasa Wolio' : 'Belajar Langsung dengan La Ayi'}</p>
               </div>
-              <button className="clear-chat-btn" onClick={clearChat} title="Hapus riwayat chat">
-                <Trash2 size={18} />
-              </button>
+              <div className="header-actions">
+                <button onClick={() => setMode('about')} className="header-btn about-btn" title="Tentang Aindea">
+                  <Info size={18} />
+                </button>
+                <button className="header-btn clear-btn" onClick={clearChat} title="Hapus riwayat chat">
+                  <Trash2 size={18} />
+                </button>
+              </div>
             </header>
 
             <div className="controls-area">
@@ -602,12 +607,6 @@ function App() {
           </div>
         )}
       </div>
-      <footer className="app-footer-links">
-        <button onClick={() => setMode('about')} className="dev-link">
-          <Info size={14} />
-          <span>Tentang Aindea</span>
-        </button>
-      </footer>
     </div>
   );
 }
