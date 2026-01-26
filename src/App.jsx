@@ -419,8 +419,8 @@ function App() {
                 {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
               </div>
               <div className="header-info">
-                <h1>{mode === 'translate' ? 'Penerjemah Wolio' : 'Diskusi dengan La Ayi'}</h1>
-                <p>{mode === 'translate' ? 'Didukung oleh Gemini AI' : 'Belajar Bahasa Wolio'}</p>
+                <h1>{mode === 'translate' ? 'Aindea: Penerjemah' : 'Aindea: Tutor Wolio'}</h1>
+                <p>{mode === 'translate' ? 'Penerjemah Cerdas Bahasa Wolio' : 'Belajar Langsung dengan La Ayi'}</p>
               </div>
             </header>
 
