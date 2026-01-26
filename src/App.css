@@ -92,8 +92,9 @@ body {
 }
 
 .glass-card {
-  width: min(94%, 600px);
-  height: min(88vh, 950px);
+  width: min(96%, 600px);
+  height: min(92vh, 950px);
+  max-height: calc(100dvh - 80px);
   background: var(--glass-bg);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
@@ -376,7 +377,7 @@ body {
 
 /* --- Floating Chat Inputpill --- */
 .chat-input-area {
-  padding: 24px 32px 32px;
+  padding: 20px 32px 20px;
   background: transparent;
   z-index: 20;
 }
