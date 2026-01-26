@@ -326,17 +326,25 @@ function App() {
             </header>
 
             <main className="about-content">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="hero-branding"
+              >
+                <div className="hero-logo">
+                  <img src="/logo.png" alt="Aindea Mark" />
+                </div>
+              </motion.div>
+
               <motion.section
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
                 className="about-section"
               >
                 <h2>🧑‍💻 Profil Pengembang</h2>
                 <div className="profile-card">
                   <div className="profile-header">
-                    <div className="profile-avatar branding">
-                      <img src="/logo.png" alt="Aindea Mark" />
-                    </div>
                     <div className="profile-info">
                       <h3>Muhdan Fyan Syah Sofian</h3>
                       <p>Full Stack & AI Enthusiast</p>
