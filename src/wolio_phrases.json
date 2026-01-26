@@ -19,6 +19,21 @@
                     "wolio": "Imai upunamo?",
                     "translated": "Mau ke mana?",
                     "note": "Pertanyaan umum saat bertemu dijalan"
+                },
+                {
+                    "wolio": "Aala uwe sambahea.",
+                    "translated": "Berwudu.",
+                    "note": "Konteks religi"
+                },
+                {
+                    "wolio": "Aana tumpena.",
+                    "translated": "Anak pertama.",
+                    "note": "Keluarga"
+                },
+                {
+                    "wolio": "Aana kaepuna.",
+                    "translated": "Anak bungsu.",
+                    "note": "Keluarga"
                 }
             ]
         },
@@ -38,7 +53,7 @@
                 {
                     "wolio": "dalapita",
                     "translated": "cengeng",
-                    "literal": "jalan air mata?"
+                    "literal": "jalan air mata"
                 },
                 {
                     "wolio": "kana waga",
@@ -49,6 +64,26 @@
                     "wolio": "kande sokal",
                     "translated": "makan suap / korupsi",
                     "note": "kiasan"
+                },
+                {
+                    "wolio": "matemo akalaku",
+                    "translated": "kehabisan akal",
+                    "note": "kiasan"
+                },
+                {
+                    "wolio": "amaga limana",
+                    "translated": "ringan tangan",
+                    "note": "kiasan - suka memukul"
+                },
+                {
+                    "wolio": "amaka incana",
+                    "translated": "keras hati",
+                    "note": "kiasan"
+                },
+                {
+                    "wolio": "apoinca bulawa",
+                    "translated": "berhati emas",
+                    "note": "kiasan - sangat baik"
                 }
             ]
         },
@@ -74,6 +109,11 @@
                     "wolio": "Inda alingka roanamo malunte.",
                     "translated": "Tidak berangkat karena malas.",
                     "pattern": "Neg + V + Conj + Adj"
+                },
+                {
+                    "wolio": "Boli maoge ngangamu.",
+                    "translated": "Jangan besar mulut (sombong).",
+                    "note": "Larangan"
                 }
             ]
         },
@@ -127,6 +167,16 @@
                     "wolio": "yitu",
                     "translated": "ini/itu (dekat)",
                     "note": "demonstratif"
+                },
+                {
+                    "wolio": "asomo eo",
+                    "translated": "menjelang sore",
+                    "note": "waktu"
+                },
+                {
+                    "wolio": "apontangamo eo",
+                    "translated": "tengah hari",
+                    "note": "waktu"
                 }
             ]
         }

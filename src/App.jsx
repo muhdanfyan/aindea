@@ -41,7 +41,6 @@ function App() {
         { role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }
       ]);
       setConversationHistory([]);
-      setConversationHistory([]);
     } else if (mode === 'learn') {
       // Ayi Conversational Mode
       setMessages([
@@ -69,7 +68,7 @@ function App() {
   const startConversation = async () => {
     setIsLoading(true);
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" }, { apiVersion: 'v1' });
+      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1' });
 
       // Helper to get relevant dictionary context
       const getRelevantContext = (query, limit = 50) => {
@@ -120,8 +119,7 @@ function App() {
         Ajukan pertanyaan sederhana dalam bahasa Wolio untuk memulai percakapan sehari-hari.
         Contoh topik: kabar, nama, kegiatan hari ini, makanan, keluarga.
         
-        FORMAT RESPONS (HARUS TEPAT):
-        WOLIO: [pertanyaan dalam bahasa Wolio yang natural - HARUS berakhir vokal]
+        WOLIO: [pertanyaan atau sapaan dalam bahasa Wolio yang natural dan hangat - HARUS berakhir vokal]
         INDONESIA: [terjemahan ke Indonesia]
       `;
 
@@ -132,8 +130,8 @@ function App() {
       const wolioMatch = text.match(/WOLIO:\s*(.+)/i);
       const indonesiaMatch = text.match(/INDONESIA:\s*(.+)/i);
 
-      const wolioText = wolioMatch ? stripMarkdown(wolioMatch[1]) : "Umbemo?";
-      const indonesiaText = indonesiaMatch ? stripMarkdown(indonesiaMatch[1]) : "Apa kabar?";
+      const wolioText = wolioMatch ? stripMarkdown(wolioMatch[1]) : "Tabea, umbemo?";
+      const indonesiaText = indonesiaMatch ? stripMarkdown(indonesiaMatch[1]) : "Halo, apa kabar?";
 
       setConversationHistory([{ role: 'ayi', wolio: wolioText }]);
 
@@ -145,7 +143,11 @@ function App() {
       }]);
     } catch (error) {
       console.error('Conversation error:', error);
-      setMessages(prev => [...prev, { role: 'ayi', primary: 'Umbemo?', secondary: 'Apa kabar?' }]);
+      if (error.message?.includes('429')) {
+        setMessages(prev => [...prev, { role: 'ayi', primary: 'Waduu, La Ayi te mofiki-fikiri bari! (Quota Limit). Tunggu sebentar ya...', secondary: null }]);
+      } else {
+        setMessages(prev => [...prev, { role: 'ayi', primary: 'Tabea, umbemo?', secondary: 'Halo, apa kabar?' }]);
+      }
     } finally {
       setIsLoading(false);
     }
@@ -161,26 +163,25 @@ function App() {
     setIsLoading(true);
 
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" }, { apiVersion: 'v1' });
+      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1' });
 
-      const getRelevantContext = (query, limit = 100) => {
+      const getRelevantContext = (query, limit = 40) => {
         if (!dictionary.entries) return "";
-        const searchTerms = query.toLowerCase().split(/\s+/);
+        const searchTerms = query.toLowerCase().split(/\s+/).filter(t => t.length > 2);
+
         let filtered = dictionary.entries.filter(entry =>
           searchTerms.some(term =>
             entry.word.toLowerCase().includes(term) ||
-            entry.definition.toLowerCase().includes(term) ||
-            entry.example_id.toLowerCase().includes(term) ||
-            entry.example_wolio.toLowerCase().includes(term)
+            entry.definition.toLowerCase().includes(term)
           )
         );
 
-        if (filtered.length < 20) {
-          // Add some general ones if too few results
-          filtered = [...filtered, ...dictionary.entries.slice(0, 20)];
+        // If too many results or no search terms, pick representative ones
+        if (filtered.length === 0 || searchTerms.length === 0) {
+          filtered = dictionary.entries.filter(e => e.word.length < 6).slice(0, 15);
         }
 
-        return filtered.slice(0, limit).map(e => `${e.word} (${e.definition}): ${e.example_wolio} -> ${e.example_id}`).join('\n');
+        return filtered.slice(0, limit).map(e => `${e.word}: ${e.definition}`).join('\n');
       };
 
       if (mode === 'translate') {
@@ -290,7 +291,11 @@ function App() {
       }
     } catch (error) {
       console.error('Error:', error);
-      setMessages(prev => [...prev, { role: 'ayi', primary: 'Maaf, ada kesalahan. Coba lagi ya!', secondary: null }]);
+      if (error.message?.includes('429')) {
+        setMessages(prev => [...prev, { role: 'ayi', primary: 'Waduu, La Ayi capek sedikit (Quota Terlampaui). Coba kirim lagi dalam 15-30 detik ya!', secondary: null }]);
+      } else {
+        setMessages(prev => [...prev, { role: 'ayi', primary: 'Maaf, ada kesalahan teknis. Coba lagi ya!', secondary: null }]);
+      }
     } finally {
       setIsLoading(false);
     }
