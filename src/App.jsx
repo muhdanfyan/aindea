@@ -621,7 +621,11 @@ function App() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                  placeholder={mode === 'translate' ? 'Ketik pesan...' : 'Jawab dalam bahasa Wolio...'}
+                  placeholder={
+                    mode === 'translate'
+                      ? (translateDirection === 'id-wolio' ? 'Ketik pesan bahasa Indonesia...' : 'Ketik pesan bahasa Wolio...')
+                      : 'Jawab dalam bahasa Wolio...'
+                  }
                   disabled={isLoading}
                 />
                 <button onClick={handleSend} disabled={!input.trim() || isLoading} className="send-button">
