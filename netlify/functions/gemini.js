@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
     }
 
     // Ambil semua kunci API dari environment yang berawalan GEMINI_API_KEY_
-    const apiKeys = Object.keys(process.env)
+    let apiKeys = Object.keys(process.env)
         .filter(key => key.startsWith("GEMINI_API_KEY_"))
         .sort()
         .map(key => process.env[key])
@@ -18,12 +18,16 @@ exports.handler = async (event, context) => {
         apiKeys.unshift(process.env.GEMINI_API_KEY);
     }
 
+    // Acak urutan kunci agar tidak selalu mencoba kunci yang sama (yang mungkin sudah mati) di urutan pertama
+    apiKeys = apiKeys.sort(() => Math.random() - 0.5);
+
     if (apiKeys.length === 0) {
         return {
             statusCode: 500,
             body: JSON.stringify({ error: "No Gemini API keys found in environment variables" }),
         };
     }
+
 
     const { model: modelName, prompt } = JSON.parse(event.body);
     let lastError = null;
