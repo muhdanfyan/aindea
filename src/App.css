@@ -139,14 +139,21 @@ html,
 
 .profile-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .profile-avatar.branding {
+  width: 80px;
+  height: 80px;
   background: var(--primary-gradient);
+  border-radius: 50%;
   overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 209, 178, 0.2);
+  border: 4px solid white;
 }
 
 .profile-avatar.branding img {
@@ -156,13 +163,13 @@ html,
 }
 
 .profile-info h3 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: var(--text-main);
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .profile-info p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--primary-dark);
   font-weight: 600;
 }
