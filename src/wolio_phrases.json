@@ -1,0 +1,134 @@
+{
+    "name": "Wolio Phrase Bank & Structural Examples",
+    "description": "Koleksi frase dan struktur kalimat contoh untuk referensi AI dalam menghasilkan ucapan bahasa Wolio yang idiomatik.",
+    "categories": [
+        {
+            "category": "Interaksi Sosial",
+            "phrases": [
+                {
+                    "wolio": "Tabea, umbemo?",
+                    "translated": "Halo, apa kabar?",
+                    "note": "Sapaan umum"
+                },
+                {
+                    "wolio": "Malape-peo, tarima kasi.",
+                    "translated": "Baik-baik, terima kasih.",
+                    "note": "Respons sapaan"
+                },
+                {
+                    "wolio": "Imai upunamo?",
+                    "translated": "Mau ke mana?",
+                    "note": "Pertanyaan umum saat bertemu dijalan"
+                }
+            ]
+        },
+        {
+            "category": "Kata Majemuk & Kiasan",
+            "phrases": [
+                {
+                    "wolio": "dalaoge",
+                    "translated": "jalan raya",
+                    "literal": "jalan besar"
+                },
+                {
+                    "wolio": "uwe lancau",
+                    "translated": "air obat",
+                    "note": "istilah untuk obat cair"
+                },
+                {
+                    "wolio": "dalapita",
+                    "translated": "cengeng",
+                    "literal": "jalan air mata?"
+                },
+                {
+                    "wolio": "kana waga",
+                    "translated": "pengadilan",
+                    "note": "konteks hukum"
+                },
+                {
+                    "wolio": "kande sokal",
+                    "translated": "makan suap / korupsi",
+                    "note": "kiasan"
+                }
+            ]
+        },
+        {
+            "category": "Struktur Kalimat Dasar",
+            "phrases": [
+                {
+                    "wolio": "Yaku kulingka i daoa.",
+                    "translated": "Saya pergi ke pasar.",
+                    "pattern": "S + ku-V + Prep + N"
+                },
+                {
+                    "wolio": "Incia asumpumo uwe.",
+                    "translated": "Dia sudah minum air.",
+                    "pattern": "S + a-V-mo + O"
+                },
+                {
+                    "wolio": "Ingkoo ukande-kandemo?",
+                    "translated": "Apakah engkau sudah makan-makan?",
+                    "note": "Reduplikasi + -mo"
+                },
+                {
+                    "wolio": "Inda alingka roanamo malunte.",
+                    "translated": "Tidak berangkat karena malas.",
+                    "pattern": "Neg + V + Conj + Adj"
+                }
+            ]
+        },
+        {
+            "category": "Frase Kepemilikan (Possessive)",
+            "phrases": [
+                {
+                    "wolio": "banuaku",
+                    "translated": "rumahku"
+                },
+                {
+                    "wolio": "banuamu",
+                    "translated": "rumahmu"
+                },
+                {
+                    "wolio": "banuana",
+                    "translated": "rumahnya"
+                },
+                {
+                    "wolio": "banuata",
+                    "translated": "rumah kita (inklusif)"
+                },
+                {
+                    "wolio": "banuamami",
+                    "translated": "rumah kami (eksklusif)"
+                }
+            ]
+        },
+        {
+            "category": "Waktu & Keadaan",
+            "phrases": [
+                {
+                    "wolio": "malo eo",
+                    "translated": "siang malam"
+                },
+                {
+                    "wolio": "saangku wakutuu",
+                    "translated": "suatu waktu",
+                    "note": "frase pembuka cerita"
+                },
+                {
+                    "wolio": "naile",
+                    "translated": "besok"
+                },
+                {
+                    "wolio": "sumai",
+                    "translated": "itu (jauh)",
+                    "note": "demonstratif"
+                },
+                {
+                    "wolio": "yitu",
+                    "translated": "ini/itu (dekat)",
+                    "note": "demonstratif"
+                }
+            ]
+        }
+    ]
+}

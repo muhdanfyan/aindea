@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dictionary from './dictionary.json';
 import grammar from './wolio_grammar.json';
+import phrases from './wolio_phrases.json';
 import './App.css';
 
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
@@ -219,20 +220,21 @@ function App() {
         const prompt = `
           Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio secara alami dan fasih.
           
-          ATURAN GRAMATIKA WOLIO (WAJIB DIIKUTI):
-          - Semua kata Wolio HARUS berakhir dengan vokal (a, e, i, o, u)
-          - Prefix: ko- (memiliki), ma- (sifat), po-/pe- (aksi), me- (berkelanjutan)
-          - Suffix: -mo (sudah), -po (dulu), -aka (menyebabkan)
-          - Reduplikasi = intensif/berulang (malape-lape = sangat baik)
-          - Urutan: Subjek-Verba-Objek
-          
-          KATA-KATA UMUM:
-          ${JSON.stringify(grammar.common_words, null, 2)}
+          PETUNJUK LINGUISTIK WOLIO (PENTING):
+          FONOLOGI: ${JSON.stringify(grammar.phonology.rules)}
+          MORFOLOGI (PREFIX): ${JSON.stringify(grammar.morphology.prefixes)}
+          MORFOLOGI (SUFFIX): ${JSON.stringify(grammar.morphology.suffixes)}
+          SINTAKSIS (POLA): ${JSON.stringify(grammar.syntax.phrase_patterns)}
+          KATA GANTI (CLITIC): ${JSON.stringify(grammar.pronouns.subject_clitics)}
+          KATA-KATA DASAR: ${JSON.stringify(grammar.common_words.basic_verbs)}
           
           RIWAYAT PERCAKAPAN:
           ${historyStr}
           Teman: "${userInput}"
           
+          REFERENSI FRASE IDIOMATIK:
+          ${JSON.stringify(phrases.categories, null, 1)}
+
           REFERENSI KAMUS WOLIO (Gunakan untuk mengevaluasi dan merespons):
           ${dictionaryContext}
           
@@ -419,8 +421,8 @@ function App() {
                 <h2>📚 Referensi Literasi</h2>
                 <div className="references-list">
                   <div className="ref-card">Kamus Ungkapan Wolio-Indonesia (1985)</div>
-                  <div className="ref-card">Tata Bahasa Wolio (J.C. Anceaux)</div>
-                  <div className="ref-card">Kamus Lengkap Husen Abas</div>
+                  <div className="ref-card">Struktur Bahasa Wolio (Husen Abas et al., 1983)</div>
+                  <div className="ref-card">Tata Bahasa Wolio (J.C. Anceaux, 1952)</div>
                 </div>
               </motion.section>
             </main>

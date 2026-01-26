@@ -1,7 +1,7 @@
 {
-    "name": "Wolio Language Grammar Reference",
-    "source": "The Wolio Language - J.C. Anceaux (1952/1988)",
-    "description": "Panduan gramatika bahasa Wolio untuk membantu AI memahami struktur bahasa",
+    "name": "Wolio Language Grammar Reference (Advanced)",
+    "source": "Struktur Bahasa Wolio - Husen Abas et al. (1983) & The Wolio Language - J.C. Anceaux (1952)",
+    "description": "Panduan gramatika bahasa Wolio yang komprehensif mencakup fonologi, morfologi, dan sintaksis.",
     "phonology": {
         "vowels": [
             "a",
@@ -17,6 +17,9 @@
             "d",
             "k",
             "g",
+            "c",
+            "j",
+            "f",
             "s",
             "h",
             "m",
@@ -27,9 +30,7 @@
             "r",
             "w",
             "y",
-            "c",
-            "j",
-            "f"
+            "glottal stop (')"
         ],
         "prenasalized": [
             "mp",
@@ -41,185 +42,127 @@
             "ngk",
             "ngg"
         ],
+        "diphthongs": [
+            "ai",
+            "au",
+            "ia",
+            "ao",
+            "ae",
+            "ou",
+            "oi",
+            "oe",
+            "ea",
+            "ua",
+            "iu"
+        ],
         "rules": [
-            "Semua kata Wolio berakhir dengan vokal",
-            "Pola kata: vokal-konsonan-vokal (VCV, CVCV, dll)",
-            "Aksen kata pada suku kedua dari belakang (penultimate)"
+            "Semua kata Wolio berakhir dengan vokal (Bahasa Vokalis).",
+            "Tidak ada konsonan di posisi akhir kata.",
+            "Gugus konsonan (prenasalisasi) sering ditemukan di awal kata.",
+            "Tekanan kata (stress) biasanya pada suku kata kedua dari belakang (penultimate)."
         ]
     },
     "morphology": {
-        "verb_prefixes": {
-            "ko-": {
-                "meaning": "memiliki, memakai, dalam keadaan",
-                "examples": [
-                    "kobulu (berbulu)",
-                    "kobaju (memakai baju)",
-                    "kooni (berbicara)"
-                ],
-                "type": "intransitif"
-            },
-            "ma-": {
-                "meaning": "dalam keadaan, bersifat",
-                "examples": [
-                    "maluntu (malas)",
-                    "makasu (dekat)",
-                    "matau (tahu)",
-                    "masodo (panas)"
-                ],
-                "type": "intransitif"
-            },
-            "po-/pe-": {
-                "meaning": "aksi tubuh, aksi berulang",
-                "examples": [
-                    "potawa (tertawa)",
-                    "pomea (menguap)",
-                    "pomeke (batuk)"
-                ],
-                "type": "intransitif"
-            },
-            "me-": {
-                "meaning": "aksi/keadaan berkelanjutan",
-                "examples": [
-                    "mesumpu (selalu minum)",
-                    "mentaqi (selalu menangis)",
-                    "mengkole (selalu tidur)"
-                ],
-                "type": "intransitif"
-            },
-            "ka-": {
-                "meaning": "dengan reduplikasi = aksi berulang/terus menerus",
-                "examples": [
-                    "kaliqkaliqka (berjalan kaki)",
-                    "kauncuuncura (terus duduk)"
-                ],
-                "type": "intransitif"
-            },
-            "ti-": {
-                "meaning": "masuk ke dalam keadaan",
-                "examples": [
-                    "tiumba (muncul)",
-                    "tidoie (berbaring)"
-                ],
-                "type": "intransitif"
-            },
-            "poma-": {
-                "meaning": "tanpa kontrol, ke segala arah",
-                "examples": [
-                    "pomabebe (memukul ke segala arah)",
-                    "pomakande (makan sembarangan)"
-                ],
-                "type": "transitif/intransitif"
-            }
+        "prefixes": {
+            "o-": "Pembentuk kata benda (nominalizer) dari verba/ajektiva (e.g., okande = hal makan). Juga berfungsi sebagai kata sandang definit.",
+            "i-": "Penanda pasif/relatif ('yang di-') atau preposisi lokatif ('di').",
+            "ka-": "Penanda alat (e.g., kabebe = pemukul) atau pembentuk abstraksi (ke-an) dari ajektiva.",
+            "ko-": "Penanda kepemilikan atau pemakaian ('ber-', 'mempunyai').",
+            "koo-": "Menyatakan keterkejutan atau 'padahal' (e.g., koodoi = padahal uang).",
+            "ma-": "Menyatakan keadaan atau proses menjadi (e.g., maoge = menjadi besar).",
+            "po-": "Menyatakan pemakaian atau tindakan timbal balik (reciprocal/saling).",
+            "pa-": "Kausatif ('menyebabkan') atau pembentuk nomina pelaku (agentive).",
+            "to-": "Menyatakan ketidaksengajaan (ter-) atau potensi ('dapat di-'). Dengan kata benda berarti 'untuk'.",
+            "pe-": "Penanda verba aktif.",
+            "mo-": "Penanda pelaku (actor) atau 'yang melakukan'.",
+            "sa-": "Satu (dengan nomina) atau bersama-sama/seketika (dengan verba).",
+            "me-": "Menyatakan kebiasaan atau intensitas ('selalu')."
+        },
+        "infixes": {
+            "-in-": "Mengubah verba menjadi nomina, sering dalam konteks kekerabatan (e.g., pinoana = kemanakan).",
+            "-um-": "Sangat jarang (tidak produktif), biasanya menyatakan kemunculan (e.g., tiumba = muncul)."
         },
         "suffixes": {
-            "-mo": "sudah, telah (aspek perfektif)",
-            "-po": "dulu, belum (aspek prospektif)",
-            "-aka": "membuat, menyebabkan (kausatif)",
-            "-a": "akhiran objek",
-            "-i": "akhiran lokatif/direktif"
+            "-mo": "Aspek perfektif (sudah/telah) atau partikel penegas/perintah.",
+            "-po": "Aspek prospektif (belum/nanti) atau 'dahulu' (e.g., alapo = ambil dulu).",
+            "-aka": "Kausatif ('membuat/menyebabkan') atau benefaktif ('untuk dia').",
+            "-i": "Indikator lokatif, direktif, atau perulangan (seperti -i dalam Bahasa Indonesia).",
+            "-a": "Penanda objek pada verba.",
+            "-ia": "Menyatakan tujuan atau 'supaya'.",
+            "-iki": "Sama dengan me-...-i (menghasilkan verba transitif).",
+            "-akea": "Kausatif spesifik 'lakukan pada dia'."
         },
         "reduplication": {
-            "rule": "Duplikasi sampai vokal kedua",
-            "examples": [
-                "baa → baabaa",
-                "mboloqa → mbolomboloqa",
-                "batu → batubatu"
-            ],
-            "meaning": "intensif, berulang, jamak"
-        },
-        "prenasalization": {
-            "rule": "k→ngk, t→nt, p→mp, c→nc",
-            "context": "Terjadi dengan prefix tertentu atau dalam komposisi kata",
-            "examples": [
-                "sa- + baa = sambaa",
-                "me- + kole = mengkole"
-            ]
+            "full": "Perulangan utuh (e.g., kande-kande) bermakna sering atau jamak.",
+            "partial": "Perulangan dua suku kata pertama (e.g., maputi-puti = agak putih).",
+            "meaning": "Intensitas, perulangan, frekuensi, atau makna kiasan."
         }
+    },
+    "pronouns": {
+        "subject_clitics": {
+            "1sg": "ku- (e.g., kulingka = saya pergi)",
+            "2sg": "u- (e.g., usapo = engkau turun)",
+            "3sg": "a- (e.g., asumpu = dia minum)",
+            "1pl_excl": "ta- (e.g., talingka = kami pergi)",
+            "2pl": "u-...-komiu (e.g., usapokomiu = kamu sekalian turun)",
+            "3pl": "...-manga (e.g., sumpu manga = mereka minum)"
+        },
+        "object_clitics": {
+            "1sg": "-aku (e.g., bebeaku = pukul aku)",
+            "2sg": "-ko (e.g., kubebeko = saya pukul engkau)",
+            "3sg": "-a (e.g., kubebeia = saya pukul dia)",
+            "1pl_excl": "-kami (e.g., osekami = ikut kami)",
+            "2pl": "-komiu (e.g., kubebekomiu = saya pukul kalian)",
+            "3pl": "-manga (e.g., kuosemanga = saya ikut mereka)"
+        },
+        "possessive_suffixes": {
+            "1sg": "-ku (e.g., banuaku = rumahku)",
+            "2sg": "-mu (e.g., banuamu = rumahmu)",
+            "3sg": "-na (e.g., banuana = rumahnya)",
+            "1pl_incl": "-ta (e.g., sorongata = peti kita)",
+            "1pl_excl": "-mami (e.g., andimami = adik kami)",
+            "2pl": "-miu (e.g., banuamiu = rumah kalian)",
+            "3pl": "-na manga (e.g., banuana manga = rumah mereka)"
+        },
+        "independent": [
+            "yaku",
+            "ingkoo",
+            "incia",
+            "ingkami",
+            "ingkita",
+            "ingkomiu",
+            "manga incia"
+        ]
     },
     "syntax": {
-        "word_order": "SVO (Subjek-Verba-Objek)",
-        "sentence_types": [
-            "Pernyataan",
-            "Pertanyaan",
-            "Perintah"
+        "word_order": "SVO (Subjek-Verba-Objek) adalah yang paling umum.",
+        "phrase_patterns": [
+            "N + Adj (o inana amancuana)",
+            "N + -mo + Adj (o amanamo mancuanamo)",
+            "N + i-Verb (o bembe itapu)",
+            "Num + N (talu mia manga)",
+            "N + N (olebena masigi)",
+            "Adj + Intensifier (menturu mpu)",
+            "Negator + Verb (inda alingka)"
         ],
-        "pronouns": {
-            "aku/yaku": "saya",
-            "ingko/ingkoe": "kamu",
-            "incia": "dia",
-            "ingkami": "kami",
-            "ingkita": "kita",
-            "manga": "mereka"
-        }
-    },
-    "common_words": {
-        "greetings": {
-            "tabea": "halo, selamat",
-            "umbemo": "apa kabar",
-            "malapepo": "baik-baik"
+        "conjunctions": {
+            "te": "dan, serta",
+            "maka": "kemudian, maka",
+            "tapa": "tetapi",
+            "roanamo": "karena",
+            "atawa": "atau"
         },
-        "basic_verbs": {
-            "kande": "makan",
-            "sumpu": "minum",
-            "kole": "tidur",
-            "liqka/lingka": "pergi",
-            "umba": "datang",
-            "ala": "ambil",
-            "dawu": "beri",
-            "kamata": "lihat",
-            "rango": "dengar",
-            "pogau": "bicara",
-            "tula": "cerita",
-            "karaja": "kerja",
-            "baca": "baca",
-            "buri": "tulis"
-        },
-        "basic_nouns": {
-            "mia": "orang",
-            "ana/ana-ana": "anak",
-            "ama": "ayah",
-            "ina": "ibu",
-            "aka": "kakak",
-            "andi": "adik",
-            "banua": "rumah",
-            "lipu": "negeri/kampung",
-            "eo": "hari/matahari",
-            "malo": "malam",
-            "uwe": "air",
-            "waa": "api",
-            "kande": "makanan",
-            "baju": "baju"
-        },
-        "adjectives": {
-            "malape": "baik",
-            "madaki": "buruk",
-            "maoge": "besar",
-            "maidi": "kecil",
-            "malanga": "tinggi",
-            "mapisu": "pendek",
-            "masodo": "panas",
-            "magari": "dingin"
-        },
-        "numbers": {
-            "ise": "satu",
-            "jua/rua": "dua",
-            "talu": "tiga",
-            "uapa": "empat",
-            "lima": "lima",
-            "ana": "enam",
-            "pitu": "tujuh",
-            "walu": "delapan",
-            "siwa": "sembilan",
-            "ompulu": "sepuluh"
-        }
+        "negators": [
+            "inda/tinda (tidak)",
+            "indapo/tindapo (belum)"
+        ]
     },
     "ai_instructions": [
-        "Semua kata Wolio berakhir dengan vokal - jika tidak, mungkin salah",
-        "Perhatikan prefix dan suffix untuk memahami makna kata",
-        "Reduplikasi menandakan intensitas atau pengulangan",
-        "Prefix ma- biasanya menandakan sifat/keadaan",
-        "Prefix ko- menandakan kepemilikan atau pemakaian",
-        "Suffix -mo berarti 'sudah/telah'",
-        "Gunakan konteks kalimat untuk memahami makna yang tepat"
+        "PASTIKAN semua kata berakhir dengan vokal.",
+        "Gunakan clitic subjek (ku-, u-, a-) sebagai awalan verba untuk kalimat yang lebih natural.",
+        "Gunakan suffix -mo untuk menyatakan kejadian yang sudah selesai.",
+        "Gunakan koo- untuk mengekspresikan kejutan atau hal yang tak terduga.",
+        "Gunakan 'o' sebagai kata sandang definit sebelum nomina jika konteksnya jelas.",
+        "Gunakan 'te' (dan) untuk menggabungkan kata atau klausa."
     ]
 }
