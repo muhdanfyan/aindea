@@ -461,9 +461,15 @@ function App() {
                     {msg.role === 'user' && <div className="avatar"><User size={18} /></div>}
 
                     <div className="message-content">
-                      <div className={`message-bubble ${msg.isQuestion ? 'question-bubble' : ''}`}>
-                        {msg.primary || msg.text}
-                      </div>
+                      {msg.role === 'correction' ? (
+                        <div className="correction-text">
+                          {msg.primary || msg.text}
+                        </div>
+                      ) : (
+                        <div className={`message-bubble ${msg.isQuestion ? 'question-bubble' : ''}`}>
+                          {msg.primary || msg.text}
+                        </div>
+                      )}
 
                       {msg.secondary && (
                         <div className="translation-section">
