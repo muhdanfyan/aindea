@@ -255,19 +255,29 @@ html,
 /* --- Footer Link --- */
 .app-footer-links {
   position: absolute;
-  top: 18px;
+  top: 22px;
   right: 20px;
-  z-index: 101;
+  z-index: 1000;
 }
 
 .dev-link {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  background: #f1f5f9;
-  padding: 4px 12px;
+  font-size: 0.7rem;
+  color: var(--primary-dark);
+  background: #f0fdfa;
+  padding: 6px 12px;
   border-radius: 20px;
-  border: none;
+  border: 1px solid rgba(0, 209, 178, 0.1);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.dev-link:hover {
+  background: var(--primary-teal);
+  color: white;
 }
 
 .animate-spin {
