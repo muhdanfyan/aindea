@@ -50,32 +50,69 @@ function App() {
   const [conversationHistory, setConversationHistory] = useState([]);
   const messagesEndRef = useRef(null);
 
-  // Load messages from localStorage on mount and mode change
+  // Load messages from localStorage on mount
   useEffect(() => {
     const savedMessages = localStorage.getItem(STORAGE_KEYS[mode]);
+    const savedHistory = localStorage.getItem(`${STORAGE_KEYS[mode]}_history`);
+
     if (savedMessages) {
       try {
-        const parsed = JSON.parse(savedMessages);
-        if (parsed.length > 0) {
-          setMessages(parsed);
-          return; // Don't show default greeting if we have saved messages
+        const parsedMsgs = JSON.parse(savedMessages);
+        if (parsedMsgs.length > 0) {
+          setMessages(parsedMsgs);
+          if (savedHistory) setConversationHistory(JSON.parse(savedHistory));
+          return;
         }
       } catch (e) {
-        console.error('Failed to parse saved messages:', e);
+        console.error('Failed to parse saved data:', e);
       }
     }
-  }, []);
 
-  // Save messages to localStorage whenever they change
+    // Default initialization if no history
+    if (mode === 'translate') {
+      const directionText = translateDirection === 'id-wolio' ? 'Indonesia → Wolio' : 'Wolio → Indonesia';
+      setMessages([{ role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }]);
+    } else if (mode === 'learn') {
+      setMessages([{ role: 'ayi', primary: "Tabea! Yaku Ayi. 👋", secondary: "Halo! Saya Ayi.", isGreeting: true }]);
+      startConversation();
+    }
+  }, [mode]); // Re-run when mode changes
+
+  // Save messages and history to localStorage whenever they change
   useEffect(() => {
     if (messages.length > 0) {
       localStorage.setItem(STORAGE_KEYS[mode], JSON.stringify(messages));
+      localStorage.setItem(`${STORAGE_KEYS[mode]}_history`, JSON.stringify(conversationHistory));
     }
-  }, [messages, mode]);
+  }, [messages, mode, conversationHistory]);
+
+  // Sync state across tabs
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      if (e.key === STORAGE_KEYS[mode]) {
+        try {
+          setMessages(JSON.parse(e.newValue));
+        } catch (err) {
+          console.error('Storage sync error:', err);
+        }
+      }
+      if (e.key === `${STORAGE_KEYS[mode]}_history`) {
+        try {
+          setConversationHistory(JSON.parse(e.newValue));
+        } catch (err) {
+          console.error('History sync error:', err);
+        }
+      }
+    };
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
+  }, [mode]);
 
   // Clear chat function
   const clearChat = () => {
     localStorage.removeItem(STORAGE_KEYS[mode]);
+    localStorage.removeItem(`${STORAGE_KEYS[mode]}_history`);
+
     if (mode === 'translate') {
       const directionText = translateDirection === 'id-wolio'
         ? 'Indonesia → Wolio'
@@ -103,25 +140,13 @@ function App() {
       const directionText = translateDirection === 'id-wolio'
         ? 'Indonesia → Wolio'
         : 'Wolio → Indonesia';
-      setMessages([
-        { role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }
-      ]);
-      setConversationHistory([]);
-    } else if (mode === 'learn') {
-      // Ayi Conversational Mode
-      setMessages([
-        {
-          role: 'ayi',
-          primary: "Tabea! Yaku Ayi. 👋",
-          secondary: "Halo! Saya Ayi.",
-          isGreeting: true
-        }
-      ]);
-      setConversationHistory([]);
-      startConversation();
+      // Only set welcome message if empty or just containing the welcome message
+      if (messages.length === 0 || (messages.length === 1 && messages[0].role === 'bot')) {
+        setMessages([{ role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }]);
+      }
     }
     setShowTranslation({});
-  }, [mode, translateDirection]);
+  }, [translateDirection]); // Removed 'mode' from dependency to let the new useEffect handle it
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
