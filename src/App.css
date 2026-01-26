@@ -21,6 +21,11 @@
   font-family: 'Outfit', sans-serif;
 }
 
+:root {
+  /* Fluid typography base */
+  font-size: clamp(14px, 1vw + 10px, 18px);
+}
+
 body {
   background: var(--bg-color);
   height: 100vh;
@@ -136,13 +141,14 @@ body {
 }
 
 .header-info h1 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  /* Scales with root */
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
 .header-info p {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: #64748b;
   font-weight: 500;
 }
@@ -228,10 +234,10 @@ body {
 }
 
 .message-bubble {
-  padding: 14px 18px;
-  border-radius: 22px;
-  font-size: 0.92rem;
-  line-height: 1.5;
+  padding: 1rem 1.25rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.55;
 }
 
 .bot .message-bubble,
@@ -316,7 +322,7 @@ body {
   flex: 1;
   border: none;
   outline: none;
-  font-size: 0.95rem;
+  font-size: 1rem;
   background: transparent;
   color: #334155;
 }
