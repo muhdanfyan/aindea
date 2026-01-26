@@ -487,3 +487,36 @@ body {
   font-size: 0.9rem;
   text-align: center;
 }
+
+/* App Footer Links - Small & Subtle */
+.app-container {
+  flex-direction: column;
+}
+
+.app-footer-links {
+  margin-top: 12px;
+  z-index: 10;
+}
+
+.dev-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.dev-link:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  transform: translateY(-1px);
+}
