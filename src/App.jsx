@@ -160,7 +160,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" }, { apiVersion: 'v1beta' });
+      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
       const getRelevantContext = (query, limit = 100) => {
         if (!dictionary.entries) return "";
