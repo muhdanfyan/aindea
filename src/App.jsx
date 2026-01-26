@@ -365,7 +365,7 @@ function App() {
                     </div>
                   </div>
                   <p className="profile-bio">
-                    Berdedikasi lebih dari 10 tahun dalam pengembangan perangkat lunak. Mentor di <strong>Pondok Informatika</strong> dan aktif dalam pengembangan komunitas lokal di Buton.
+                    Berdedikasi lebih dari 10 tahun dalam pengembangan perangkat lunak. Pengasuh di <a href="https://pondokinformatika.id" target="_blank" rel="noopener noreferrer" className="inline-link">Pondok Informatika</a> dan aktif dalam pengembangan komunitas lokal di Buton.
                   </p>
                   <div className="profile-socials">
                     <a href="https://muhdanfyan.github.io" target="_blank" rel="noopener noreferrer" className="social-link">
