@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle, Info, ExternalLink } from 'lucide-react';
+import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle, Info, ExternalLink, Trash2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import dictionary from './dictionary.json';
 import grammar from './wolio_grammar.json';
@@ -34,6 +34,12 @@ const stripMarkdown = (text) => {
     .trim();
 };
 
+// Storage keys for different modes
+const STORAGE_KEYS = {
+  translate: 'aindea_chat_translate',
+  learn: 'aindea_chat_learn'
+};
+
 function App() {
   const [mode, setMode] = useState('translate');
   const [translateDirection, setTranslateDirection] = useState('id-wolio');
@@ -43,6 +49,54 @@ function App() {
   const [showTranslation, setShowTranslation] = useState({});
   const [conversationHistory, setConversationHistory] = useState([]);
   const messagesEndRef = useRef(null);
+
+  // Load messages from localStorage on mount and mode change
+  useEffect(() => {
+    const savedMessages = localStorage.getItem(STORAGE_KEYS[mode]);
+    if (savedMessages) {
+      try {
+        const parsed = JSON.parse(savedMessages);
+        if (parsed.length > 0) {
+          setMessages(parsed);
+          return; // Don't show default greeting if we have saved messages
+        }
+      } catch (e) {
+        console.error('Failed to parse saved messages:', e);
+      }
+    }
+  }, []);
+
+  // Save messages to localStorage whenever they change
+  useEffect(() => {
+    if (messages.length > 0) {
+      localStorage.setItem(STORAGE_KEYS[mode], JSON.stringify(messages));
+    }
+  }, [messages, mode]);
+
+  // Clear chat function
+  const clearChat = () => {
+    localStorage.removeItem(STORAGE_KEYS[mode]);
+    if (mode === 'translate') {
+      const directionText = translateDirection === 'id-wolio'
+        ? 'Indonesia → Wolio'
+        : 'Wolio → Indonesia';
+      setMessages([
+        { role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }
+      ]);
+    } else {
+      setMessages([
+        {
+          role: 'ayi',
+          primary: "Tabea! Yaku Ayi. 👋",
+          secondary: "Halo! Saya Ayi.",
+          isGreeting: true
+        }
+      ]);
+      startConversation();
+    }
+    setConversationHistory([]);
+    setShowTranslation({});
+  };
 
   useEffect(() => {
     if (mode === 'translate') {
@@ -450,6 +504,9 @@ function App() {
                 <h1>{mode === 'translate' ? 'Aindea: Penerjemah' : 'Aindea: Tutor Wolio'}</h1>
                 <p>{mode === 'translate' ? 'Penerjemah Cerdas Bahasa Wolio' : 'Belajar Langsung dengan La Ayi'}</p>
               </div>
+              <button className="clear-chat-btn" onClick={clearChat} title="Hapus riwayat chat">
+                <Trash2 size={18} />
+              </button>
             </header>
 
             <div className="controls-area">
