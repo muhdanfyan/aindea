@@ -310,7 +310,12 @@ function App() {
     <div className="app-container">
       <div className="glass-card">
         {mode === 'about' ? (
-          <div className="about-view">
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            className="about-view"
+          >
             <header className="chat-header">
               <button className="back-button" onClick={() => setMode('translate')}>
                 <ArrowLeftRight size={20} />
@@ -321,48 +326,78 @@ function App() {
               </div>
             </header>
             <main className="about-content">
-              <section className="about-section">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+                className="about-section"
+              >
                 <h2>🌟 Tujuan Proyek</h2>
-                <p>Aindea adalah asisten digital cerdas untuk melestarikan Bahasa Wolio. Melalui teknologi AI, kami mendigitalisasi literatur Buton agar tetap hidup di era modern.</p>
-              </section>
+                <div className="glass-inner-card">
+                  <p>Aindea adalah asisten digital cerdas untuk melestarikan <strong>Bahasa Wolio</strong>. Melalui teknologi AI, kami mendigitalisasi literatur Buton agar tetap hidup di era modern.</p>
+                </div>
+              </motion.section>
 
-              <section className="about-section">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="about-section"
+              >
                 <h2>🧔 Profil Pengembang</h2>
-                <div className="profile-card">
+                <div className="profile-card premium-shadow">
                   <div className="profile-header">
-                    <div className="profile-avatar">MF</div>
-                    <div>
+                    <div className="profile-avatar ripple">MF</div>
+                    <div className="profile-info">
                       <h3>Muhdan Fyan Syah Sofian</h3>
-                      <p>Full Stack Developer (10+ Years)</p>
+                      <p className="subtitle">Full Stack Developer | Mentor</p>
                     </div>
                   </div>
-                  <p className="profile-bio">
-                    IT Freelancer, Marbot Masjid, dan Mentor di Pondok Informatika. Berdedikasi menggabungkan teknologi dengan nilai religi dan budaya.
-                  </p>
-                  <div className="profile-links">
-                    <a href="https://muhdanfyan.github.io" target="_blank" rel="noopener noreferrer" className="external-link-btn">
-                      <ExternalLink size={14} /> Portofolio
-                    </a>
+                  <div className="profile-body">
+                    <p className="profile-bio">
+                      Berpengalaman 10+ tahun. IT Freelancer, Marbot Masjid, dan Mentor di <strong>Pondok Informatika</strong>. Berdedikasi menggabungkan teknologi dengan nilai religi dan budaya.
+                    </p>
+                    <div className="profile-links">
+                      <a href="https://muhdanfyan.github.io" target="_blank" rel="noopener noreferrer" className="premium-link-btn">
+                        <ExternalLink size={14} />
+                        <span>Visit Portfolio</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </section>
+              </motion.section>
 
-              <section className="about-section">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3 }}
+                className="about-section"
+              >
                 <h2>🛠️ Teknologi</h2>
-                <ul className="tech-list">
-                  <li>React.js & Vite</li>
-                  <li>Google Gemini 2.5 Flash</li>
-                  <li>Framer Motion</li>
-                  <li>Lucide Icons</li>
-                </ul>
-              </section>
+                <div className="tech-stack-container">
+                  <span className="tech-tag">React.js</span>
+                  <span className="tech-tag">Gemini AI</span>
+                  <span className="tech-tag">Framer Motion</span>
+                  <span className="tech-tag">Lucide Icons</span>
+                  <span className="tech-tag">Vite</span>
+                </div>
+              </motion.section>
 
-              <section className="about-section references">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4 }}
+                className="about-section references"
+              >
                 <h2>📚 Referensi</h2>
-                <p>Kamus Ungkapan Wolio-Indonesia (1985), Kamus Husen Abas, & J.C. Anceaux.</p>
-              </section>
+                <div className="references-grid">
+                  <div className="ref-item">Kamus Ungkapan Wolio (1985)</div>
+                  <div className="ref-item">Kamus Husen Abas</div>
+                  <div className="ref-item">Grammar by J.C. Anceaux</div>
+                </div>
+              </motion.section>
             </main>
-          </div>
+          </motion.div>
         ) : (
           <>
             <header className="chat-header">
