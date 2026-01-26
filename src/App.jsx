@@ -308,6 +308,9 @@ function App() {
 
   return (
     <div className="app-container">
+      <div className="bg-blob bg-blob-1"></div>
+      <div className="bg-blob bg-blob-2"></div>
+      <div className="bg-blob bg-blob-3"></div>
       <div className="glass-card">
         {mode === 'about' ? (
           <motion.div
@@ -444,8 +447,9 @@ function App() {
                 {messages.map((msg, index) => (
                   <motion.div
                     key={index}
-                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    initial={{ opacity: 0, y: 15, scale: 0.96 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
+                    transition={{ duration: 0.4, ease: "easeOut", delay: msg.isResponse ? 0.3 : 0 }}
                     className={`message-wrapper ${msg.role}`}
                   >
                     {msg.role === 'ayi' && (
@@ -507,12 +511,12 @@ function App() {
               </AnimatePresence>
               {isLoading && (
                 <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className={`message-wrapper ${mode === 'learn' ? 'ayi' : 'bot'}`}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={`message-wrapper ayi ayi-thinking`}
                 >
-                  <div className={`avatar ${mode === 'learn' ? 'ayi-avatar' : ''}`}>
-                    {mode === 'learn' ? '🧑‍🏫' : <Bot size={18} />}
+                  <div className="avatar ayi-avatar">
+                    🧑‍🏫
                   </div>
                   <div className="message-bubble loading shadow-premium">
                     <Loader2 className="animate-spin" size={18} />
