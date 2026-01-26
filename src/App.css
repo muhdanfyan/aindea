@@ -221,13 +221,11 @@ html,
   /* Align with Ayi's text start */
 }
 
-.correction-bubble {
-  font-size: 0.85rem;
-  /* Match translation size */
+.correction-text {
+  font-size: 0.68rem;
   color: #0d9488;
-  /* Distinct Teal for correction */
   font-style: italic;
-  padding: 4px 0;
+  padding: 1px 0;
   background: transparent;
   border: none;
   display: block;
