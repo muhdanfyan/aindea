@@ -26,13 +26,13 @@
 
 body {
   background: var(--bg-color);
-  min-height: 100dvh;
   margin: 0;
-  display: grid;
-  place-items: center;
-  /* Bulletproof absolute center */
+  padding: 0;
   overflow: hidden;
-  position: relative;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* --- Decorative Animated Blobs --- */
@@ -82,10 +82,12 @@ body {
 
 .app-container {
   width: 100%;
-  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
   position: relative;
-  display: contents;
-  /* Let body grid center the glass-card directly */
 }
 
 .glass-card {
