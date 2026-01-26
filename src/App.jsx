@@ -348,7 +348,9 @@ function App() {
                 <h2>🧑‍💻 Profil Pengembang</h2>
                 <div className="profile-card">
                   <div className="profile-header">
-                    <div className="profile-avatar">MS</div>
+                    <div className="profile-avatar branding">
+                      <img src="/logo.png" alt="Aindea Mark" />
+                    </div>
                     <div className="profile-info">
                       <h3>Muhdan Fyan Syah Sofian</h3>
                       <p>Full Stack & AI Enthusiast</p>
