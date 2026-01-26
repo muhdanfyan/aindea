@@ -1,16 +1,29 @@
-# React + Vite
+# Aindea - Asisten Bahasa Wolio Berbasis AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aindea adalah aplikasi asisten digital cerdas yang dirancang untuk melestarikan dan memfasilitasi pembelajaran **Bahasa Wolio**, bahasa kebanggaan masyarakat Buton. Melalui teknologi AI (Gemini 2.5 Flash), Aindea hadir dalam sosok **Ayi**, seorang teman diskusi yang fasih berbahasa Wolio.
 
-Currently, two official plugins are available:
+## 🌟 Tujuan Proyek
+*   **Preservasi Digital**: Mendigitalisasi literatur bahasa Wolio agar tetap relevan di era modern.
+*   **Pembelajaran Interaktif**: Menyediakan mitra percakapan (Ayi) yang dapat mengevaluasi dan membantu pengguna berlatih bahasa Wolio secara natural.
+*   **Aksesibilitas**: Mempermudah siapa saja dalam menerjemahkan dan memahami ungkapan-ungkapan khas Wolio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧔 Tentang Pembuat
+**Muhdan Fyan Syah Sofian** adalah seorang pengembang web profesional (Full Stack Developer) dengan pengalaman lebih dari 10 tahun.
+*   **Keahlian**: JavaScript (ReactJS), PHP (Laravel/CI), Go.
+*   **Pendidikan**: Teknik Informatika, Universitas Dipa Makassar & Pondok Informatika.
+*   **Dedikasi**: Aktif sebagai IT Freelancer, Marbot Masjid, dan mentor di **Pondok Informatika**, sebuah institusi yang menggabungkan pelatihan IT dengan bimbingan agama.
+*   **Portofolio**: [muhdanfyan.github.io](https://muhdanfyan.github.io)
 
-## React Compiler
+## 📚 Referensi & Sumber Data
+Data linguistik dalam aplikasi ini bersumber dari literatur kredibel:
+1.  **Kamus Ungkapan Wolio-Indonesia** (95 halaman) - Tim Penyusun: Aburaerah Arief, dkk. (Ujung Pandang, 1985).
+2.  **Kamus Wolio-Indonesia** (205 halaman) - Husen Abas, dkk.
+3.  **The Wolio Language: Outline of Grammatical Description and Texts** - J.C. Anceaux.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🚀 Fitur Utama
+*   **Diskusi (Ayi Mode)**: Berlatih bicara dengan Ayi yang akan memberikan koreksi lembut jika ada kesalahan tata bahasa.
+*   **Penerjemah**: Terjemahan dua arah Indonesia ↔ Wolio yang akurat berdasarkan konteks kamus.
+*   **Koreksi Gramatika**: Menjamin setiap kata berakhir dengan vokal (ciri khas bahasa Wolio) dan menggunakan kata ganti yang tepat (seperti "yaku" untuk saya).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Dibuat dengan semangat melestarikan warisan budaya Buton melalui baris kode.*
