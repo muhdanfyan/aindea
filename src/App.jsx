@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle } from 'lucide-react';
+import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle, Info, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dictionary from './dictionary.json';
@@ -455,6 +455,18 @@ function App() {
           </div>
         </footer>
       </div>
+      <footer className="app-footer-links">
+        <a
+          href="https://muhdanfyan.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="dev-link"
+        >
+          <Info size={14} />
+          <span>Tentang Aindea & Profil Pengembang</span>
+          <ExternalLink size={12} />
+        </a>
+      </footer>
     </div>
   );
 }
