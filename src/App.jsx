@@ -308,17 +308,14 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className="bg-blob bg-blob-1"></div>
-      <div className="bg-blob bg-blob-2"></div>
-      <div className="bg-blob bg-blob-3"></div>
       <div className="glass-card">
         {mode === 'about' ? (
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -20 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             className="about-view"
           >
+            {/* About view content remains the same */}
             <header className="chat-header">
               <button className="back-button" onClick={() => setMode('translate')}>
                 <ArrowLeftRight size={20} />
@@ -329,24 +326,15 @@ function App() {
               </div>
             </header>
             <main className="about-content">
-              <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-                className="about-section"
-              >
+              {/* ... same sections ... */}
+              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="about-section">
                 <h2>🌟 Tujuan Proyek</h2>
                 <div className="glass-inner-card">
                   <p>Aindea adalah asisten digital cerdas untuk melestarikan <strong>Bahasa Wolio</strong>. Melalui teknologi AI, kami mendigitalisasi literatur Buton agar tetap hidup di era modern.</p>
                 </div>
               </motion.section>
 
-              <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="about-section"
-              >
+              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="about-section">
                 <h2>🧔 Profil Pengembang</h2>
                 <div className="profile-card premium-shadow">
                   <div className="profile-header">
@@ -370,12 +358,7 @@ function App() {
                 </div>
               </motion.section>
 
-              <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                className="about-section"
-              >
+              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="about-section">
                 <h2>🛠️ Teknologi</h2>
                 <div className="tech-stack-container">
                   <span className="tech-tag">React.js</span>
@@ -385,24 +368,10 @@ function App() {
                   <span className="tech-tag">Vite</span>
                 </div>
               </motion.section>
-
-              <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4 }}
-                className="about-section references"
-              >
-                <h2>📚 Referensi</h2>
-                <div className="references-grid">
-                  <div className="ref-item">Kamus Ungkapan Wolio (1985)</div>
-                  <div className="ref-item">Kamus Husen Abas</div>
-                  <div className="ref-item">Grammar by J.C. Anceaux</div>
-                </div>
-              </motion.section>
             </main>
           </motion.div>
         ) : (
-          <>
+          <div className="chat-view">
             <header className="chat-header">
               <div className="header-icon">
                 {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
@@ -413,34 +382,21 @@ function App() {
               </div>
             </header>
 
-            {/* Toggles Container */}
             <div className="controls-area">
               <div className="mode-toggle">
-                <button
-                  className={`mode-btn ${mode === 'translate' ? 'active' : ''}`}
-                  onClick={() => setMode('translate')}
-                >
+                <button className={`mode-btn ${mode === 'translate' ? 'active' : ''}`} onClick={() => setMode('translate')}>
                   <Languages size={16} />
                   <span>Terjemahan</span>
                 </button>
-                <button
-                  className={`mode-btn ${mode === 'learn' ? 'active' : ''}`}
-                  onClick={() => setMode('learn')}
-                >
+                <button className={`mode-btn ${mode === 'learn' ? 'active' : ''}`} onClick={() => setMode('learn')}>
                   <GraduationCap size={16} />
                   <span>Diskusi</span>
                 </button>
               </div>
 
-              {/* Direction Toggle (only for translate mode) */}
               <AnimatePresence>
                 {mode === 'translate' && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: "auto", opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    className="direction-toggle"
-                  >
+                  <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="direction-toggle">
                     <button className="direction-btn" onClick={toggleDirection}>
                       <span className={translateDirection === 'id-wolio' ? 'active-lang' : ''}>Indonesia</span>
                       <ArrowLeftRight size={16} />
@@ -454,120 +410,68 @@ function App() {
             <main className="chat-window">
               <AnimatePresence initial={false}>
                 {messages.map((msg, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 15, scale: 0.96 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    transition={{ duration: 0.4, ease: "easeOut", delay: msg.isResponse ? 0.3 : 0 }}
-                    className={`message-wrapper ${msg.role}`}
-                  >
-                    {msg.role === 'ayi' && (
-                      <div className="avatar ayi-avatar">
-                        🧑‍🏫
+                  <div key={index} className={`message-wrapper ${msg.role}`}>
+                    {(msg.role === 'ayi' || msg.role === 'bot') && (
+                      <div className={`avatar ${msg.role === 'ayi' ? 'ayi-avatar' : ''}`}>
+                        {msg.role === 'ayi' ? '🧑‍🏫' : <Bot size={18} />}
                       </div>
                     )}
-                    {msg.role === 'bot' && (
-                      <div className="avatar">
-                        <Bot size={18} />
-                      </div>
-                    )}
-                    {msg.role === 'user' && (
-                      <div className="avatar">
-                        <User size={18} />
-                      </div>
-                    )}
+                    {msg.role === 'user' && <div className="avatar"><User size={18} /></div>}
 
                     <div className="message-content">
-                      {msg.role === 'correction' ? (
-                        <div className="correction-bubble">
-                          {msg.primary}
-                        </div>
-                      ) : (
-                        <>
-                          <div className={`message-bubble shadow-premium ${msg.isQuestion ? 'question-bubble' : ''}`}>
-                            {msg.primary || msg.text}
-                          </div>
+                      <div className={`message-bubble ${msg.isQuestion ? 'question-bubble' : ''}`}>
+                        {msg.primary || msg.text}
+                      </div>
 
-                          {msg.secondary && (
-                            <div className="translation-section">
-                              {!showTranslation[index] ? (
-                                <button
-                                  className="toggle-translation-btn"
-                                  onClick={() => toggleTranslation(index)}
-                                >
-                                  💡 Lihat terjemahan
-                                </button>
-                              ) : (
-                                <>
-                                  <div className="message-bubble-small translation-bubble">
-                                    {msg.secondary}
-                                  </div>
-                                  <button
-                                    className="toggle-translation-btn"
-                                    onClick={() => toggleTranslation(index)}
-                                  >
-                                    Sembunyikan
-                                  </button>
-                                </>
-                              )}
-                            </div>
+                      {msg.secondary && (
+                        <div className="translation-section">
+                          {!showTranslation[index] ? (
+                            <button className="toggle-translation-btn" onClick={() => toggleTranslation(index)}>💡 Lihat terjemahan</button>
+                          ) : (
+                            <>
+                              <div className="message-bubble-small translation-bubble">{msg.secondary}</div>
+                              <button className="toggle-translation-btn" onClick={() => toggleTranslation(index)}>Sembunyikan</button>
+                            </>
                           )}
-                        </>
+                        </div>
                       )}
                     </div>
-                  </motion.div>
+                  </div>
                 ))}
               </AnimatePresence>
               {isLoading && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className={`message-wrapper ayi ayi-thinking`}
-                >
-                  <div className="avatar ayi-avatar">
-                    🧑‍🏫
-                  </div>
-                  <div className="message-bubble loading shadow-premium">
+                <div className="message-wrapper ayi ayi-thinking">
+                  <div className="avatar ayi-avatar">🧑‍🏫</div>
+                  <div className="message-bubble loading">
                     <Loader2 className="animate-spin" size={20} />
                   </div>
-                </motion.div>
+                </div>
               )}
               <div ref={messagesEndRef} />
             </main>
 
             <footer className="chat-input-area">
-              <div className="input-container shadow-premium">
+              <div className="input-container">
                 <input
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                  placeholder={
-                    mode === 'translate'
-                      ? (translateDirection === 'id-wolio' ? 'Ketik dalam bahasa Indonesia...' : 'Ketik dalam bahasa Wolio...')
-                      : 'Jawab dalam bahasa Wolio...'
-                  }
+                  placeholder={mode === 'translate' ? 'Ketik pesan...' : 'Jawab dalam bahasa Wolio...'}
                   disabled={isLoading}
                 />
-                <button
-                  onClick={handleSend}
-                  disabled={!input.trim() || isLoading}
-                  className="send-button"
-                >
+                <button onClick={handleSend} disabled={!input.trim() || isLoading} className="send-button">
                   {isLoading ? <Loader2 className="animate-spin" size={20} /> : <Send size={20} />}
                 </button>
               </div>
             </footer>
-          </>
+          </div>
         )}
       </div>
       <footer className="app-footer-links">
-        <button
-          onClick={() => setMode('about')}
-          className="dev-link"
-        >
+        <button onClick={() => setMode('about')} className="dev-link">
           <Info size={14} />
-          <span>Tentang Aindea & Profil Pengembang</span>
+          <span>Tentang Aindea</span>
         </button>
       </footer>
     </div>
