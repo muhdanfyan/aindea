@@ -213,6 +213,39 @@ html,
   border-top-right-radius: 4px;
 }
 
+/* --- Subtle Translation Section --- */
+.translation-section {
+  padding: 4px 0 0 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.translation-bubble {
+  background: transparent !important;
+  color: var(--text-muted) !important;
+  font-size: 0.85rem;
+  font-style: italic;
+  padding: 4px 0 !important;
+  border: none !important;
+}
+
+.toggle-translation-btn {
+  background: none;
+  border: none;
+  color: var(--primary-dark);
+  font-size: 0.75rem;
+  padding: 2px 0;
+  cursor: pointer;
+  opacity: 0.6;
+  text-align: left;
+  font-weight: 500;
+}
+
+.toggle-translation-btn:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 /* --- Docked Bottom Input --- */
 .chat-input-area {
   padding: 12px 16px 30px;
@@ -252,32 +285,25 @@ html,
   justify-content: center;
 }
 
-/* --- Footer Link --- */
+/* --- Footer Link (moved to top-right in previous step but need to sync) --- */
 .app-footer-links {
   position: absolute;
   top: 22px;
   right: 20px;
-  z-index: 1000;
+  z-index: 101;
 }
 
 .dev-link {
-  font-size: 0.7rem;
-  color: var(--primary-dark);
-  background: #f0fdfa;
-  padding: 6px 12px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  background: #f1f5f9;
+  padding: 4px 12px;
   border-radius: 20px;
-  border: 1px solid rgba(0, 209, 178, 0.1);
+  border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 6px;
-  font-weight: 600;
-  transition: all 0.2s;
-}
-
-.dev-link:hover {
-  background: var(--primary-teal);
-  color: white;
 }
 
 .animate-spin {
