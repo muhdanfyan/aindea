@@ -513,10 +513,154 @@ body {
   font-size: 0.75rem;
   font-weight: 400;
   transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .dev-link:hover {
   background: rgba(255, 255, 255, 0.25);
   color: white;
   transform: translateY(-1px);
+}
+
+/* About View Styling */
+.about-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.about-content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.about-section h2 {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.about-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
+}
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.profile-avatar {
+  width: 44px;
+  height: 44px;
+  background: white;
+  color: #764ba2;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.profile-header h3 {
+  font-size: 0.95rem;
+  margin: 0;
+  color: white;
+}
+
+.profile-header p {
+  font-size: 0.75rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.profile-bio {
+  font-size: 0.85rem !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin-bottom: 12px !important;
+}
+
+.external-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: white;
+  color: #764ba2;
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.external-link-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: scale(1.02);
+}
+
+.tech-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-list li {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.references p {
+  font-style: italic;
+  font-size: 0.8rem !important;
+  color: rgba(255, 255, 255, 0.7) !important;
 }

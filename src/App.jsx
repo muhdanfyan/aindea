@@ -40,7 +40,8 @@ function App() {
         { role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }
       ]);
       setConversationHistory([]);
-    } else {
+      setConversationHistory([]);
+    } else if (mode === 'learn') {
       // Ayi Conversational Mode
       setMessages([
         {
@@ -308,164 +309,219 @@ function App() {
   return (
     <div className="app-container">
       <div className="glass-card">
-        <header className="chat-header">
-          <div className="header-icon">
-            {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
-          </div>
-          <div className="header-info">
-            <h1>{mode === 'translate' ? 'Penerjemah Wolio' : 'Diskusi dengan La Ayi'}</h1>
-            <p>{mode === 'translate' ? 'Didukung oleh Gemini AI' : 'Belajar Bahasa Wolio'}</p>
-          </div>
-        </header>
+        {mode === 'about' ? (
+          <div className="about-view">
+            <header className="chat-header">
+              <button className="back-button" onClick={() => setMode('translate')}>
+                <ArrowLeftRight size={20} />
+              </button>
+              <div className="header-info">
+                <h1>Tentang Aindea</h1>
+                <p>Mengenal lebih dekat</p>
+              </div>
+            </header>
+            <main className="about-content">
+              <section className="about-section">
+                <h2>🌟 Tujuan Proyek</h2>
+                <p>Aindea adalah asisten digital cerdas untuk melestarikan Bahasa Wolio. Melalui teknologi AI, kami mendigitalisasi literatur Buton agar tetap hidup di era modern.</p>
+              </section>
 
-        {/* Mode Toggle */}
-        <div className="mode-toggle">
-          <button
-            className={`mode-btn ${mode === 'translate' ? 'active' : ''}`}
-            onClick={() => setMode('translate')}
-          >
-            <Languages size={16} />
-            <span>Terjemahan</span>
-          </button>
-          <button
-            className={`mode-btn ${mode === 'learn' ? 'active' : ''}`}
-            onClick={() => setMode('learn')}
-          >
-            <GraduationCap size={16} />
-            <span>Diskusi</span>
-          </button>
-        </div>
-
-        {/* Direction Toggle (only for translate mode) */}
-        {mode === 'translate' && (
-          <div className="direction-toggle">
-            <button className="direction-btn" onClick={toggleDirection}>
-              <span className={translateDirection === 'id-wolio' ? 'active-lang' : ''}>Indonesia</span>
-              <ArrowLeftRight size={16} />
-              <span className={translateDirection === 'wolio-id' ? 'active-lang' : ''}>Wolio</span>
-            </button>
-          </div>
-        )}
-
-        <main className="chat-window">
-          <AnimatePresence initial={false}>
-            {messages.map((msg, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                className={`message-wrapper ${msg.role}`}
-              >
-                {msg.role === 'ayi' && (
-                  <div className="avatar ayi-avatar">
-                    🧑‍🏫
-                  </div>
-                )}
-                {msg.role === 'bot' && (
-                  <div className="avatar">
-                    <Bot size={18} />
-                  </div>
-                )}
-                {msg.role === 'user' && (
-                  <div className="avatar">
-                    <User size={18} />
-                  </div>
-                )}
-
-                <div className="message-content">
-                  {msg.role === 'correction' ? (
-                    <div className="correction-bubble">
-                      {msg.primary}
+              <section className="about-section">
+                <h2>🧔 Profil Pengembang</h2>
+                <div className="profile-card">
+                  <div className="profile-header">
+                    <div className="profile-avatar">MF</div>
+                    <div>
+                      <h3>Muhdan Fyan Syah Sofian</h3>
+                      <p>Full Stack Developer (10+ Years)</p>
                     </div>
-                  ) : (
-                    <>
-                      <div className={`message-bubble shadow-premium ${msg.isQuestion ? 'question-bubble' : ''}`}>
-                        {msg.primary || msg.text}
-                      </div>
-
-                      {msg.secondary && (
-                        <div className="translation-section">
-                          {!showTranslation[index] ? (
-                            <button
-                              className="toggle-translation-btn"
-                              onClick={() => toggleTranslation(index)}
-                            >
-                              💡 Lihat terjemahan
-                            </button>
-                          ) : (
-                            <>
-                              <div className="message-bubble-small translation-bubble">
-                                {msg.secondary}
-                              </div>
-                              <button
-                                className="toggle-translation-btn"
-                                onClick={() => toggleTranslation(index)}
-                              >
-                                Sembunyikan
-                              </button>
-                            </>
-                          )}
-                        </div>
-                      )}
-                    </>
-                  )}
+                  </div>
+                  <p className="profile-bio">
+                    IT Freelancer, Marbot Masjid, dan Mentor di Pondok Informatika. Berdedikasi menggabungkan teknologi dengan nilai religi dan budaya.
+                  </p>
+                  <div className="profile-links">
+                    <a href="https://muhdanfyan.github.io" target="_blank" rel="noopener noreferrer" className="external-link-btn">
+                      <ExternalLink size={14} /> Portofolio
+                    </a>
+                  </div>
                 </div>
-              </motion.div>
-            ))}
-          </AnimatePresence>
-          {isLoading && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className={`message-wrapper ${mode === 'learn' ? 'ayi' : 'bot'}`}
-            >
-              <div className={`avatar ${mode === 'learn' ? 'ayi-avatar' : ''}`}>
-                {mode === 'learn' ? '🧑‍🏫' : <Bot size={18} />}
-              </div>
-              <div className="message-bubble loading shadow-premium">
-                <Loader2 className="animate-spin" size={18} />
-                <span>{mode === 'translate' ? 'Menerjemahkan...' : 'La Ayi sedang berpikir...'}</span>
-              </div>
-            </motion.div>
-          )}
-          <div ref={messagesEndRef} />
-        </main>
+              </section>
 
-        <footer className="chat-input-area">
-          <div className="input-container shadow-premium">
-            <input
-              type="text"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-              placeholder={
-                mode === 'translate'
-                  ? (translateDirection === 'id-wolio' ? 'Ketik dalam bahasa Indonesia...' : 'Ketik dalam bahasa Wolio...')
-                  : 'Jawab dalam bahasa Wolio...'
-              }
-              disabled={isLoading}
-            />
-            <button
-              onClick={handleSend}
-              disabled={!input.trim() || isLoading}
-              className="send-button"
-            >
-              {isLoading ? <Loader2 className="animate-spin" size={20} /> : <Send size={20} />}
-            </button>
+              <section className="about-section">
+                <h2>🛠️ Teknologi</h2>
+                <ul className="tech-list">
+                  <li>React.js & Vite</li>
+                  <li>Google Gemini 2.5 Flash</li>
+                  <li>Framer Motion</li>
+                  <li>Lucide Icons</li>
+                </ul>
+              </section>
+
+              <section className="about-section references">
+                <h2>📚 Referensi</h2>
+                <p>Kamus Ungkapan Wolio-Indonesia (1985), Kamus Husen Abas, & J.C. Anceaux.</p>
+              </section>
+            </main>
           </div>
-        </footer>
+        ) : (
+          <>
+            <header className="chat-header">
+              <div className="header-icon">
+                {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
+              </div>
+              <div className="header-info">
+                <h1>{mode === 'translate' ? 'Penerjemah Wolio' : 'Diskusi dengan La Ayi'}</h1>
+                <p>{mode === 'translate' ? 'Didukung oleh Gemini AI' : 'Belajar Bahasa Wolio'}</p>
+              </div>
+            </header>
+
+            {/* Mode Toggle */}
+            <div className="mode-toggle">
+              <button
+                className={`mode-btn ${mode === 'translate' ? 'active' : ''}`}
+                onClick={() => setMode('translate')}
+              >
+                <Languages size={16} />
+                <span>Terjemahan</span>
+              </button>
+              <button
+                className={`mode-btn ${mode === 'learn' ? 'active' : ''}`}
+                onClick={() => setMode('learn')}
+              >
+                <GraduationCap size={16} />
+                <span>Diskusi</span>
+              </button>
+            </div>
+
+            {/* Direction Toggle (only for translate mode) */}
+            {mode === 'translate' && (
+              <div className="direction-toggle">
+                <button className="direction-btn" onClick={toggleDirection}>
+                  <span className={translateDirection === 'id-wolio' ? 'active-lang' : ''}>Indonesia</span>
+                  <ArrowLeftRight size={16} />
+                  <span className={translateDirection === 'wolio-id' ? 'active-lang' : ''}>Wolio</span>
+                </button>
+              </div>
+            )}
+
+            <main className="chat-window">
+              <AnimatePresence initial={false}>
+                {messages.map((msg, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    className={`message-wrapper ${msg.role}`}
+                  >
+                    {msg.role === 'ayi' && (
+                      <div className="avatar ayi-avatar">
+                        🧑‍🏫
+                      </div>
+                    )}
+                    {msg.role === 'bot' && (
+                      <div className="avatar">
+                        <Bot size={18} />
+                      </div>
+                    )}
+                    {msg.role === 'user' && (
+                      <div className="avatar">
+                        <User size={18} />
+                      </div>
+                    )}
+
+                    <div className="message-content">
+                      {msg.role === 'correction' ? (
+                        <div className="correction-bubble">
+                          {msg.primary}
+                        </div>
+                      ) : (
+                        <>
+                          <div className={`message-bubble shadow-premium ${msg.isQuestion ? 'question-bubble' : ''}`}>
+                            {msg.primary || msg.text}
+                          </div>
+
+                          {msg.secondary && (
+                            <div className="translation-section">
+                              {!showTranslation[index] ? (
+                                <button
+                                  className="toggle-translation-btn"
+                                  onClick={() => toggleTranslation(index)}
+                                >
+                                  💡 Lihat terjemahan
+                                </button>
+                              ) : (
+                                <>
+                                  <div className="message-bubble-small translation-bubble">
+                                    {msg.secondary}
+                                  </div>
+                                  <button
+                                    className="toggle-translation-btn"
+                                    onClick={() => toggleTranslation(index)}
+                                  >
+                                    Sembunyikan
+                                  </button>
+                                </>
+                              )}
+                            </div>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  </motion.div>
+                ))}
+              </AnimatePresence>
+              {isLoading && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className={`message-wrapper ${mode === 'learn' ? 'ayi' : 'bot'}`}
+                >
+                  <div className={`avatar ${mode === 'learn' ? 'ayi-avatar' : ''}`}>
+                    {mode === 'learn' ? '🧑‍🏫' : <Bot size={18} />}
+                  </div>
+                  <div className="message-bubble loading shadow-premium">
+                    <Loader2 className="animate-spin" size={18} />
+                    <span>{mode === 'translate' ? 'Menerjemahkan...' : 'La Ayi sedang berpikir...'}</span>
+                  </div>
+                </motion.div>
+              )}
+              <div ref={messagesEndRef} />
+            </main>
+
+            <footer className="chat-input-area">
+              <div className="input-container shadow-premium">
+                <input
+                  type="text"
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyPress={(e) => e.key === 'Enter' && handleSend()}
+                  placeholder={
+                    mode === 'translate'
+                      ? (translateDirection === 'id-wolio' ? 'Ketik dalam bahasa Indonesia...' : 'Ketik dalam bahasa Wolio...')
+                      : 'Jawab dalam bahasa Wolio...'
+                  }
+                  disabled={isLoading}
+                />
+                <button
+                  onClick={handleSend}
+                  disabled={!input.trim() || isLoading}
+                  className="send-button"
+                >
+                  {isLoading ? <Loader2 className="animate-spin" size={20} /> : <Send size={20} />}
+                </button>
+              </div>
+            </footer>
+          </>
+        )}
       </div>
       <footer className="app-footer-links">
-        <a
-          href="https://muhdanfyan.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => setMode('about')}
           className="dev-link"
         >
           <Info size={14} />
           <span>Tentang Aindea & Profil Pengembang</span>
-          <ExternalLink size={12} />
-        </a>
+        </button>
       </footer>
     </div>
   );
