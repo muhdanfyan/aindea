@@ -87,22 +87,17 @@ body {
   height: 100dvh;
   display: flex;
   justify-content: center;
-  /* Horizontally center */
   align-items: center;
-  /* Vertically center */
   padding: 0;
-  /* Avoid padding offsets */
   position: relative;
   overflow: hidden;
 }
 
 .glass-card {
-  width: 95%;
-  /* Slightly more width on smaller screens */
-  max-width: 550px;
-  /* Increased from 480px */
-  height: 82vh;
-  max-height: calc(100dvh - 100px);
+  width: min(95%, 650px);
+  /* More fluid width */
+  height: min(85vh, 900px);
+  /* More fluid height */
   background: var(--glass-bg);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
@@ -112,10 +107,9 @@ body {
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 30px 60px -12px rgba(0, 134, 122, 0.15);
-  margin: 0;
-  /* Remove margin auto to prevent flex conflicts */
   position: relative;
   z-index: 10;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .chat-header {
@@ -247,6 +241,29 @@ body {
   border-top-left-radius: 4px;
   border: 1px solid rgba(0, 209, 178, 0.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+}
+
+.message-bubble.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  min-width: 50px;
+}
+
+.animate-spin {
+  animation: spin 0.8s linear infinite;
+  display: block;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .user .message-bubble {
