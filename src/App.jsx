@@ -226,7 +226,6 @@ function App() {
           MORFOLOGI (SUFFIX): ${JSON.stringify(grammar.morphology.suffixes)}
           SINTAKSIS (POLA): ${JSON.stringify(grammar.syntax.phrase_patterns)}
           KATA GANTI (CLITIC): ${JSON.stringify(grammar.pronouns.subject_clitics)}
-          KATA-KATA DASAR: ${JSON.stringify(grammar.common_words.basic_verbs)}
           
           RIWAYAT PERCAKAPAN:
           ${historyStr}
