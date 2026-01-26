@@ -315,57 +315,99 @@ function App() {
             animate={{ opacity: 1 }}
             className="about-view"
           >
-            {/* About view content remains the same */}
-            <header className="chat-header">
+            <header className="about-header">
               <button className="back-button" onClick={() => setMode('translate')}>
                 <ArrowLeftRight size={20} />
               </button>
               <div className="header-info">
                 <h1>Tentang Aindea</h1>
-                <p>Mengenal lebih dekat</p>
+                <p>Digitalisasi Warisan Buton</p>
               </div>
             </header>
+
             <main className="about-content">
-              {/* ... same sections ... */}
-              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="about-section">
-                <h2>🌟 Tujuan Proyek</h2>
-                <div className="glass-inner-card">
-                  <p>Aindea adalah asisten digital cerdas untuk melestarikan <strong>Bahasa Wolio</strong>. Melalui teknologi AI, kami mendigitalisasi literatur Buton agar tetap hidup di era modern.</p>
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="about-section"
+              >
+                <h2>🚀 Visi & Misi</h2>
+                <div className="about-card">
+                  <p className="project-desc">
+                    Aindea bukan sekadar penerjemah. Ini adalah upaya digitalisasi budaya untuk memastikan <strong>Bahasa Wolio</strong> tetap relevan di era kecerdasan buatan. Melalui integrasi literatur klasik dan teknologi Gemini AI, kami menghadirkan tutor bahasa yang cerdas dan berakar pada tradisi.
+                  </p>
                 </div>
               </motion.section>
 
-              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="about-section">
-                <h2>🧔 Profil Pengembang</h2>
-                <div className="profile-card premium-shadow">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+                className="about-section"
+              >
+                <h2>🧑‍💻 Profil Pengembang</h2>
+                <div className="profile-card">
                   <div className="profile-header">
-                    <div className="profile-avatar ripple">MF</div>
+                    <div className="profile-avatar">MS</div>
                     <div className="profile-info">
                       <h3>Muhdan Fyan Syah Sofian</h3>
-                      <p className="subtitle">Full Stack Developer | Mentor</p>
+                      <p>Full Stack & AI Enthusiast</p>
                     </div>
                   </div>
-                  <div className="profile-body">
-                    <p className="profile-bio">
-                      Berpengalaman 10+ tahun. IT Freelancer, Marbot Masjid, dan Mentor di <strong>Pondok Informatika</strong>. Berdedikasi menggabungkan teknologi dengan nilai religi dan budaya.
-                    </p>
-                    <div className="profile-links">
-                      <a href="https://muhdanfyan.github.io" target="_blank" rel="noopener noreferrer" className="premium-link-btn">
-                        <ExternalLink size={14} />
-                        <span>Visit Portfolio</span>
-                      </a>
-                    </div>
+                  <p className="profile-bio">
+                    Berdedikasi lebih dari 10 tahun dalam pengembangan perangkat lunak. Mentor di <strong>Pondok Informatika</strong> dan aktif dalam pengembangan komunitas lokal di Buton.
+                  </p>
+                  <div className="profile-socials">
+                    <a href="https://muhdanfyan.github.io" target="_blank" rel="noopener noreferrer" className="social-link">
+                      <ExternalLink size={16} />
+                      <span>Portfolio</span>
+                    </a>
+                    <a href="https://github.com/muhdanfyan" target="_blank" rel="noopener noreferrer" className="social-link">
+                      <Send size={16} />
+                      <span>GitHub</span>
+                    </a>
                   </div>
                 </div>
               </motion.section>
 
-              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="about-section">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="about-section"
+              >
                 <h2>🛠️ Teknologi</h2>
-                <div className="tech-stack-container">
-                  <span className="tech-tag">React.js</span>
-                  <span className="tech-tag">Gemini AI</span>
-                  <span className="tech-tag">Framer Motion</span>
-                  <span className="tech-tag">Lucide Icons</span>
-                  <span className="tech-tag">Vite</span>
+                <div className="tech-grid">
+                  <div className="tech-item">
+                    <Bot size={24} color="#00D1B2" />
+                    <span>Gemini AI</span>
+                  </div>
+                  <div className="tech-item">
+                    <GraduationCap size={24} color="#00D1B2" />
+                    <span>React JS</span>
+                  </div>
+                  <div className="tech-item">
+                    <Languages size={24} color="#00D1B2" />
+                    <span>Vite</span>
+                  </div>
+                  <div className="tech-item">
+                    <Info size={24} color="#00D1B2" />
+                    <span>Lucide</span>
+                  </div>
+                </div>
+              </motion.section>
+
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3 }}
+                className="about-section"
+              >
+                <h2>📚 Referensi Literasi</h2>
+                <div className="references-list">
+                  <div className="ref-card">Kamus Ungkapan Wolio-Indonesia (1985)</div>
+                  <div className="ref-card">Tata Bahasa Wolio (J.C. Anceaux)</div>
+                  <div className="ref-card">Kamus Lengkap Husen Abas</div>
                 </div>
               </motion.section>
             </main>
