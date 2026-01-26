@@ -20,6 +20,14 @@ Data linguistik dalam aplikasi ini bersumber dari literatur kredibel:
 2.  **Kamus Wolio-Indonesia** (205 halaman) - Husen Abas, dkk.
 3.  **The Wolio Language: Outline of Grammatical Description and Texts** - J.C. Anceaux.
 
+## 🛠️ Teknologi yang Digunakan
+Aplikasi ini dibangun menggunakan tumpukan teknologi modern untuk performa dan skalabilitas:
+*   **Frontend**: React.js dengan Vite sebagai build tool untuk pengalaman pengembangan yang cepat.
+*   **Kecerdasan Buatan (AI)**: Google Gemini 2.5 Flash API melalui SDK `@google/generative-ai`.
+*   **Animasi & UI**: Framer Motion untuk transisi halus dan Lucide React untuk perpustakaan ikon.
+*   **Styling**: Vanilla CSS3 dengan pendekatan modern (Glassmorphism & Responsive Design).
+*   **Deployment**: Terintegrasi dengan Netlify untuk hosting dan manajemen *environment variables*.
+
 ## 🚀 Fitur Utama
 *   **Diskusi (Ayi Mode)**: Berlatih bicara dengan Ayi yang akan memberikan koreksi lembut jika ada kesalahan tata bahasa.
 *   **Penerjemah**: Terjemahan dua arah Indonesia ↔ Wolio yang akurat berdasarkan konteks kamus.
