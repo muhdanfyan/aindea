@@ -1,0 +1,5135 @@
+THE WOLIO LANGUAGE 
+First edition published in 1952. 
+Cover: Ruins of the wall surrounding the kraton of Buton. 
+VERHANDELINGEN 
+VAN 
+HET 
+KONINKLIJK 
+INSTITUUT 
+VOOR TAAL-, LAND- EN VOLKENKUNDE 
+11 
+IC. ANCEAUX 
+THE WOLIO LANGUAGE 
+OUTLINE OF GRAMMATICAL DESCRIPTION 
+ANDTEXTS 
+SECOND EDITION 
+1988 
+FORIS PUBLICATIONS 
+Dordrecht-Holland / Providence-U.S.A. 
+Pub/ished by: 
+Foris Publications Holland 
+P.O. Box 509 
+3300 AM Dordrecht 
+The Netherlands 
+Sole distributor lor the U.SA anti Canada: 
+Foris Publications U.S.A., Inc. 
+P.O. Box 5904 
+Providence R.l. 02903 
+U.S.A. 
+ISBN 90 6765 232 6 
+c 1988 Koninklijk Instituut voor Taal-, Land- en Volkenkunde, Leiden 
+No part of this publication may be reproduced or transmitted in any form or by any means, electronic 
+or mechanical, including photocopy, recording, or any information storage and retrieval system, 
+without permission from the copyright owner. 
+Printed in the Netherlands 
+CONTENTS 
+PREFACE TO THE SECOND EDITION ....................... vii 
+SPELliNG ............................................... viii 
+1. INTRODUCTION TO THE FIRST EDITION 
+. . . . . . . . . . . . . .. 1 
+1. 1. The language .................................. 1 
+1. 2. Literature and writing ........................... 2 
+1. 3. The inforrnants .............•......••........... 2 
+1. 4. The description .. . . . . . . . . . . • . . . . . . . . . . . . . . . . . .. 2 
+1. 5. The texts ••.................................... 2 
+2. THE PHONEMES ................•....................... 4 
+2. 1. Vowels ........................................ 4 
+2. 2. Consonants .................... '. . . . . . . . . . . . . . .. 4 
+2. 3. Oppositions .................................... 6 
+2. 4. Exceptions ............•..........•............. 8 
+3. THE WORD ............................................. 9 
+3. 1. Word-structure ................................. 9 
+3. 2. Word-accent ................................... 9 
+3. 3. Elision ..................••................•... 9 
+4. MORPHOWGY .....•...........................•....... 10 
+4. O. Morphological processes ........................ 10 
+4. 1. Affixes which can be attached to words of all classes .. 13 
+4.2. The verb ..........................•.......... 14 
+(1) Verb-stems ................................. 14 
+(2) Declension-forrns ........................... 25 
+4. 3. The noun ... . . . . • . . . . . . . . . . . . . . . . . . . . . . . . . . .. 30 
+(1) Noun-stems ................................ 30 
+(2) Declension-forrns ........................... 33 
+v 
+5. SYNTAX •.••••.•.••..••.••••.•.••••••.•.••.•••.•.•.•••.. 35 
+5. O. Syntactical elements ............................ 35 
+5. 1. The phrase ......... : . . . . . . . . . . . . . . . . . . . . . . . .. 35 
+A Substantive-phrases .......................... 36 
+B. Preposition-phrases .......................... 42 
+c. Verb-phrases ............................... 42 
+D. Elements occurring in different kinds of phrases .. 46 
+E. Phrases containing te, ara or atawa ............. 49 
+F. Phrases containing ne, ane, ande, ka or ko ...... 50 
+5. 2. The sentence ..... . . . . . . . . . . . . . . . . . . . . . . . . . . .. 50 
+(1) Sentence-accent ............................ 50 
+(2) Sentence-intonation ......................... 52 
+(3) The predicate .............................. 53 
+(4) Phrases precedingthe predicate ............... 54 
+(5) The subject ................................ 55 
+(6) The object ................................. 56 
+(7) Series ofphrases showing the construction of 
+a sentence ................................. 58 
+TEXTS ................................................... 60 
+ADDITIONS .............................................. 94 
+BIBLIOGRAPHY .......................................... 97 
+vi 
+PREFACE TO THE SECOND EDmON 
+Thirty-five years have passed since the KITLV published the first edition 
+ofthis grammar ofthe Wolio language. When my Wolio Dictionary (also a 
+KITLV publication) appeared in early 1987, the grammar had been out of 
+print for many years. Because the dictionary contains numerous cross-
+references to the grammar, the fact that the latter was no longer available 
+presented a serious problem. Fortunately, this was solved by the decision 
+of the board of the KITLV to issue a new edition of the grammar to serve 
+as a companion volume to the dictionary. 
+At the same time, a new question arose: how to incorporate into the 
+second edition new theoretical insights that had led me to change my 
+views on several aspects ofthe grammatical structure ofWolio. Incorpor-
+ating these changes into the text not only would have necessitated a 
+complete rewriting, but would also have meant that the cross-references 
+in the dictionary would no longer refer to the proper locations in the 
+grammar. I therefore decided to retain the original text, but to add an 
+appendix containing the gist of my new insights, especially with re gard to 
+the morphology. These additions have been kept as brief as possible. An 
+asterisk in the margin ofthe text indicates that an addition can be found 
+in the appendix. 
+The spelling used in the dictionary is somewhat different from that 
+used in the grammar. The differences between the two spelling systems 
+are listed below. The motivation for the change in orthography can be 
+found in the introduction to the dictionary. 
+A number of typographical errors have been corrected in the second 
+edition, and a bibliography of works on Wolio language and literature 
+has been added. 
+I would like to thank the KITLV for undertaking the publication of 
+this second edition. And I wish to express my deeply felt gratitude to my 
+wife Riet Without her the present book would never have appeared. 
+vii 
+SPEUJNG 
+In my Wolio dictionary a spelling system is used based on the official 
+modern (post-1972) spelling of Indonesian (Ejaan Yang Disempurna-
+kan). The differences between that orthography and the one used in this 
+book are as follows: 
+Grammar 
+Dictionary 
+b 
+bh 
+d 
+dh 
+$ 
+Ïl 
+ny 
+q 
+ng 
+qk 
+ngk 
+qg 
+ngg 
+viii 
+INTRODUCI'lON TO THE FIRST EDmON 
+1. 1. 
+The W olio language is spoken on the south-west coast of the isle 
+of Buton, south-east of Celebes, by the inhabitants of the capital 
+Baubau, the residence of the Sultan Kota W olio (a little landinward 
+from Baubau), two villages south of Baubau: Meomeo and Bonebone, 
+and five villages north of Baubau: Kadolomoko, Kadolokatapi, Waru-
+ruma, and Bungi. Besides it is spoken by the inhabitants of Tolandona, 
+on the east coast of the isle of .Muna, and the isle commonly known as 
+Pulau Makasar (W olio: Liwuto M akasu) 1) Iying between M una and 
+Buton. On the northern border of the language area there are two 
+villages where Munanese is spoken as weil as Wolio: Lowulowu (on 
+Buton) and Baruta (on Muna). 
+Outside the proper territory of the language it is spoken by people 
+belonging to the nobility (La Ode) living scattered over the country. 
+The total number of Wolio speakers does not surpass 25,000. As Wolio 
+is of old the official language of the Sultanate, some knowledge of it 
+is also found with officials of lower rank (village chiefs etc.) who do 
+not belong to the La Ode. To this day Wolio still holds the position 
+of official language in this region. 
+Wolio belongs to the Indonesian branch of Austronesian 2). In its 
+vocabulary it shows many borrowings from cognate languages (esp. 
+Malay), from Arabic (of ten evidently with Malay as intermediary), 
+Dutch etc. 
+From 1936 till 1942 the Wolio language was studied by the govern-
+mental Iinguist Dr. E. J. van den Berg. Alas, this scholar was killed in 
+1942 during the war on Celebes and all his written material was lost. 
+The quarterly reports in which Dr. van den Berg reported progress of 
+his researches also contain remarks on W olio. Reading them one gets an 
+1) The origin of this name is discussed by E. J van den Berg in C'Ultureel 
+Indië vol. I (1939), p. 366. 
+2) Thé traditional terminology and division is maintained here, because a 
+comprehensive investigation on modern methods into the relationship of these 
+languages is still to be done. 
+1 
+impression of the great quantity of important linguistic material that 
+was collected by him but was lost by the violence of the war. 
+1. 2. 
+Wolio literature consists for the greater part of unwritten 
+folk-tales, songs, etc. But there also exists a written literature in 
+manuscripts. Of this literature a poem called Kanturuna mohelana (The 
+lamp: of the sailor) is best known. 
+For writing Wolio, Arabic character is most used, but formerly 
+Macassar script seems to have been used also. In recent times the 
+modern school-education has propagated the use of Roman character. 
+But to people having passed through such schools Roman letters are 
+so closely connected with the Malay language that they usually write 
+even personal correspondenee in Malay. So it may be said that Wolio 
+as a written language is falling into decay. 
+1. 3. 
+The description is mainly based on the information given by 
+La Ode Manarfa, son of the present Sultan, and supplementary infor-
+mation given by his wife, Wa Ode Dawia. 
+La Ode Manarfa spent the first five years of his life on Buton. 
+Then he went to Macassar to go to the elementary school. He stayed 
+there during eight years visiting his native country only during holi-
+days. During this time he learned Dutch in the school and spoke Malay, 
+Macassar and Buginese outside the school. Then he went to Djakarta 
+where he visited the Secondary School (A.M.S.). There he very often 
+spoke Duteh. When he was 21 years old he went home and stayed there 
+during the ]apanese occupation and the first time af ter. During that 
+period he mainly spoke Wolio. In the beginning of 1947 he went to 
+the Netherlands to study at the University of Leiden. His wife grew 
+up in Buton and came to the Netherlands shortly af ter him. She then 
+had some knowledge of Malay but learned Dutch only af ter her arrival 
+in the Netherlands. 
+1. 4. 
+The description given here is meant as an account of present-
+day W olio. Questions of historicalor comparative linguistics are in 
+general left out of discussion or, in some cases, are discussed in the 
+notes. 
+As this description is meant to be a contribution to linguistic 
+knowledge rather than to linguistic theory, very few definitions are 
+given so that linguistic terms which are generally accepted (e.g. predi-
+cate, subject, etc.) are used without explanation. Certain changes are 
+sometimes (esp. in morphology) described in terms of processes, because 
+this seemed to be the most practical way of description. 
+1. 5. 
+The examples are preferably chosen from the texts which are 
+2 
+added to the description. The material for the greater part of these 
+texts was supplied by Mr. Manarfa. Only nrs. XII, XIII, and XV 
+were written down at his request by a native c1erk in Arabic character 
+with an imperfect Roman transcription added. As the contents range 
+from daily conversation to traditional tales, several differences in style 
+may be found. 
+References to the texts are made iri the description by a Roman 
+cipher followed by an Arabic one, p!aced betweert brackets, e.g. (X, 5). 
+3 
+THE PHONEMES 
+2. O. 
+Since every phoneme shows variations in the way it is actualised 
+according to different combinatory positions, the phonemes are des-
+cribed in the phonetical characteristics of their centre 3). It may be 
+said in general that one of the qualities described may be absent. 
+2. 1. 
+Vowels: 
+a 
+All vocoids 4). 
+e 
+0 
+i 
+u 
+a. V oiced low open central unrounded vocoid. 
+ala -
+to take. ba'wa -
+to bring. dala -
+road. 
+e. Voiced mid close front unrounded vocoid. 
+de/a -
+tongue. ande -
+if. buke -
+to be full. 
+•. 
+Voiced high close front unrounded vocoid. 
+ali -
+to buy. opi -
+to take fast hold of. andi -
+younger brother 
+or sister. 
+O. Voiced mid close back rounded vocoid. 
+bawo -
+top. alo -
+vapour, dew. opo -
+to hide oneself. 
+U. Voiced high close back rounded vocoid. 
+buku -
+bone. opu -
+lord. bawu -
+pig. 
+2. 2. 
+Consonants: 
+p 
+l] btw m 
+mp mb 
+tj d s 
+c 
+j 
+k g 
+S 
+h 
+p. Voiceless bilabial stop. 
+n 
+nt 
+nd I r 
+ti 
+nc 
+nj 
+q 
+qk 
+qg 
+pada -
+roof. pia -
+how many? lapa -
+to escape. 
+l]. Voiced bilabial stop of high muscular tension. 
+l!el}e -
+duck. l]emba -
+to punish. kol}uru -
+graveyard. 
+3) That the description of the phonemes is made according to their articulatory 
+characteristics, is not caused by aversion against the "acoustic" method but by 
+the practical impossibility of applying it in the given circumstances. 
+4) The term "vocoid" (opp. "non-vocoid") is used here in the phonetical sense. 
+In phonemics the terms "vowel" and "consonant" are used. 
+4 
+b. Voiced bilabial stop of little muscular tension with simultaneous 
+retroflexion of the tongue and lowering of the larynx. 
+bada -
+body. laba -
+profit. bebe -
+to strike. 
+f. Voiceless labiodental fricative. 
+hurufu -
+letter. fajara -
+daybreak. masafu -
+forgiveness. 
+w. Voiced labiodental slightly rounded fricative. 
+wala -
+side. wao -
+rain. mawa -
+flood. 
+m. V oiced bilabial nasal. 
+mia -
+man. malo -
+night. maka -
+but. 
+t. Voiceless alveolar stop. 
+tula -
+wart. tala -
+dinner-tray. tapa -
+end. 
+g. Voiced alveolar stop of high muscular tension. 
+goSa -
+prayer. Sahagi -
+Sunday. saparja -
+chopper. 
+d. Voiced alveolar stop of little muscular tension with simultaneous 
+slight retroflexion of the tongue and lowering of the larynx. 
+dodo -- to cut off. dula -
+tray filled with dainties. pada -
+to 
+finish. 
+s. Voiceless alveolar fricative. 
+sodo -
+fever. sara -
+council. bose -
+paddie. 
+n. V oiced alveolar nasal. 
+nunu -
+to look for. napa -
+North. ana -
+child. 
+e. Voiceless prepalatal stop. 
+cid -
+crack, leak. eere -
+kettle. baca -
+to read. 
+j. V oiced prepalatal stop. 
+jamu -
+doek. jao -
+oar. jaji -
+in consequence. 
+ii. V oiced prepalatal nasal. 
+iiawa -
+soul. paiiaki -
+disease. bintiiii -
+to offer. 
+k. Voiceless velar stop. 
+duka -
+also. kalo -
+necklace. llau -
+piece of wood. 
+g. Voiced velar stop. 
+gau -
+to trick. gola -
+sugar. baga -
+cheek. 
+q. V oiced velar nasal. 
+buqa -
+flower. maboqo -
+deaf. taqi -
+to cry. 
+Glottal stop. 
+sana -
+six. ta$i -
+faeces. Sara -
+arrack. 
+h. Voiceless glottal fricative. 
+halo -
+horn-bill. hau -
+charcoal. baho -
+to bath. 
+mp, mb, nt, nd, ne (properly speaking: iic), n j (properly speaking: ii j), 
+qk, and qg, though phonetically complex, form single phonemes, as 
+they only occur in environments otherwise occupied by single segments 
+5 
+only and there is no opposition between e.g. mp and a cluster of another 
+consonant with p or a cluster consisting of mand another consonant, 
+as such clusters do not occur. As to their phonetical characteristics, 
+these are easily seen from those of their constituents. It is only to be 
+observed that in mb the b has characteristics similar to those of the l}, 
+though it lacks the special muscular tension. Likewise d in nd resembles 
+rJ without high tension. ml} and ne] do not occur. 
+lampa -
+wooden plate. mputt -
+very, mere. tampa -
+ground. 
+lamba -
+to rouse. bembe -
+goat. mbaka -
+reason. 
+ntula -
+to stick out. anto -
+contents. kanturu -
+lamp. 
+kande -
+to eat. ndapa -
+fathom. ndamu -
+axe. 
+gonco -
+gullet. dencu -
+to emigrate. qinci -
+tooth. 
+janji -
+to agree. talanja -
+naked. 
+buqka -lobster. maboqko -
+corrupt. qkaluqkalu -
+intestines. 
+miqgu -
+week. ruqga -
+to derange. jiqga -
+gold-coloured, orange. 
+1. Clear alveolar lateral. 
+balo -
+grave. lia -
+cave. lele -
+news. 
+r. Clear uvular trill with the tongue in alveolar position. 
+saro -
+name. ara -
+or. rampa -
+cause. 
+l}, e], and f seem to occur in loan-words only, mainly of Arabic origin. 
+e] is in some words actualised by educated speakers as a voiced dental 
+stop according to their Arabic models : rJunia -
+world; e]ale -
+the 
+letter d of the Arabic alphabet. Uneducated people use p instead of f. 
+sacjati -
+custom, customary law. 'ahaqi -
+Sunday, week. 
+tasul}ee -
+chaplet. hal}ara -
+news. 
+fikiri -
+to think. nafasi -- breath. 
+An initial vowel of the first word af ter a pause begins with a soft 
+initial glide, the vocal cords immediately taking the position of vibration. 
+This initial glide, that only occurs in that position, represents a zero 
+only in the phonological system. 
+2. 3. The following examples show some of the oppositions of the 
+phonemes: 
+dala -
+road, dela -
+tongue. 
+ala -
+to take, ali -
+to buy. 
+ala -
+to take, alo -
+vapour, dew. 
+tala -
+dinner-tray, tula -
+wart. 
+ande -
+if, andi -
+younger brother or sister. 
+belo -
+ornament, balo -
+hole. 
+ase -
+iron, aso -
+to sell. 
+dela -
+tongue, dula -
+tray filled with dainties. 
+6 
+lia -
+cave, lea -
+to dive. 
+kumbi -
+wound, kumba -
+lung. 
+bali -
+side, balo -
+hole. 
+rapi -
+twin, rapu -
+ash. 
+ona -
+scale, ina -
+mother. 
+balo -
+hole, bale -
+punting-pole. 
+bawo -
+top, bawa -
+to bring. 
+bawo -
+top, bawu, -
+pig. 
+unda -
+to agree, inda -
+not. 
+buke -
+to be fuIl, buku -
+bone. 
+lipu -
+country, lipa -
+to go. 
+balu -
+shroud, balo -
+hole. 
+pia -
+how many?, mia -
+man. 
+pada -
+roof, bada -
+body. 
+pokemba -
+to invite, tokemba -
+to be called. 
+lapa -
+to escape, lamp a -
+wooden plate. 
+palu -
+hammer, walu -
+eight. 
+~e?!e -
+duck, bebe -
+to strike. 
+~aqu -
+salat (Muslim prayer), a.qu -
+piece (in counting). 
+lapa -
+to escape, lamba -
+to rouse. 
+dopi -
+board, doi -
+money. 
+baa -
+head, waa -
+fire. 
+bia -
+sarong, mia -
+man. 
+suba -
+to put out, sumpa -
+to swear. 
+kabotu -
+piece, kambotu -
+agreement. 
+bawu -
+pig, dawu -
+to give. 
+fajara -
+daybreak, ajara -
+horse. 
+walo -
+ash, malo -
+night. 
+twwu -
+to grow, tumpu -
+to commando 
+walo -
+ash, mbalo -
+bamboo. 
+tala -
+dinner-tray, dala -
+road. 
+tapi -
+next, sapi -
+cow. 
+napa -
+North, tapa -
+end. 
+tula -
+wart, ntula -
+to stick out. 
+tapa -
+end, ndapa -
+fathom. 
+sapacjana -
+his chopper, sapadana -
+af ter this. 
+dodo -
+to cut oft, sodo -
+fever. 
+padudu -
+to suckle, panunu -
+to cause to look for. 
+dula -
+tray filled with dainties, ntula -
+to stick out. 
+ina -
+mother , inda -
+not. 
+7 
+dele -
+to saunter, Iele -
+news. 
+bada -
+body, bara -
+West. 
+susu -
+bosom, nunu -
+to look for. 
+rasa -
+quicksilver, raha -
+branch. 
+kakasu -
+proximity, kakau -
+rasp. 
+tanu -
+to weave, tantu -
+fixed. 
+napa -
+North, ndapa -
+fathom. 
+lamp a -
+wood en plate, la'mba -
+to drive (cattle). 
+ttnda -
+to agree, umba -
+to come. 
+lampa -
+wooden plate, rampa -
+cause. 
+rau -
+face, hau -
+charcoal. 
+cere -
+kettle, jere -
+to pass. 
+jawa -
+Java, nawa -
+soul. 
+jaji -
+in consequence, janji -
+agreement. 
+nawa -
+soul, mawa -
+flood. 
+kau -
+wood, gau -
+to trick. 
+rako -
+to catch, raqo -
+to hear. 
+aka -
+older brother or sister, aqka -
+to lift up. 
+taga -
+nacre, taqa -
+half. 
+dagi -
+flesh, daqki -
+jealous. 
+buqka -
+lobster, buka -
+flower. 
+ruqka -
+rustling, ruqga -
+to derange. 
+sara -
+arrack, ara -
+or. 
+halo -
+horn-bilI, alo -
+vapour, dew. 
+taqa -
+half, tana -
+ground. 
+2. 4. 
+In interjections there may occur sounds not belonging to the 
+phonological system, viz. yeye! (y a non syllabic voiced high close 
+front unrounded vocoid). 
+8 
+THE WORD 
+3. 1. 
+Every word contains one or more vowels 5). Each vowel may be 
+preceded by one consonant-phoneme or by none. Moreover a word 
+always ends with avowel. If a vowel is followed by an identical vowel 
+and they are not separated by a consonant, they sound like one vowd 
+of nearly double the length. If three identical vowels follow each other 
+without a consonant separating them, the length is a little more than 
+twice the normal length but triple length is seldom fully actualised. 
+These "long vowels" behave in every respect in the same way as two 
+(respectively three) different vowels and are accordingly written twice 
+(or threefold). According to these rules the vowel-consonant-pattern 
+of the word is: vv, evv, vev, evev, evvv, evevv, evevev, 
+evvev, vevv, vevev, etc., e.g. eo, tua, uwe, pada, buea, poteo, 
+incana, mpearo, alia, atumpu, etc. Exceptions to these rules are found 
+in interjections, e.g. sio s -
+a cry used in driving away hens. 
+3. 2. 
+The word is marked by the word-accent. This word-accent 
+consists of a high pitch of the penultimate vowel with a faint rising 
+contour of the preceding vowels: ána, buéa, 1nawáa, akamekemekémo. 
+I f the penultimate and antepenultimate vowels are identical and not 
+separated by a consonant, they both have the high pitch: akokariáámo. 
+Some loan-words have a different accent: sámala (religious con-
+templation), ljUnia (world). 
+3. 3. 
+In current, fast speech sometimes phonemes are not or scarcely 
+pronounced. This may be the case with vowels preceding the penul-
+ti mate : in wakutuuna the first u is very short or is elided. With con-
+sonants preceding the antepenultimate the same may take place: mapa-
+ndapanda and apebaho are sometimes pronounced mapaapanda and 
+aebaho 6). 
+ó) A restriction of this rule will be discussed in the note to chapter 5. 1. (The 
+Phrase), E, 4 (See p. 50). 
+~) As eli sion of avowel always occurs before an accent and preferahly in those 
+cases in which the pitch is comhined with intensity as usually takes place in 
+exc1amatory senten ces, it may he said that the zero is a gradation of the full 
+vowel, the shwa-gradation occurring in similar cases in other languages being 
+passed over in W:olio. 
+9 
+MORPHOLOGY 
+4. O. 
+In this chapter the analysis of words is performed into the 
+smallest funetional units 7). These units show a division into two 
+groups: 
+1. roots whieh may oeeur as wortIs. Elemcnts whieh do not ocel1\' as 
+words, but in the same morphologieal positions as roots, arc eallecl 
+bound roots 8). 
+2. affixes whieh do not oeeur as words but are always combined with 
+roots. They always have positions in the word entirely different 
+from those oeeupied by roots. 
+It follows that eaeh word contains at least on~ root. 
+The morphologieal processes are: 
+1. 
+affixation. The affixes are: 
+1. prefixes which are affixed at the beginning of the word befare 
+the root. 
+2. infix. Wolio has only one infix: -in-. 1t is discussed uncler "The 
+Substantive", 4. 3. (1), B, IV. 
+3. suffixes whieh are affixed at the end of the word af ter thc root. 
+One word may eontain several affixes simultaneously. 
+Same roots have a special bound for11l: an allomorph with a final 
+consonant whieh appears before a suffix with initia I vowel (suffixes 
+-a, -i and -aka). 1t seems impossible to express by a rule which roots 
+have a special bound form, or which consonant is the final one of the 
+7) It is c1ear that these functional units are the same which are called "mor-
+phemes" by L. BIoomfield (Language, 1933, repro 1948 p. 161) and many others. 
+These term is avoided here for two reasons : 
+1 0 
+In discussing a question which is important especially for Indonesian 
+Iinguistics C. C. Berg lately proposed the use of the term "morpheme" in a 
+somewhat different meaning (see: Bin,qkisGl~ Bttdi, Leiden 1950, p. 27 sqq). 
+2 0 
+Taking together roots and affixes by one term ignores the fact that they 
+are elements of different order, at any rate in many languages. 
+8) The term "root" is used here in the sense of "root-morpheme" or "basic 
+morpheme'" and not with the special meaning given to it by J. Gonda following 
+R. Brandstetter (see: The comparative method as applied to Indonesian lan-
+guages, Lingua, I, 1 p. 92-93). 
+10 
+special bound farm. Only a negative rule can he given: that final con-
+sonant is never a prenasalised one. 
+root kande, suffix -aka: kandesaka. 
+root tabu, 
+suffix -i: taburi. 
+root kole, 
+suffix -a: kolema. 
+root pili, 
+suffix -a: pilita. 
+root buso, 
+suffix -i: busobusoki. 
+root sulu, 
+suffix -i: suluwi. 
+root saro, 
+suffix -i: saroqi. 
+root jaga, 
+suffix -i: jagani. 
+Same roots have a special bound farm hefare one suffix but not bef are 
+the other: 
+root aba, abaki, but abaaka. 
+root taqi, taqisi, but taqiaka. 
+root uncura, kauncuramaka, but uncuraaka. 
+Same roots occur even before the same suffix in two different forms 
+with different meanings. These two different forms may he: 
+a. a free farm and a special bound form: 
+root rambi, rambiaka and rambitaka. 
+root tau, tauaka and tauraka (see: "The Verb", 4. 2. (1), B, 
+XIII, c.). 
+b. two different special bound farms: 
+root gaa, gaati and gaaqi (see: "The Verb", 4. 2. (1), B, XII). 
+Il. Reduplication. Reduplication is performed by repeating a form 
+(word, stem or root) as far as the second vowel inclusive : 
+mboloqa: mbolomboloqa. kalimpopo: kalikalimpopo. baa: baabaa. 
+1 f the reduplicated form is a root having only two vowels the word-
+accent is also reduplicated: bátubátu, ándiándi. Apart from that the 
+general rules of the word-accent also apply: ánáána. 
+The various cases of reduplication are discussed under "The Verb" 
+(4. 2.) and "The Noun" (4. 3.). One special case of reduplication is 
+to be mentioned here. Sometimes proper names are derived from nouns 
+by reduplication: 
+hoo -
+heron, La H oohoo -
+Heron. 
+kolopua -
+tortoise, La Kolokolopua -
+Tortoise. 
+lIl. Apophony. The only farm of apophony in Wolio occurs only 
+in combination with other morphological processes. It consists of repla-
+11 
+cing a stop by the corresponding nasal-stop-phoneme, e.g. k by qk, 
+and is therefore called prenasalisation. Prenasalisation is found: 
+a. in combination with certain prefixes: 
+sa- + baa: sambaa. me- + kale: meqkole. 
+b. in compounds: two words or sterns are united into one (with one 
+word-accent!) whereas the initial stop (i f there is one) of the 
+second is replaced by the corresponding prenasalized one: penami 
++ kuku: penantiqkuku. ulo + kobulu: Ulouloqkobulu. 
+IV. 
+Composition. The principle of composition has already been men-
+tioned under lIl. A distinction must be made between these "morpho-
+logicai" compounds having all the characteristics of one word and those 
+compounds in which the constituents keep their own word-accent. The 
+latter form a special type of phrase and are therefore discussed under 
+"The Phrase" (see: the end of 5. 1. A, 8). 
+V. Abbreviation. Abbreviation mainly occurs with proper names in 
+vocative. The most common type of abbreviation consists of dropping 
+the beginning of the word whereas at least two vowels are retained, 
+e.g. W ia for Da'Wia, mauma 9) (dad) probably must be explained as an 
+abbreviation of the reduplicated farm of uma (father ). 
+Among adult persons names are sometimes abbreviated by drop-
+ping all that follows the consonant af ter the first vowel : Man for 
+Manarfa; Naf for Nafsahu. 
+The various farms are discussed in the following order: 
+1. affixes which may be attached to all classes of words, 
+2. the verb-forms, 
+3. the noun-forms. 
+A definition of these two word-classes (verb and noun) can not be 
+given here. The morphological and syntactical characteristics of these 
+(and other) word-classes will he successively discussed in the following 
+part of the description. 
+Under "The Verb" and "The Noun" derived farms are discussed 
+first. That means a discussion of the re1ation hetween root and sterns. 
+Then follow the dec1ension-forms which may be applied to all members 
+of the c1ass (declension-forms in general use) or to a group of them 
+(dec1ension-forms of limited use) in their formal relation to the sterns. 
+9) This is of course no proper name but it is very near to it. It is to be 
+remarked here th at in W olio proper names are seldom used, because in many 
+cases terms of relationship or official titles are preferred. 
+12 
+4. 1. AfJixes which may be attached to words of all classes are the suf-
+fixes -mo, -po, and -aka1 . Their use and meanings wil! be discussed 
+under "Syntax" (see: 5. 1. D, 1.). As to their position it has to be 
+remarked that they are always final (after roots and other suffixes), 
+the only exception being those cases in which -mo or -po are melted 
+together with the object-suffix 3d person of the transitive verb (see: 
+4. 2. (2), IJ). 
+13 
+TIIE VERB 
+4. 2. (1). Verb-stems are farms which may have an actor-prefix 
+denoting the subject of the verb-form ("action" being taken in the 
+sense of "meaning of the verb in generaI"). As to their farm a division 
+can he made into: A. underived stems, B. derived stems, C. compound 
+stems, D. phrase-stems. They may he divided into: a. transitive stems. 
+These may have an object-affix denoting the object of the verb (the 
+object being: a complement of the verb less direct than the subject and 
+corresponding with the object-affix of an active verb-form or the actor-
+prefix of a passive one). b. intransitive verb-stems which have na 
+object-affix. 
+A. Underived stems consist of roots, e.g. liqka -
+to go 10), umba -
+to come, karajaa -
+to work. 
+B. Derived stems consist of a root and one or more affixes. A division 
+can he made very well according to these affixes: 
+I. 
+Prefix ko-. Always intransitive. 
+a. The immediate constituent is usually a noun: 
+kobulu -
+to be hairy, bulu -
+hair. 
+kobake -
+to bear fruit, bake -
+fruit. 
+kotawa -
+to haveleaves, tauu -
+leaf. 
+kobaju -
+to wear a jacket, baju -
+jacket. 
+kooni -
+to speak, oni -
+voice. 
+This noun may be an underived one (as in the given instances) or a 
+derived one: 
+kodawua -
+to be lucky, dawua -
+good luck, dawu -
+to give. 
+kokariaa -
+to hold a feast, kariaa -
+feast, riaa -
+to be excited 11). 
+or a compound: 
+10) All examples of verbs are given here in the form of their stems and are 
+translated with infinitives. 
+11.) As "derivation" is used here in the sense of a more complex formation 
+"arising" from a simpier form (the root), the question of possible historical 
+priority of the former (as might weil be the case in this instance) remains 
+undiscussed, as this question lies beyond the scope of a descriptive grammar. 
+14 
+* 
+konamigara -
+to have salty taste, nami -
+taste, gara -
+salt. 
+b. The immediate constituent may he a bound root: 
+komeke -
+to cough, *meke, cf. kamekemeke -
+to cough conti-
+nually. 
+kokete -
+to snigger, *kete, cf. kaketekete -
+to snigger continually. 
+ko 5aa -
+to produce a sound, *5aa, inda ako'aa -
+[the new horn 
+child] makes no sound. 
+c. The immediate constituent mayalso he a verb: 
+komiqku -
+to move, miqku -
+to move (transitive I). 
+It must he remarked that among the ko-stems of type a there occur a 
+numher of impersonally used verhs (see "the Sentence", 5. 2. (3), 2.) 
+denoting meteorological phenomena: 
+kokila -
+to lighten, kiZa -
+lightning. 
+kowao -
+to rain, wao -
+rain. 
+koguntu -
+to thunder, guntu -
+thunder. 
+koqalu -
+to blow (wind), qalu -
+wind. 
+koeo -
+the sun is shining, eo -
+sun. 
+II. u. 
+Prefix ma-. Forms with prefix ma- are mainly intransitive. 
+They all have a root as immediate constituent. In most cases this root 
+is a hound one: 
+maluntu -
+to he lazy. 
+makasu -
+to he near. 
+magasia -
+to play. 
+l1takakau -
+to make preparations. 
+nwqau -
+to burn. 
+In some instances the immediate constituent is a verh : 
+maali -
+to he expensive, difficult, ali -
+to huy. 
+mabaho -
+to he wet, baho -
+to bath. 
+l1tanaSu -
+to boil, nasu -
+to cook. 
+masodo -
+to he warm, sodo -
+to have fever. 
+maranca -
+to pour down (rain), ranca -
+to splash. 
+In some other instances it is a noun: 
+mawaa -
+to be red-hot, waa -
+fire. 
+maati -
+to he shallow, ati -
+land, shoal. 
+map up u -
+to remain, pup u -
+remainder. 
+magawu -
+to he hlue, gawu -
+fog. 
+maijo -
+to he green, ijo -
+(the) green. 
+matau -
+to know, seems to he the only transitive ma-form. 
+b. The prefix ma- coincides with substitution of qk for initial k of 
+the root in the case of: maqkuru -
+to he lean, kuru -
+to shrink. 
+15 
+lIl. Prefix ka-. 
+If kamata -
+to see (transitive), is to he derived from tnata -
+eye, 
+it furnishes an example of a verb-stem with prefix ka-. As this 
+is the only example found, the existence of such a ka-stem is anything 
+but certain. 
+IV. a. 
+Prefix poma- has the meaning of "at random, on every side, 
+without restrictian and without contrai". Verbs with poma- may he 
+transitive or intransitive 12). 
+pamabebe -
+to hit out right and left, be be -
+to beat. 
+pomasumpu -
+to drink without minding what one is drinking, 
+sumpu -
+to drink. 
+potnakande -
+to eat at every side, kande -
+to eat, cf. XIII, 19 
+where it is said of Mankey wildly eating the bananas (the object 
+heing mentianed!). 
+An example of poma- with a derived stem as immediate constituent: 
+pomapotawaiki -
+to smile at everybody (intrans. I), pota'U,'aiki -
+to smile at. 
+b. P0111a- coincides with substitution of qk for initial k of the 
+root in: 
+pomaqkau -
+to scratch one's whole body, kau -
+to scratch. 
+V. 
+ka--a. The verbs having prefix ka- and suffix -a as mutually obliga-
+tory affixes are all intransitive and denote "a part of. . .. is subject 
+to .... ". They all are derived from roots. 
+katembona -
+to be partly mouldered, tembo -
+to moulder. 
+(a-)kailaqa -
+some (of it) is gone (XV, 17), ila -
+to disappear 
+kandawuna -
+same parts fall from (it), ndawu -
+to fall. 
+In these examples the root appears in a special bound form before the 
+suffix (see: 4. 0., I). 
+VI. Prefix me-. 
+Verbs with this prefix are all intransitive and denote a continuous 
+action or state. Initials k, c, t, and p of the immediate constituent (root 
+or derived stem) are mostly replaced by respectively qk, nc, nt, and mp. 
+The immediate constituent may be: 
+a. a verb-root: 
+12) In genera! it may be said that intransivity occurs in two cases: 
+1 0 
+where an object is not possib!e or not taken into consideration, 
+2 0 
+where the object is 50 readily understood without being mentioned or has 
+50 genera! a meaning that it may conveniem!y be omitted. 
+It is not easy to decide whether the intransitive poma-stems belong to the first 
+group or to the second. 
+16 
+mesumpu -
+to drink always, smnptt -
+to drink. 
+mempili -
+to be fastidious, pili -
+to choose. 
+mentaqi -
+to cry always, taqi -
+to cry. 
+11wqkole -
+to sleep always, kole -
+to sleep. 
+mempeeio -
+to be continually looking for something, peelo -
+to look for. 
+memo,te -
+to die continually (e.g. all the chickcns of a hen), 
+mate -
+to die. 
+b. a derived verb-stem: 
+memaeka -
+to he fearful, maeka -
+to fear. 
+mempotawa -
+to laugh continually, potau-a -
+to laugh. 
+memaiaqa -
+to be constantly high, maiaqa -
+to be high. 
+c. a noun: 
+mendamu -
+to chop continually, ndamu -
+axe. 
+mencarita -
+to be fond of talking, carita -
+story. 
+menjamba -
+to go again and again to the lavatory, jamba -
+lavatory. 
+meracu -
+to be a poisoner, racu -
+poison. 
+Remarkable is the opposition of the two derivations of kande (to eat) : 
+the one irregular in form but regular in meaning: 
+mekande -
+to eat continually, 
+and thc other regular in form: meqkande, but having the special 
+meaning of "to bite", said of fishes at angling. 
+VII. Prefix ti-. 
+The general meaning of this prefix seems to be "to get in the state 
+of .... ". In the following examples the immediate constituents are 
+verbal roots. 
+tiumba -
+to appear, umba -
+to come. 
+tidoie -
+to lie down, doie -
+to lie. 
+titigi -
+to pour of! (boiled rice), tigi -
+to drop. 
+The first and second examples are intransitive. As to the third, it is not 
+quite certain that titigi is derived from tigi. By its transitivity and 
+meaning titigi dif!ers from the other ti-sterns. 
+VIII. Prefix ka- with reduplication of the root denotes a continual 
+or repeated action. This form is always intransitive. The immediate 
+constituent is always a root. This root may be: 
+a. a bound root occurring only in this form: 
+kagusagusa -
+to walk around with much noise. 
+kahaahaa -
+to be panting. 
+kasodesode -
+to he sobbing. 
+17 
+* 
+** 
+b. bound roots occurring wîth other affixes: 
+kalakalaka -
+to be flying, polaka -
+to fly. 
+kandelendele -
+to be crawling around, pondele -
+to crawl. 
+kaketekete -
+to be sniggering, kokete -
+to snigger. 
+kailiili -
+to he very modest, poili -
+to look back. 
+kaboqoboqo -
+to be deaf-mute, to he mentally deficient, maboqo 
+-
+to be deaf. 
+c. roots occurring as verb-stems: 
+kaliqkaliqka -
+to go by foot, liqka -
+to go. 
+kalidalida -
+to fidget, Ma -
+to be restless. 
+kahuduhudu -
+to be sobbing, hudu -
+to hiccough. 
+kauncuuncura -
+to keep sitting, uncura -
+to sit. 
+d. roots occurring as nouns: 
+kabalebale -
+to stand upright, bale -
+stake, pole. 
+kandokendoke -
+to play at tag, ndoke -
+monkey. 
+IX. Prefix po- and prefix pe- occur in complementary distribution 
+and in many cases have similar meaning. Properly speaking i! should 
+be necessary to give a complete list of all sterns with po- or pe-. Since 
+completeness is not pursued in this description, only some examples are 
+given here to show their (rather divergent) meanings. Finally a few 
+peculiarities and irregularities are discussed. 
+a. Some of these sterns denote bodily states or actions, for the greater 
+part involuntary. They all have a bound root as immediate constituent 
+and are intransitive. 
+potawa -
+to laugh. 
+pomea -
+to yawn. 
+pomeke -
+to cough. 
+poqano -
+to swim. 
+pelnboi -
+to smile. 
+pewilu -
+to spit. 
+b. Much more numerous are those which have a noun-root as 
+immediate constituent. These are also intransitive. 
+posala -
+to wear trousers, sala -
+trousers. 
+pojao -
+to row, jao -
+oar. 
+posuo -
+to stay in the backhouse, suo -
+bûckhouse. 
+pogunturu -
+to fish with poison, gunturu -
+fish-poison 13). 
+peikane -
+to fish, ikane -
+fish. 
+pepuu -
+to begin, PttU -
+stem. 
+13) Mak, Jav. tuba -
+vegetable matter, mostly an extract from the root of 
+Derris elliptica, by which fish are stupefied. 
+18 
+* 
+Transitive are: 
+potumpo -
+to cut through, tumpo -
+part, internode. 
+penami -
+to taste, nami -
+taste. 
+c. Among those sterns having a verb-stem as immediate constituent 
+there is agreat number having the meaning of plurality of the sub-
+ject, whereas the object may not be found outside of the group 
+denoted by the subject. Accordingly they are intransitive. They all 
+have prefix po-; pe- is not found. 
+popeelu -
+to love one another. 
+poewaqi -
+to fight against each other. 
+pogoraaka -
+to caU to each other. 
+posala -
+to differ from each other. 
+d. Other sterns having a verb-stem as immediate constituent have 
+special intransitive meaning 14). 
+pebaho -
+to bathe, baho -
+to bath. 
+ponamisi -
+to suffer, namisi -
+to feel. 
+potapasi -
+to be washing, tapasi -
+to wash (things). 
+polimba -
+to remove, to pass over, limba -
+to go out. 
+posambure -
+to be sweeping, sambure -
+to sweep. 
+e. Sterns with prefix pe- or po- derived from a noun with prefix ka-
+could be cIassified under b but show some peculiarities: 
+1. If they are derived from ka-forms corresponding to ma-verbs (I!) 
+(see: "The Noun", 4.3. (1), VII, c.), they are transitive anel have 
+factitive meaning. 
+pekarombu -
+to make dirty, karombu -
+dirtiness. 
+pekaqkilo -
+to clean, kaqkilo -
+cIeanness. 
+pekandaria -
+to lessen, to redttce, kanda,ria -
+diminution. 
+pekapupu -
+to use up, kapupu -
+rest. 
+In this series may be included pekamate -
+to kill, as mate -
+to 
+die, from which kanwte is derived, shares many characteristics 
+with the nUl-forms .. 
+2. The others follow the general pattern (b.): 
+pekabua -
+to angle, kabua -
+angling-rod. 
+pokatanda -
+to make a quid, katanda -
+quid. 
+pokataqe -
+to make a bundie, kataqe -
+a bundie. 
+Pe-derivations from ka-forms have the same appearance as forms with 
+prefix peka- (see below uneler X.) but have different meanings anel 
+elistribution. 
+14) The two cases of intransitivity rnentioned above (note 12) both appear arnong 
+these po- (pe-) sterns: pebaho and polimba have a meaning which does not 
+admit of an object, the others have so general a meaning that it can be omitted. 
+19 
+f. Morphological or semantÎc peculiarities are found in the following 
+forms: 
+Substitution of a prenasalised stop fOr initial stop of the immediate 
+constituent in combination with the prefix occurs in: 
+peqkeni -
+to keep hold of, keni -
+to seize. 
+pontaqa -
+to be halfway, taqa -
+middle. 
+peq kaadari -
+to study (intransitive), kaadari -
+instruction. 
+The prefix occurs twice in popotawai -
+to smile at one another, potawa 
+-
+to laugh (combination of type a. and c.). 
+N oteworthy are the sterns derivated from kemba -
+to caU : 
+pokemba -
+to invite, 
+pokembakemba -
+to caU to each other, 
+pepekemba -
+to cause oneself to be invited. 
+From kawa -
+to come to, two po-forms are derived: 
+pokawaaka -
+to meet with, to find (transitive), 
+pokawakawa -
+to come together. 
+Pepepeelo, derived from peelo -
+to look for, has a causative meaning: 
+to make (someone) look for. 
+Combination of po- with ti- (see V IJ.) occurs in potiqalu -
+to expo se 
+oneself to the wind (qalu wind). A form tiqalu does not occur but 
+tiqalua -
+to be touched by air (things first hermeticaUy packed), 
+does occur. 
+X. 
+Prefix peka-. Forms with prefix peka- are different from pe-stems 
+derived from ka-forms (IX, e.) by their meaning and by the fact that 
+peka-forms have no corresponding ka-form. 
+pekabaqkabaqka -
+to go boating, baqka -
+boat. 
+pekasoo -
+to say "aa!", to cry. 
+XI. Prefix pa-. Sterns with this prefix have a causative meaning. 
+The immediate constituent may be: 
+a. a verb-root: 
+pakmvi -
+to unite in marriage, kawi -
+to marry. 
+palanto -
+to cause to float, lanto -
+to float. 
+papalai -
+to put to flight, palai -
+to fly. 
+paumba -
+to communicate, to say, umba -
+to come. 
+b. a derived verb-stem: 
+papobaju -
+to cause (someone) to put on a jacket, pobaju -
+to 
+wear a jacket. 
+patiumba -
+to produce, tiumba -
+to appear. 
+C. a noun. Only one example is found: 
+pakaro -
+to construct, to build, karo -
+body. 
+20 
+* 
+Same pa-farms show a different meaning: 
+pasurusuru -
+to force, suru -
+to want to share in somebody's lot. 
+pajere -
+to follow, jere -
+to pass. 
+paaqka -
+to be open (gap), aqka -
+to lift up. 
+XII. Suffix -i. Sterns with suffix -i are all transitive. The suffix 
+denotes arelation to the object. This relation is best des cri bed as local. 
+The immediate constituent may be: 
+a. a verb-root: 
+jagani -
+to protect, jaga -
+to take care. 
+k0111pasi -
+to climb (a tree), k0111pa -
+to climb (intrans.). 
+1naisi -
+to come to, mai -
+to come. 
+raqoni -
+to obey, raqo -
+to listen. 
+b. a noun-root: 
+batui -
+to lapidate, batu -
+stone. 
+beloki -
+to adorn, belo -
+ornament. 
+suluwi -
+to light, sulu -
+torch. 
+saroqi -
+to mean, saro -
+name. 
+c. a bound root: 
+landaki -
+to tread upon, polanda -
+to step. 
+111belai -
+to wound, ma111bela -
+to he wounded. 
+tadami -
+to sharpen, matada -
+to he sharp. 
+aruki -
+to work loose (rice from a pot), kaaru -
+ladle. 
+d. a derived stem: 
+popota'lvai -
+to smile at each other, potawa -
+to laugh. 
+potawaiki -
+to smile at, shows the peculiarity of having the suffix 
+twice with the consonant k in between, as if the final -i is attached 
+to a root having a special bound farm with -k 15). 
+Reduplication of the root is inherent to the -i-farm in: 
+haqahaqai -
+to tease, 111ahaqa -
+to be naughty. 
+busobusoki -
+to gorge (food in the mouth), busO' -
+to accumulate. 
+From the root gaa -
+to part, two different -i-farms are derived 
+differing in bound farm of the root: gaaqi -
+to leave, and gaati -
+to as sart, to lay apart. 
+XIII. Suffix -aka2• Sterns with suffix -aka2 are all transitive. The 
+suffix denotes arelation to the object. This re1ation is different from 
+15) This seems a fine proof that the final consonant of such bound forms does 
+not need to he a historical remainder of a former stage in which final consonants 
+still existed. On the other hand there are cases in which a historical final conso-
+nant is retained. This appears from comparison of forms like tadami and taqisi 
+with corresponding roots (tajam, taqis and the like) in cognate languages. 
+21 
+that denoted by suffix -i and very difficult to describe in a formuIa. 
+The meaning of the suffix can best be seen from the examples given. 
+a. 1. 
+When derived from an intransitive stem the -aka2-form implies 
+an object: 
+ttndaaka -
+to approve of, unda -
+to agree. 
+gaugauaka -
+to teIl a lie to, gaugau -
+to lie. 
+peqkaadariaka -
+to study (sornething), peqkaadari -
+to study 
+(intr.). 
+maasiaka -
+to love, maasi -
+to feel compassion. 
+potawaaka -
+to laugh at, potawa -
+to laugh. 
+mendeusaka -
+to forbid, mendeu -
+to he unwilling. 
+taqiaka -
+to bewail, taqi -
+to weep. 
+kokariaaaka -
+to hold feast for, kokariaa -
+to hold feast. 
+2. -aka2-forms derived from a bound root are also transitive : 
+romusaka -
+to collect, poromuromu -
+to come together. 
+3. Similar meanings are found with -aka2-forms derived from nouns. 
+These are also transitive: 
+haejatiaka -
+to intend, haejati -
+intention. 
+* 4. Somewhat different is the case of: 
+tumbulaka -
+to set in the ground (a plant), to put upside-dowll 
+(sorneone), tumbu -
+to come up, to spurt up. 
+5. Noteworthy is the prefi'x -aka2 with a verb-stem as object denoting 
+a simultaneous continual action, e.g. 
+liqkaaka ram bi -
+to go beating (XIII, 38) 16). 
+b. When derived from a transitive verb-stem the effect of the suffix 
+-aka2 is: 
+1. the meaning of the -aka-stem is different from that of the under-
+lying stem: 
+keniaka -
+to seize hold of, kmi -
+to carry, to take in one's 
+hands. 
+2. the object of the -aka-stem is different from that of the under-
+lying stem: 
+goraaka -
+to call to (somebody ), gora -
+to exclaim. 
+3. The -aka-stem has two objects of which one is the same as the 
+object of the underlying stem. 
+pasumpuaka -
+to make (somebody) drink (something), pasumpu 
+16) That.. in this example the verb-stem rambi is really object óf aliqkaaka, is 
+demonstrated by the possible (though somewhat unusual) construction : 0 rambi 
+iliqkaakana -
+the beating he went with, in which rambi is characterized as a 
+noun by 0 and is determined by the passive participle iliqkaak(Jjjfa. 
+22 
+-- to make (somebody) drink, e.g. pasumpua! -
+make him drink I, 
+pasumpual?ea uwe! -
+make him drink water! (XV, 34). 
+The two objects are equivalent in their possibility of construction : 
+o mia sii kupasumpuakea uwe -
+this man, I make him drink water. 
+ouwe sii kupasumpuakea mia -
+this water, I make the man 
+drink it. 
+The most frequent shades of meaning are: 
+A. "for, in behaH of, intended for" etc. 
+dikaaka -
+to place for, in behalf of, dika -
+to place. 
+dawuaka -
+to give to (somebody), dawu -
+to give (sornething). 
+bacaaka -
+to read, recite for (somehady) (VII, 2; VII, 25), baca 
+-
+to read, to recite. 
+B. 
+"with, by help of" etc. 
+bebeaka -
+to hit with (XV, 21), bebe -
+to hit. 
+tudaaka -
+to pelt (somebody) with (something) (XI, 9), tuda -
+to throw. 
+tambuniaka -
+to fill up with (VII, 20), tambttni -
+to fill up. 
+c. In same sterns a distinction is made between two different meanings 
+of the -aka2-form by using or not using a special bound farm, e.g. 
+rambitaka -
+to make a beating movement with (XV, 13: rambi-
+taka karona -
+to beat about one's body) (type b. 1), 
+rambiaka -
+to hit with (XI, 10: rambiakea kau -
+to hit him with 
+a stick) (type b. 3. B.), to beat for (V, 16: to beat (the drums) for 
+(the feast contributions» 
+(type b. 3. A.), rambi -
+to strike. 
+tauraka -
+to put down (VI, 9) (type b. 1.), 
+tauaka -
+to bring down for (XII, 22) (type b. 3. A.), 
+tau -
+to bring down. 
+d. In case of combination of different meanings the suffix -aka2 is 
+used twice: 
+combination of type b. 1. with type b. 3. B.: 
+taanakaaka -
+to catch with (XIII, 32), taanaka -
+to catch, taa-
+to stretch, to put across. 
+combination of type a. 2. with type b. 3. A.: 
+taburakaaka -
+to drop for (XIII, 20), taburaka -
+to drop, taburi 
+-
+to overwhelm. 
+The relation between suffix -i and suffix -aka2 is clearly demonstrated 
+by those roots showing bath formations, e.g. 
+aba -
+to ask, abaki -
+to ask (somebody), abaaka -
+to inquire 
+af ter (something). 
+23 
+taqi -
+to weep, taqisi -
+to cry over (somebody), taqiaka -
+to 
+bewail (sornething). 
+taburi -
+to fall upon, taburalla -
+to drop (sornething). 
+tutuki -
+to pulverize, tutlwka -
+to pound in behalf of. 
+As the -i-sterns of those roots of which na -aka-sterns occur agree in 
+rneaning with the -i-sterns of roots having both farms, and the -aka-
+sterns of the roots having na -i-sterns agree in rneaning with the -aka-
+sterns of the roots having bath, the opposition between -i- and -aka2 
+in general is dear. Besides -i and -a/?a2 are not l11utually exdusive. 
+There are same -aka2-forrns c1erived frorn -i-sterns. Frorn the bound 
+root *bubu occurring in bubualm -
+to cover with, is derived buburi -
+to strew upon, and this is the base of buburiaka -
+to strew with. 
+XIV. Suffix -aka3 • 
+The sterns with this suffix are all intransitive. 
+The irnl11ediate constituent is either a nurneral or a compound consisting 
+of a nUl11eral (junction-forrn) and a nurneral coefficient (see: "The 
+Phrase", 5. 1. A. 5.) : 
+Siseaka -
+to be first, sise -
+one. 
+ruaaquaka -
+to be the second (thing), rua aqu -
+two (things). 
+limamiaaka -
+to be the fifth (man), lima mia -- five (men). 
+Frorn the syntactical rules governing the use of the participles (see: 
+"The Sentence" , 5. 2. (5).) it is easily understoocl that especially the 
+active participle of these sterns occurs: mopatamiaakana -
+the fourth 
+(man). 
+XV. Reduplication. 
+By reduplication of the roots of ma-sterns fac-
+titive sterns are formed approximating pe-sterns of ka-nouns (IX, e, 1.) 
+in rneaning: 
+dakidaki -
+to ruin, madaki -
+to be ugly, bad. 
+lapelape -
+to put right, malape -
+to be right, fine, good. 
+romburombu -
+to dirty, marombu -
+to be dirty. 
+As a matter of course these reduplication-sterns are all transitive. 
+C. Compound stems consist of two (or possibly more) roots (aften 
+with prenasalization of the initial consonant of the second, if there is 
+one) together forming one word, e.g. 
+penamiqkuku -
+to eat little-by-little, penami -
+to taste, kuku -
+periwinkIe (XIII, 23). 
+The example given shows that penamiqkuku is transitive, a dear proof 
+that it is an entirely new word. 
+D. Phrase-stems are phrases used as verb-stems without losing the 
+characteristics of a phrase (more than one word-accent), e.g. 
+atalu mia -
+there are th ree of thern, talu -
+three, mia -
+man. 
+24 
+4. 2. (2). Declension-forms of the verb. 
+All formations called dec1ension-forms of the verb are enlargements of 
+the sterns. They are characteristic for the verb. 
+I. Declension-forms in general usc are those which are possible with 
+all sterns. They are: 
+a. The actor-prefix es: 
+a- third person, aliqka -
+he, she, it goes, they go; 
+u- second person, uliqka -
+you go; 
+ku- first pers on singular, Iluliqka -
+I go; 
+ta- first person plu ral (also second pers on in courteous speech), 
+taliqka -
+we go. 
+b. Prefix be-. The actor-prefixes have their place at the very 
+beginning of the form. Only the prefix be- may precede the actor-
+prefix. The meaning of this prefix is: future, intention, supposition. 
+beaumba -
+it wilt come (VI, 1). 
+bcakompasimea -
+he wanted to c1imb into it (XIII, 16). 
+beugaugauaka -
+you are prabahly telling lies (XII, 38). 
+c. Prefix posa-. If an actian is performed by more than ane person 
+together, the prefix of the third person may be combined with a 
+prefix posa-. This prefix has its place immediately before the sterns 
+af ter the actor-prefix. 
+aposaumba -
+they come together (V, 6). 
+aposapenepene -
+they come up together (VII, 17). 
+d. Prefix mo-. This_prefix makes active participles and has the 
+same place as the actor-prefixes. mo- and the actor-prefixes are 
+mutually exc1usive. 
+kapala mopolaka -
+airplane (flying ship), polaka -
+to fly. 
+kapala molea -
+submarine (diving ship), lea -
+to dive. 
+This form may have object-affixes (see below) : 
+mobacaakea -
+reciting for him (VII, 2), bacaaka -
+to recite for. 
+bel1·wkompasia -
+who is to c1imb into it (XIII, 18), kompasi -
+to 
+climb into. 
+molawatia -
+receiving him (VII, 12), lawati -
+to receive. 
+In most cases mo- appears in combination with suffix -na: 
+momatena -
+dead man (VII, 12), mate -
+to be dead. 
+momboorena -
+remaining (VII, 18), mboore -
+to remain. 
+mokoonana -
+scaly (XV, 94), koona -
+to have scales. 
+-na always fails to appear with mo-forms having object-affixes and in 
+fixed combinations (like kapala mopolaka etc.). 
+25 
+e. Prefix toi- combined with suffix -akana. This combination of 
+affixes forms causative participles: 
+toiliqkaakana -
+that which causes (someone, something) to go, 
+liqka -
+to go. 
+toimateakana -
+cause of death, mate -
+to die. 
+The prefix mayalso be i- : 
+ikobuluakana -
+the cause of having feathers (XII, 19), kobulu -
+to have feathers. 
+f. Prefix sa-. A verb-stem with prefix sa- denotes a fact immedi-
+ately preceding 17). The actor is denoted by a "possessive" suffix 
+(see helow under "The Noun", 4. 3. (2).). 
+saka'Wamami, -
+after we had reached (XII, 14), kawa -
+to come. 
+saraqona -
+af ter she had heard (XII, 21), raqo -
+to hear. 
+samondona -
+when they were ready (XII, 28), mondo -
+to be 
+ready. 
+g. Reduplication of the verbstem shows the following division: 
+1. Reduplication of the stem. Meaning: intensity, plurality, iteration. 
+kupenapenamiqkukupea -
+I shall eat them up little-hy-little 
+(XIII, 23), stem: penamiqkuku. 
+abencibencimo -
+she tore up (XV, 29), benci -
+to tear. 
+apatipatiumba -
+he continuously showed (IX, 8), patiumba -
+to 
+show. 
+amapimapii -
+they are ill (IV, 11), mapii -
+to he ill. 
+The meaning of plurality entails frequent comhination with prefix 
+posa-. 
+aposambulimbulimo -
+they all go home (V, 23), mbuli -
+to go 
+home. 
+aposapenepenemo -
+they all come up (VII, 17), pene -
+to 
+come up. 
+2. Reduplication of the root. Meaning: weakening, diminution. 
+mapiipii -
+to be slightly ill, mapii -
+to be ill. 
+malaqalaqa -
+to be rather tall, malaqa -
+to he tall. 
+poopooli -
+to he on the mending hand, pooli -
+to he better (a 
+sick person). 
+abuntubuntulimo -
+he trotted (XIV, 11), abuntulimo -
+he ran 
+(XIV, 9). 
+The following forms show irregularities in meaning: 
+form 2, meaning 1: 
+17) The way in which sa-forms are used will he described later, see 5. 2, (4) b. 
+26 
+* 
+anwkatukatu -
+it broke to pieces (XV, 21), makatu -
+to break. 
+form I, meaning 2: 
+masomasodo -
+to be rather warm, 11wsodo -
+to be hot (but more 
+regular: masodosodo -
+to be a little feverish). 
+As a matter of course the formal distinction between 1 and 2 does not 
+exist with root-sterns. 
+3. Reduplication of a root may involve a special meaning sa that it 
+gets the function of a "secondary" root which implies parallel 
+formations of both the reduplicated and the non-reduplicated root. 
+gau -
+to speak, gaugau -
+to lie. 
+sumpu -
+to drink, sumpusumpu -
+to drink spirits in company 18). 
+One case does not exclude the other. Besides the special meaning of 
+"to drink spirits" (3) sumpusumpu may have the meaning "to drink 
+continuously, to a great quantity" (1) (e.g. XIII, 40). 
+II. Declension-forms of limited use: 
+1. Declension-forms of the transitive verb-stems. 
+a. The object-affixes of the transitive verbs are: 
+Si.tffixes: -a third person, 
+-ko second person singular, 
+-komiu second person plural, 
+-kami first person plu ral exclusive, 
+-aku first pers on singular. 
+Prefix: maqa- first person plural inclusive. As to this prefix, it has 
+to be remarked that nwqa- has its place immediately bef are the stem 
+and after the actor-prefix: ama.qapaali -
+he has made us buy 
+(XIII, 43) 19). 
+The suffix -a has this form only with stems having -i, -e, -0, or -u as 
+final vowel. With stems having -a as final vowel the following allo-
+morphs appear: 
+-w: 1. when the penultimate vowel is not a, 
+2. when the penultimate vowel is a not separated from the final 
+a by a consonant. 
+-ea: When the penultimate vowel is a separated from the final -a by 
+a consonant, the final -a is replaced by -ea. -ea also occurs when 
+suffix -tnO or -po is used at the same time. The -0 of these suffixes 
+is replaced by -ca. 
+18) Drinking in pubs (batluana sltmpusumpua) is a common pastime for men in 
+Buton, though drunkenness in public is looked at as an infamy. 
+19) It must he taken into consideration that maqa- denotes the object of the 
+causative verb. The fact that "we" is the actor of the verb "to buy" (ali) does 
+not matter. 
+27 
+taburakaakaaku -
+drop for me (XIII, 20), stem: taburakaaka. 
+aanuko -
+he teases you (XII, 4), stem: anu. 
+aabakikomi14 -
+he asks you (XV, 75), stem: abaki. 
+adawukami -
+he has given to us (XV, 81), stem: dawu. 
+arno,qapaali -
+he makes us buy (XIII, 43), stem: paali. 
+beamataua -
+he will know it (XIV, 26), stem: matau. 
+apotttmpoa -
+they cut it (XIII, 5), stem: potumpo. 
+ukandea -
+you eat it (XV, 25), stem: kande. 
+asaroqia -
+he supposes it (XIV, 44), stem: saroqi. 
+aparahatikaia -
+he takes notice of it (XIV, 40), stem: parahatika. 
+kupapesuaia -
+I make him enter (XII, 41), stem: papesua. 
+asikisaaia -
+he punishes her (XV, 23), stem: sikisaa. 
+kukarno,tea -
+I see them (XIV, 23), stem: kamata. 
+apajeremea -
+he followed him (XIV, 42), stem: pajere + -mo. 
+kupenami,qkukttpea -
+I shall eat them up little-by-little (XIII, 23), 
+stem: penamiqkuku + -po. 
+b. A passive participle is formed with prefix i- which has the same 
+place as the actor-prefix. The actor may he denoted by a possessive 
+suffix (see helow: 4. 3. (2), a.). 
+tabako itaqe -
+cigarette (wrapped tobacco), taqe -
+to wrap. 
+beikarajaa -
+that which will be done (V, 3), karajaa -
+to do, 
+to work. 
+ikamatamu -
+seen by you, karno,ta -
+to see. 
+ikandena -
+eaten by them (I, 3), kande -
+to eat. 
+c. A passive verb-stem is formed with prefix to- which has its place 
+immediately before the verb-stem and af ter the "actor-prefix". 
+This "actor-prefix" 20) denotes what would be the object of the 
+active verb-stem. What would be the actor of the corresponding 
+active stem is never mentioned. The stems with prefix to- are 
+treated as ordinary verb-stems, so they may have the actor-prefixes 
+and other declension-forms in general use. 
+atopambuli -
+they are sent home (V, 20), pambuli -
+to send home. 
+atopaajo -
+they are attired (V, 19), paajo -
+to attire. 
+atobawa -
+they are brought (V, 19), bawa -
+to bring. 
+motopaisilamuna -
+being circumcised (V, 14), paisilamu -
+to 
+circumcise. 
+The distinction between the i- and the moto-participle consists in the 
+possibility of mentioning the actor with the i-form and the impossibility 
+of doing so with the moto-form. 
+20) Placed between quotation-marks because of the difficulty of the terminology. 
+28 
+* 
+Some to-stems occur which do not correspond to transitive verb-stems 
+but are derived from nouns. They denote involuntary actions. 
+atorampe -
+he was washed ashore (XII, 33), rampe -
+flotsam 
+(XIII,3). 
+tota1i -
+to discharge, taSi -
+faeces. 
+tole' e -
+to urinate, Ie S e -
+urine. 
+d. A passive potential particiPle is formed with prefix toi- which has 
+the same place as the actor-prefixes have, e.g. 
+toikarajaa -
+what can be made, is to be made, karajaa -
+to make. 
+2. The ma-sterns and some root-sterns have a special form with 
+suffix -aka4 with comparative meaning: 
+maoge -
+to be great, maogeaka -
+to be greater. 
+matau -
+to know, matauaka -
+to know more, better. 
+mandaria -
+to be little, mandariaaka -
+to be less. 
+cilaka -
+to be unlucky, cilakaaka -
+to be more unlucky. 
+** 
+29 
+TIIE NOUN 
+4. 3. (1). The noun may be: A. a root, B. a derivation, C. a com-
+pound. The compounds and the greater entities which have the syntac-
+tical functions of nouns are discussed under "Syntax". 
+A. 
+Roots. Root-nouns show no peculiarities to be discussed here: 
+ndamu -
+axe, kau -
+wood, mantorosu -
+sailor. 
+B. Derived nouns show the following classes: 
+I. Prefix pe-. The immediate constituent is a root-noun. Only one 
+example is Iisted: 
+pekumbi -
+ulcer, kU111bi -
+wound. 
+11. 
+Prefix peka-. Only one example is found. The immediate con-
+stituent is a verb-root: 
+pekapoqko -
+murderer, poqko -
+to murder. 
+lIl. Prefix po-. The immediate constituent is a verb-stem: 
+pototo -
+equilibrium, toto -
+to be right. 
+poabaaka -
+kinsman of uncertain remove, abaaka -
+to ask for. 
+IV. 
+Infix -in- is found in a few nouns only: 
+kinande -
+food, meal, kande -
+to eat. 
+tinauraka -
+heritage, tauraka -
+to leave behind, to put down. 
+As shown here the immediate constituent is a verb-stem and the infix 
+is inserted before the first vowel of this stem. 
+V. 
+Prefix pino- occurs in terms of kinship only: 
+pinomna -
+uncle, ama -
+father. 
+pinoina -
+aunt, ina -
+mother. 
+Pinoana -
+nephew, niece, ana -
+chiId. 
+pinoopua -
+great-uncle, great-aunt, opua -
+grandfather, grand-
+mother 21). 
+VI. 
+Prefix tope-. Some terms of kinship are derivated from numerals 
+to which the prefix tope- is added with prenasalization of the initiaI 
+consonant (if there is one). 
+21) Comparison with other lndonesian languages makes it probable that pino-
+has evolved from combination of prefix po- and infix -m- (cf. Old-Javanese: 
+paman and penan). But from a synchronical point of view it can not be split up. 
+30 
+* 
+topentalu -
+third cousin, talu -
+three. 
+topeapa -
+fourth cousin, apa -
+four. 
+Irregular is: topendua -
+second cousin, jua (or rua) -
+two. 
+VII. Prefix ka-. Most nouns with prefix ka- are derived from verb-
+sterns. The best way to classify them seems to be the following: 
+a. ka-forms derived from root-sterns: 
+kagagari -
+counting-frame, gagari -
+to count. 
+kabari -
+number, quantity, bari -
+to be many, much. 
+kasambure -
+broom, sambure -
+to sweep. 
+kataqkesi -
+shield, taqkesi -
+to ward off. 
+b. ka-forms derived from derived sterns: 
+kapadola -
+instrument to hold out, padola -
+to hold out, dola -
+to jut out. 
+kasuluwi -
+instrument to light, suluwi -
+to light, sulu -
+torch. 
+c. ka-forms corresponding with verb-stems with prefix ma- are 
+derived from the roots of these ma-sterns so that it may be said 
+that ma- is. replaced by lw-. They have for the greater part the 
+meaning of verbal substantives. 
+kapii -
+ilIness, mapii -
+to be ill. 
+kaputi -
+whiteness, maputi -
+to be white. 
+kasodo -
+warmth, masodo -
+to be warm. 
+kaliqu -
+forgetfulness, maliqu -
+to forget. 
+But other meanings also occur: 
+kapasa -
+sherd, mapasa -
+to be broken. 
+kaboqo -
+ear-drum, maboqo -
+to be deaf. 
+kakolo -
+pickles (but also: sourness), makolo -
+to be sour. 
+kapupu -
+remainder, mapupu -
+to be out, to be gone. 
+d. The immediate constituent mayalso be another bound root: 
+kaaru -
+ladle, aruki -
+to work loose (rice from a pot). 
+e. A solitary instance of a ka- noun derived from a noun is provided 
+by kapaso -
+wedge of a lathe, paso, nail, peg. 
+f. The prefix ka- is combined with reduplication of the root in: 
+kaanuanu -
+teasing, anu -
+to tease. 
+kainainawu -
+compound (of a house), inawu -
+garden. 
+kabaabaa -
+wig, baa -
+head. 
+g. matuu -
+to be dry, to ebb, has two ka-derivations: 
+regular: katuu -
+dryness, ebb-tide, 
+irregular: kamatuu -
+shell-fish. 
+31 
+* 
+VIII. Suffix -a. Nouns derived with suffix -a show approximately 
+the same shades of meaning as those with prefix ka- (see: VII, a, b). 
+Tbe immediate constituent may he: 
+a. a verb-root: 
+kolema -
+sleeping-place, kole -
+to sleep. 
+kandea -
+meal, kan de -
+to eat. 
+saqoa -
+lap, saqo -
+to hold on one's lap. 
+pakea -
+c1othes, pake -
+to wear, to put on. 
+b. a derived verb-stem: 
+pekaperaa -
+spittoon, pekapera -
+to spit out red spittle, kapera 
+-
+red betel-spittle. 
+posuoa- locking up (of girls), posuo -
+to stay in the backhouse, 
+suo -
+backhouse. 
+podawua -
+distribution, podawu -
+to distribute, dawu -
+to give. 
+e. a bound root: 
+pikira -
+thought, pikiri -
+to think, to consider. 
+d. a noun: 
+bulua -
+head of hair, bulu -
+hair. 
+pasola -
+axle of a lathe, paso -
+nail, peg. 
+IX. Prefix ka- combined with suffix -a. The combination of these 
+two affixes gives no more new shades of meaning. Again the immediate 
+constituent may be: 
+a. a verb-root : 
+kabaneuleka -
+the opposite, reverse, bancule -
+to turn (round). 
+kalaria - lathe, lari -
+to turn. 
+kapadaa -
+end, last phase, pada -
+to be ready, to be at an end. 
+kabaria -
+crowd, bari -
+to be many, much. 
+b. a derived verb-stem: 
+kapepuua -
+beginning, pepuu -
+to begin, puu -
+stem. 
+kapeqkenisa -
+banister, handle, peqkeni -
+to keep hold of, keni 
+-
+to have in one's hand. 
+e. a bound root: 
+kararea -
+bed, bedroom (of a prince), marare -
+to sleep (a prince). 
+d. a noun: 
+kasupia -
+tweezers, supi -
+pair of tongs. 
+As already has been remarked and is shown by the given examples, 
+there is no obvious contrast in meaning between the ka-, the -a-, and 
+the ka--a-nouns. Only prefix ka- has a peculiar trait in those ka-nouns 
+which are connected with ma-verbs (VII, e.). However from some roots 
+32 
+forms in two of these three groups are derived which show opposition 
+in meaning: 
+dawua -
+fortune, kadawu -
+present, dawu -
+to give. 
+kabari -
+numher, quantity, kabaria -
+crowd, ban -
+to he many, 
+much. 
+karido -
+distance, karidoa -
+remoteness, mando -
+to he far 
+away. 
+tootooroa -
+sitting, katootooroa -
+seat, tootooro -
+to sit. 
+X. Suffix -aka5 • Only one example is found of this suffix showing 
+great resemblance in meaning with suffix -a: 
+lwndesaka -
+food, kande -
+to eat. 
+XI. 
+Suffix -i. This suffix is found in one noun only: 
+buani -
+casting-net, bua -
+to pull up. 
+XII. 
+Prefix pe- in combination with suffix -i. Only one instance is 
+Iisted: 
+peincai -
+character, inca -
+heart. 
+XIII. Prefix ka- combined with suffix -aka. A solitary instance of 
+this combination showing again the resemblance of -aka with suffix -a 
+already mentioned (see under X) is provided by: 
+kauncuramaka -
+seat, uncura -
+to sit. 
+* 
+** 
+XIV. Reduplication. Nouns formed with reduplication are all derived 
+from roots. These roots may be: 
+a. nouns: 
+ana -
+child (offspring), anaana -
+chiId (youngster). 
+sara -
+council, sarasara -
+ceremonies. 
+kalimpopo -
+star, kalikalimpopo -
+fire-fly. 
+malo -
+night, maloWU110 -
+morning. 
+b. verb-roots: 
+lumbu -
+to sweII, lumbulumbu -
+slobber, boiI. 
+hole -
+to bake, holehole -
+sweeties. 
+liqu/iqu -
+maze, is derived from a bound root *liqu occurring in 
+maliqu -
+to forget. 
+4. 3. (2). Declension-forms of the noun. 
+a. The possessive suffixes. This term, though not fully adequate, 
+gives a sufficient indication of the meaning of these suffixes. 
+Theyare: 
+-na for the third person: balluana -
+his, her, their, its house. 
+-mu for the second person singular: banuamu -
+your house. 
+-miu for the second person plural : banuamiu -
+your house. 
+-ku for the first person singular: banuaku -
+my house. 
+33 
+* 
+-ta for the first person plural inclusive (and the second person in 
+courteous speech): banuata -
+our (your) house. 
+-mami for the first person plural exclusive: banuarnami -
+our 
+house. 
+b. Prefix ko- combined with suffix -na has the meaning of an in-
+definite possessive: "somebody's": 
+kobanuana -
+somebody's house. 
+lwinawuna -
+somebody's garden (XII, 39). 
+c. Some nouns have reduplication as an obligatory plural-formation, 
+e.g. kampo -
+village, kampoka1npo -
+villages (II, 6). 
+d. More general is the reduplication to form diminutives: 
+umala -
+river, urnaumala -
+brooklet. 
+piso -
+knife, pisopiso -
+small knife. 
+ban ua -
+house, banubanua -
+small house. 
+batu -
+stone, batubatu -
+small stone. 
+e. Prefix sa- is the only declension-form of limited use of the 
+noun. It occurs with those nouns which are especially used in 
+counting and therefore are called numeral coefficients. lts meaning 
+is: one. Further particulars are found under "The Phrase", 
+5. 1., A, S. 
+34 
+SYNTAX 
+5. O. 
+In syntax we may distinguish two fundamental elements: the 
+sentenee and the phrase 22). The sentence is more primary than the 
+phrase, but for practical reasons it seems more suitable to discuss the 
+phrase first. 
+THE PHRASE 
+5. 1. 
+The phrase is a sequence of words marked by a special into-
+nation consisting of a rising contour over all the words of the phrase, 
+each word having a higher pitch than the preceding one, whereas the 
+last word of the phrase has a special phrase-accent. This phrase-accent 
+consists of the antepenultimate vowel having a pitch nearly as high 
+as the penultimate vowel and sometimes still higher. This phrase-accent 
+is of course not audible when the penultimate and antepenultimate 
+vowels of the last word of the phrase are identical and not separated by 
+a consonant as in such words the antepenultimate vowel always has the 
+same high pitch as the penultimate vowel (see "The Word", S. 2.). 
+Besides by the phrase-accent, the phrase is marked by the fact that it 
+is pronounced as a whole without a pause between the words whereas 
+a short pause is normally heard between two phrases. The separate 
+words in a phrase are marked by the word-accent only. 
+The beginning and the end of phrases may be marked by those words 
+which have always an initialor final place in the phrase. These phrase-
+initialor phrase-final words will be mentioned bel ow in the discussion 
+of the various types of phrases. 
+A phrase may consist of one or more than one word. But, though 
+phrases of more words are not unusual, it is remarkable that a very high 
+percentage of the phrases in Wolio consists of one word only. 
+The phrases are discussed here according to six types: A. substantive-
+phrases, B. preposition-phrases, C. verb-phrases, under D. are discuss-
+l\2) No mention is made here of the word as a syntactical element because it 
+always constitutes a phrase or forms part of a phrase. 
+35 
+ed those elements which occur in different kinds of phrases, E. phrases 
+having te, ara or atawa, F. phrases having ne, ka or ~o. 
+These types of phrases may consist of one or more than one word. 
+Those phrases which never consist of more than one word are not 
+discussed here. 
+A. Substantive phrases consist of a noun or a pronoun with or without 
+an attribute: 
+bae -
+rice (II, 4). 
+opea -
+what? (I, 3). 
+komiu -
+you (XV, 27). 
+The attribute may he: 
+1. the article o. This article always precedes the substantive. The 
+meaning of 0 can not he described as definite or indefinite, its 
+function being that of marking the following word (or words) 
+as a separate phrase 23). 
+o kariaa -
+the feast (V, 24). 
+o 'AraQu -
+an Arab (IX, 1). 
+o sii -
+this (XII and XIII, title). 
+o iaku -
+I. 
+2. the plural-marker maqa. Maqa has its place immediately before the 
+substantive : 
+maqa wutitinai -
+the relatives (VI, 2). 
+1naqa incema -
+who (pI.) (VII, 2). 
+maqa anaana sii -
+these children (XV, 9). 
+When 0 is also added it precedes maqa: 
+o maqa mia -
+the people (VII, 12). 
+o maqa hoo -
+the herons (XII, 29). 
+o maqa buea -
+the crocodiles (XIV, 44). 
+The use of maqa depends on whether or not the speaker wishes to ex-
+press an explicit plural. It fails to appear when the plural is expressed 
+in some other way: by numerals and the like, and with personal pro-
+nouns which have different forms for singular and plu ral. But the 
+personal pronoun 3d person which does not express thc number may in 
+case of heing plural appear with (or without) maqa: maqa incia -
+they. 
+The arbitrariness in thc use of maqa is clearly demonstrated by the 
+following example: limana te maqa aena -
+his arms and legs (XI, 4). 
+When a noun has the possessive suffix 3d person, maqa may be added 
+23) There are some exceptions which will he discussed later. 
+36 
+to denote the meaning of plurality of this 3d person. In that case maqa 
+follows the noun, e.g. kapeeluna maqa -..,. their whishes. This also occurs 
+with a passive participle: ikandenamaqa -
+what is eaten by them 
+(I, 3). 
+3. a preposition with a substantive: 
+o daoa i Baubau -
+the market in Baubau (Il, 1). 
+maqa mia i Wolio -
+the people in Wolio (I, 1). 
+boku to incia -
+the book for him. 
+As these examples show this attribute follows the substantive. 
+4. demonstrative words. The demonstrative words are: sii -
+this, 
+these, humai or sumai, that, those, itu -
+that, those (at a greater 
+distance). They are always the last word of the phrase. 
+o sikola humai -
+these schools (IIl, 6). 
+maqa mia humai -
+those people (Il, 7). 
+maqa anaana sii -
+these children (XV, 9). 
+Sometimes sii or humai is immediately preceded by incia -
+he, she, it. 
+The meaning is then "above-mentioned". 
+o kolo'uma incia sii -
+these snails (already mentioned) (X, 3). 
+S. a numeral (junction-form). The numeral precedes the noun. This 
+noun is one of a special group caUed "numeral coefficients". The 
+most important numeral coefficients are: 
+mia (man), for human beings, 
+(m)baa (head), for animaIs, 
+puu (stem), for trees, 
+boka (set), for all things having the shape of a dish or bowl, like 
+dishes, nut-shells, etc., 
+take (sheet), for pieces of paper, leaves, etc .. 
+taqe (roll) , for cigarettes etc., 
+(m)bali l ( 'd ) 
+wala 
+~ 
+SI e , 
+giu (kind), 
+mpearo 
+~ (' 
+) 
+l . 
+time, 
+wu~qa 
+taqa (half), 
+tumpo (internode), for sugar-cane etc., 
+dodo (piece, cut or drawn off), 
+ide (piece ), 
+aqu (piece), for all kinds of things not belonging to the range of 
+other numeral coefficients, 
+and all words denoting measures and weights or spaces of time, e.g. : 
+37 
+kilo (kilometre), 
+metere (metre), 
+kaki (foot), 
+beqke (measure of capacity of -+- 1 litre), 
+pikulu (load, -+- 62,5 kg.), 
+bau (superficial measure of -+- 7000 012), 
+tao (year), 
+(m)bula (month), 
+eo (day) , 
+malo (night, space of 24 hours) , 
+!::;; ~ (week). 
+'aharji ~ 
+As to the form of the numerals the following is to be remarked: 
+A special junction-form, differing from the "independent" form which 
+always constitutes a separated phrase and is used in counting without 
+mentioning the thing which is counted, is only found with: 
+2 (independent: jua, junction-form: rua), 
+4 (independent: apa, junction-form: pata) , 
+6 (independent: 'ana, junction-form: nama). 
+The place of "one" in the series of the junction-forms of the numerals 
+is taken by the prefix sa- (see 4. 3. (2), e.): 
+samia -
+one man 24). 
+sampearo -
+one time. 
+This may be preceded by daaqia which makes it indefinite: 
+daaqia samia -
+a certain man. 
+daaqia saaqu wakutuu -
+once upon a time (XIII, 1). 
+The interrogative numeral pia appears in the same way as the other 
+numerals, also when it is preceded by daaqia or ara which gives it an 
+indefinite meaning (some, a number of) : 
+pia wuliqa -
+how many times? (II, 1). 
+ara pia mala -
+some nights (V, 32). 
+daa.qia pia malo -
+a few days (XI, 22). 
+Ara pia also appears in indirect questions (e.g. XIII, 10). 
+Baa, bula, and bali always show prenasalization of the initial consonant 
+in this construction : 
+24) It is to he remarked that the coefficient and counted object may be 
+expressed by one word, as is the case in this example. 
+38 
+sambali -
+one side. 
+rua mbaa -
+two (animais). 
+lima mbula -
+five months. 
+This is also of ten the case with take, so: satake or santake -
+one sheet. 
+Pulu -
+ten, atu -
+hundred, and rewu -
+thousand, appear as numeral 
+coefficients : 
+sapulu -
+ten. 
+pata atu -
+fourhundred. 
+nama rewu -
+six thousand. 
+But these numeral coefficients may precede one of the series mentioned 
+above in the same way as the numbers 2-9 : 
+saatu tao -
+hundred years. 
+sapulu miet -
+ten men. 
+In combinations of numbers of different order the higher units precede 
+the lower ones, so the thousands come first, then the hundreds, then 
+the tens, and the units last: 
+saatu nama pulu saaqu -
+161 (pieces). 
+Combination of numeral with numeral coefficient and noun in one 
+phrase occurs only in those cases in which the number is not emphasized : 
+rua aqu banua -
+two houses. 
+As this seldom is the case when the number is mentioned, the normal 
+order is that a phrase contàining the noun precedes and the numeral 
+and numeral coefficient follow in a second phrase: 
+loka sapuu -
+one banana tree (XIII, 4). 
+karatasi satake -
+one sheet of paper. 
+anana rua mia -
+their two children (XV, 1). 
+A numeral with a numeral coefficient denoting a measure may be folIo-
+wed by a noun denoting the kind of measure in question: 
+talu pulu kilo karidona -
+thirty kilometres in distance (II, 8). 
+pitu gusi kabarina -
+tubs seven in number (VIII, 1). 
+li1na malo kaqeqena -
+five days in duration (V, 25). 
+Aqu is the only numeral coefficient which never appears without a 
+numeral. All other numeral coefficients may occur in the same way as 
+other nouns, whereas only baa, bula and bali (and, but not always, take) 
+show the difference between prenasalized and not prenasalized form. 
+6. Repetition of a numeral coefficient with prefix sa- constitutes a 
+special phrase with the meaning of "each .... ". 
+saeo saeo -
+each day (XIII, 14). 
+samia samiet -
+everybody (V, 4). 
+39 
+The coherence of the two words is so great that suffixes are always 
+attached to the last one : 
+sagiu sagiuna -
+each kind of them (II, 4). 
+saeo saeomo -
+every day (V, 15). 
+7. Indefinite numerals : 
+maliq" -
+all, every, 
+sagaia -
+all, all kinds of, 
+baribaria -
+all, each, one and all. 
+These three words precede the noun. When it receives more emphasis, 
+baribaria may follow it, but then it is a second phrase. 
+maliqu hoo -
+all herons (XII, 24). 
+sagala giu -
+all kinds (of things) (II, 4). 
+baribaria /oka masasa humai -
+all the ripe bananas (XIII, 19). 
+maliqu hoo baribaria -
+all herons together (XII, 28). 
+Although maliqu, sagala, and baribaria have the same place as the 
+numerals, they do not share the characteristic of the latter of being 
+combinable with the numeral coefficients only. 
+8. A second noun. A noun having a noun as attribute precedes this 
+attribute and has the suffix -na. The attribute never has the 
+artic1e o. 
+o bakena loka sumai -
+the fruits of this banana (XIII, 24). 
+buluna panina -
+the feathers of his wings (XII, 22). 
+kabat'ina sikola i W olio -
+the number of the schools in Wolio 
+(II, 4). 
+As shown by the examples given the attribute may have its own attri-
+bute(s). The attribute never is a personal pronoun because such a 
+relation is sufficiently denoted by the possessive suffixes. 
+When the attribute is emphasized it constitutes a separate phrase: 
+o $umuruna 0 andi -
+the age of the youngest (IV, 9). 
+o kapepftuana 0 kariaa -
+the beginning of the feast (V, 11). 
+Tbe suffix -na is missing when the attribute is a name of material : 
+banua kau -
+a wood built house. 
+pau bia -
+a parasol of tissue. 
+The suffix is also absent from the word pandc in many names of 
+professions : 
+pande temba -
+hunter, rifleman. 
+pande ase -
+smith. 
+Some derived nouns with suffix -a ma)' occur as attribute of a noun 
+without the latter having suffix -na: 
+kariaa kawia -
+wedding feast (V,S). 
+40 
+banua matea -
+hou5e of a deceased person (lit.: house of decease) 
+(VII,7). 
+Some fixed combinations of nouns also show the absence of suffix -na. 
+They may be considered as a kind of compounds as all suffixes are 
+attached to the last noun, but both nouns have their own word-accent. 
+kapulu kasumbele(na) -
+(his) slaughter-knife (XIII, 52). 
+bulu muncu( na) -
+(his) moustache. 
+The meaning of such phrases is usually a special one and in some of 
+them an opposition exists with the normal construction with suffix -na 
+attached to the first noun: 
+qinci mantoa -
+eye-tooth (lit.: dog-tooth). 
+qincina mantoa -
+a dog' s tooth. 
+9. A finite verb-form. When the attribute of a noun is a finite verb-
+form, this verb-form follows the noun and the noun usually has 
+the suffix -na: 
+wakutuuna aumbamo -
+the time that he came (XI, 22). 
+heqgana beawmbamo -
+the time that it is about to come (VI, 1). 
+But the suffix -na may be lacking: 
+haejati apaka'lvi -
+the plan to arrange a marriage (V, 2). 
+10. A participle. The participle follows the noun: 
+mia bemogoraakea -
+someone who should call to him (XIII, 34). 
+umane moka'lvi -
+bridegroom (V, 13). 
+ba'lvine ipaka'lvi -
+bride (V, 13). 
+The participle may have its own attributes: 
+kambakamba itobena i dala -
+flowers picked along the roadside 
+(V,29). 
+rampe itauna mawa -
+flotsam carried down by the flood (XIII, 3). 
+o mia momakidana abaca ara aburi -
+people who can read or 
+write (111, 1). 
+11. an adjective in stem-form 25). The adjective follows the noun: 
+o mia mate -
+the dead man (VII, 9). 
+bia maputi -
+a white cloth (VII, 10). 
+o saçjati maqeofje -
+the old customs (IV, 22). 
+12. The negation mincuana26). Mincuana only occurs with substantives. 
+25} The adjectives are a sub-c\ass of the verbs. This suh-c\ass consists of the 
+verbs having prefix ma- and some root-verbs. Their most striking characteristic 
+in distinction to the other verbs is the construction mentioned here: stem-
+form as attribute of a noun. This does not mean that adjectives have no parti-
+cipies but these participles are only used as nouns: 0 momatena -
+the dead 
+(man). 
+26} The term "negation" is rather arbitrary as the meaning of mincuana is 
+negation of the olie in distinction to another, e.g. "not X (but someone else)". 
+41 
+It precedes the substantive: 
+mincuana iaktt -
+not I. 
+mincuana gala -
+not sugar (XIII, 37). 
+13. Proper names of people belonging to the middle class may be 
+preceded by La (for men) or Wa (for women). These words only 
+occur in this position. Proper names of people belonging to the 
+nobility may be preceded by La Ode (men) or Wa Ode (women). 
+La Ode (Wa Ode) is also used as a noun, to denote people 
+belonging to the nobility, e.g. 
+kaadarina maqa Wa Ode -
+the schooling of the Wa Ode (IV, 34). 
+When the article 0 is added it precedes La (or Wa) : 
+La Musa 
+Musa (Moses). 
+o La Musa ! 
+o Musa 
+o La Ode X.~ 
+La Ode X. 
+~ Lord X. 
+B. 
+Preposition-Phrases consist of a preposition and a substantive. The 
+most important preposition is i -
+in, on, at, to, into, etc. 
+i kamali -
+to the palace (IX, 9). 
+i umala -
+to a river (XI, 16). 
+When the substantive is one of the personal pronouns of the first 
+person plural inclusive and exclusive, or of the second person singular 
+and plural which appear in two forms: a longer one: iqkita, iqkami, 
+iqkoo, and iqkomiu respectively, and a shorter one: kita, kami, koo, 
+and komiu respectively, the shorter form is preferred af ter i: 
+i kita -
+with us. 
+The substantive preceded by a preposition may have its own attributes: 
+i maqa kampokmnpo -
+in the villages (II, 6). 
+i inawuna Ulouloqkobulu -
+in the garden of Hairy-Caterpillar 
+(XII, 33). 
+But the substantive preceded by a preposition never has the article o. 
+A preposition-phrase is never aUribute of a substantive as a substantive 
+together with a preposition and its substantive is contained in one 
+phrase (see "The Substantive-phrase", 3.). The negation of a preposition-
+phrase is inda: 
+inda i bamtana -
+not in his house. 
+C. 
+A verb-phrase consists of a finite verb-form with or without 
+attributes. 
+abawamea -
+she brought him (XII, 22). 
+42 
+kumagari -
+I am cold (XII, 37). 
+ata12emba -
+they are punished (IV, 19). 
+The attribute may be: 
+1. inda and bali (not). These two words never occur with substantives 
+(as these have mincuana as negation). 
+lnda precedes the verb. It is the negation of a statement. 
+inda bekupanamisi -
+I would not suffer (XV, 25). 
+inda abari -
+they are not many (lIl, 2). 
+inda atatauraka -
+they are not laid down (VI, 9). 
+Bali is the negation of a command or a request. It precedes the verb-
+form which usually is an imperative. 
+bali alaakea -
+do not take them (XV, 11). 
+balima 27) sapa -
+do not come down (XV, 96). 
+balima ase -
+do not follow (XV, 69). 
+But sometimes, in a poli te request, the second person of the verb 
+follows boli: 
+boli usabu _. please do not jump down (XIII, 28). 
+2. maqa. Maqa denotes an explicit plural of the subject. lts place is 
+at the very end of the phrase. 
+akaliqlwliqka nwqa -
+they go by foot (II, 10). 
+inda amaqule maqa? -
+do they not get tired? (II, 12). 
+apeelomo ikane 11U1qa -
+they looked for fish (XII, 6). 
+anunumo kabencina biana inana SU11U1i 1naqa -
+they looked for 
+the torn pieces of their mother's sarong (XV, 43). 
+3. an adverb. Some adverbs always precede the verb, though not 
+necessarily immediately, e.g. 
+sadia -
+always, 
+pada -
+already, 
+daaqia -
+now, it is the case that. ... 28), 
+SO -
+only, just, 
+coba -
+just (with an imperative). 
+sadia amahaqa -
+they are always naughty (IV, 16). 
+padamo uka kudikaia -
+I have al ready put it again (IX, 10). 
+daaqia amakidikidi -
+he was small (XII, 2). 
+daaqia akeniaka mpuu -
+they held very fast (IV, 22). 
+27) The suffix -!ma will discussed later. 
+28) This adverb must be distinguished from the verb daaqia -
+there is, are. 
+daaqia pata mia -
+there are four (IV, 2). 
+daaqia opuamami -
+there was an ancestor of ours (VIII, 1). 
+This verb daaqia of ten occurs with a te-phrase (see below). 
+43 
+so aliqkamo -
+he just ran (XIV, 10). 
+so apancuru. -
+he just went on (XII, 47). 
+co ba kamatea -
+just look at it (XV, 71). 
+These adverbs also precede inda: 
+sadia inda araqoni -
+they are never obedient (IV, 17). 
+Other adverbs always follow the verb, e.g. mpttu -
+very, dadi -
+if 
+you dare (with imperative). 
+aposalamo mpuu -
+he differed greatly (XI, 3). 
+akeniaka mpuu -
+they heId very fast (IV, 22). 
+papesua dadi! -
+put in if you dare I (XII, 42). 
+4. an object. As a matter of course an object only appears with 
+transitive verbs. 
+apokawaaka kaadari -
+they are taught (IV, 24). 
+apeelomo ikane maqa -
+they looked for fish (XII, 6). 
+As these instances show the object follows the verb. The only exception 
+is opea -
+what?, which precedes the verb when forming part of the 
+same phrase : 
+opea apeqkaadariaka! -
+what do they study? (IV, 29). 
+A personal pronoun never appears as object within the same pl1rase as 
+the verb. It is replaced by an object-affix: 
+beabawea -
+he would take him (XI, 21). 
+apaumbamea -
+she said to them (XV, 74). 
+aalamea -
+they took it (XV, 54). 
+If the verb allows two objects, one of them is denoted by an object-
+affix, the other follows the verb: 
+adawttmea pasali -
+they give them a festive gift (V, 21). 
+atudaakamea batu -
+he threw stones at him (XI, 9). 
+The object may have its own attributes which are incorporated in the 
+verb-phrase : 
+anunumo kabencina biana inana sumai maqa -
+they looked for 
+the torn pieces of their mother's sarong (XV, 43). 
+temo aala parewana tanuana inana La Mbatambata -
+and he took 
+the weaving-Ioom of La Mbatambata's mother (XV, 21). 
+5. another finite verb-form. \Vhen a finite verb-form appears as 
+attribute of another finite verb-form, the latter precedes and they 
+both have the same actor-prefix. 
+amendeu asapo -
+he refused to go down (XII, 2). 
+apeelu beamataua -
+he wants to know it (XIV, 26). 
+mai sapo! -
+do come down! (XII, 45). 
+The attribute may have its own attributes: 
+44 
+apeelu sa dia akande? -
+do they always want to eat? (IV, 13). 
+amembali asapo i tana -
+they may go down to the ground (IV, 24). 
+ao.ari amboorcaka i banua -
+they usually live at home (IV, 32). 
+It must be remarked that attributes of a verb which are separated 
+phrases when the verb is predicate (e.g. a preposition-phrase) become 
+one phrase together with the verb when this verb is attribute of another 
+verb. This makes dear which of the verb-forms is atttibute to the other. 
+Attention will be drawn to the same phenomenon with all verbs which 
+are not predicate (see bel ow under "The Sentence"). 
+When the verb and the attribute are both transitive they both may have 
+an object-affix. These two object-affixes denote the same object: 
+apadea aalea -
+he finished it taking it away, i.e.: he took it all 
+(XII,20). 
+apadea alwndea -
+he finished them eating them, i.e. : he ate them 
+all up (XIII, 22). 
+The passive participle-construction corresponding with such a phrase 
+with two object-affixes shows two participles: 
+maqa rindi ipadana uka ikenina maqa mia -
+walls which people 
+had touched al ready (VIII, 4). 
+This construction corresponds with the phrase : apadea uka akenia maqa 
+-
+they finished them touching them. 
+6. A participle, whether as attribute of a noun or used as a substantive, 
+may have all attributes of the finite verb. Besides it may have the 
+construction of a noun with a noun as attribute (cf. Substantive-
+phrases, 8.). 
+mokenina kapooli -
+the one who held power (XIII, 6). 
+sadia ikandena maqa -
+what is usually eaten by them (I, 3). 
+iasona maqa mia -
+what is sold by the people (II, 3). 
+In the same way as the verb which is attribute (see above: S.), a parti-
+ciple may have attributes within the phrase which are always separate 
+phrases with a finite verb-form which is predicate: 
+ikandena maqa i nuncana talu mpearo humai -
+what is eaten by 
+them in these three times (I, 4). 
+o mia motnakidana abaca ara aburi -
+people who can read or 
+write (III, 1). 
+o nwqa mia molawatia i kabaloqko humai -
+the people who receive 
+him in the grave (VII, 12). 
+It must beremarked that the negation of the participle even when it 
+is used as a substantive always is inda: 
+45 
+inda ikobu/uakana panina sumai -
+what made that he had no 
+wing-feathers anymore (XII, 19). 
+7. Verb-forms with prefix sa- may have the same attributes within 
+the same phrase as the finite verb-forms have. Among these 
+attributes there also occur those which are separate phrases with a 
+finite verb-form which is predicate: 
+sakamatana La N dokendoke -
+when he had seen Monkey 
+(XII, 35). 
+sakawamami i tawo -
+when we had reached the sea (XII, 14). 
+sakamatana humai -
+when he had seen that (IX, 18). 
+An attribute consisting of a preposition with a substantive mayalso 
+occur as a separate phrase, as is the case in the following example 
+where the attribute i banuana follows the phrase containing the sub-
+ject of the sa-form. This subject always constitutes a separate phrase 
+(see below under "The Sentence"). 
+sakawana 0 La N dokendoke i banuilna -
+af ter Monkey had come 
+home (XII, 13). 
+D. Among those elements which occur in different kinds of phrases 
+we may distinguish: 
+1. the suffixes -mo, -po, and -aka\ 
+2. some words of which uka is the most important. 
+1. The suffixes -mo, -po and -aka1 are only formally part of the word 
+to which they are attached. Semantically they belong to the whole 
+phrase in which they appear. They are usually attached to the first 
+word of the phrase. 
+mopakaronamo galampa -
+those who build the galampa (V, 7). 
+podomo momarampina i momatena humai -
+all close relatives of 
+the dead man only (VII, 12). 
+indapo mokoonana -
+not yet scaly (XV, 94). 
+aumbaaka i koquru -
+when arrived at the graveyard (VII, 9). 
+But some words never have one of these suffixes. The most important 
+are: the article 0, the prepositions i and to, and ne -
+if, when 29). If 
+one of them is the first word of a phrase containing -mo, -po, or -akal, 
+the second word of the phrase has the suffix 30) : 
+29) These words (and some other) which have only one vowel and usually occur 
+at the heginning of a phrase, show some peculiarities which will he discussed 
+later. 
+30) In this case the word accent is taken as criterion for the word. This way of 
+analysis is supported by the fact that there are other examples of -1110 occurring 
+with a word that is not thc first of a phrase. 
+46 
+i apaimo! -
+where? (XII, 36). 
+o sarosaromo uka -
+a cu stom (VI, 7). 
+ne akawamo -
+when it comes (VI, 1). 
+The word so -
+only, just, does not have the suffix when it is followed 
+by a verb-form: 
+so aliqkamo -
+he just ran (XIV, 10). 
+so abukemo -
+it was full (XV, 35). 
+so umboombooremo itu -
+you just stay here (XV, 27). 
+But when followed by a substantive it may have it: 
+samo susuna -
+only her breasts (XV, 94). 
+The suffix -aka1 marks the phrase in which it appears as an attribute of 
+the predicate. This phrase may precede the predicate; then its meaning 
+is temporal. When it follows the predicate, its meaning is final. 
+amambotuaka -
+when a decision has been reached (VII, 3). 
+abukeaka -
+when it is fuIl (VII, 21). 
+indaaka amaisia Kabinduboroko -
+that it may not be visited by a 
+"Pull-throat" (VI, 11). 
+As shown by these examples the nucleus of a phrase containing -aka1 
+usually is a verb-form. But this not necessary. It mayalso be a pre-
+position-phrase. 
+i banuaaka -
+when (he is) in the house. 
+All attributes of the verb-form are part of the same phrase, also those 
+which are separate phrases in case of a verb-form being a predicate: 
+kawaaka wakutuuna -
+when the time has come 31) (VII,6). 
+aumbaaka i kol]uru -
+when arrived at the graveyard (VII, 9). 
+abariaka mia i daoa -
+when there were many people at the market 
+(IX, 2). 
+The suffixes -mo and -po denote some emphasis on the phrase. Accor-
+dingly they usually occur as a part of the predicate of a sentence. As 
+-mo has a meaning of greater definiteness it often denotes sure, ascer-
+tained facts and accordingly it of ten has the meaning "already" , 
+whereas -po usuaIly denotes uncertain, future things. An imperative 
+with -po means a request; an imperative with -mo denotes a stringent 
+commando Combination with inda -
+not, gives rise to indamo -
+no 
+more, and indapo -
+not yet. 
+saopeamo! -
+how many? (IV, 9). 
+akambelimbelimo -
+he was walking (XIV, 1). 
+31) This example shows that when the subject is part of the same phrase, the 
+actor-prefix of the 3d person of the verb may be -absent. 
+47 
+bekumembalimo ikane -
+I shall certainly become a fish (XV, 70). 
+bolimo ose! -
+do not follow! (XV, 69). 
+mbulimo! -
+do go home! (XV, 70). 
+'ltlitipo! -
+just come here! 
+taburakaakaakupo -
+drop for me! (XIII, 20). 
+o eopo sii -
+only to-day, not until to-day. 
+indapo mokoonana -
+not yet scaly (XV, 94). 
+pia -
+how many?, appears in some fixed combinations with -1110: 
+i piamo? -
+when? (in the past, opp. : naipia? -
+when?, in the future ) ; 
+i piama itu ~ formerly, in olden times. 
+2. uka or duka which often has the meaning "also, again" (but more 
+of ten is hard to translate ) is usually the second word of a phrase: 
+amapupumo uka -
+they are also finished (V, 35). 
+himbomo uka humai -
+the same (also like that) (1. 7). 
+wakutuuna uka humai -
+the same time (V, 10). 
+But in a phrase beginning with one of the words which never have one 
+of the suffixes -mo, -po, or -aka1 (see above onder 1.), uka (or duka) is 
+the third word: 
+i apaimo duka? -
+where? (XII, 36). 
+ne aumba uka sampearona -
+when he came back next time 
+(XI, 21). 
+o ndoke11l0 duka moholnttina buluna panina La H oohoo s1t1nai -
+the same monkey that pulled out Heron's wing-feathers (XII, 32). 
+With a substantive-phrase of type 8 (a noun having a noun as attribute) 
+uka follows the attribute, sa it moves one place further back: 
+incana humai uka -
+in the meantime (IX, 4). 
+There seems to be na fixed rule for the use of the allomorph duka for 
+uka. Only with tema there seems to he a constant preference for d1tka: 
+temo duka -
+and also (XV, 26, 61, and 65). 
+In some cases the use of uka involves a special meaning: 
+sadia uka -
+still, sadia -
+always. 
+samiamiana uka -
+a unique man (VIII, 2), samiamiana -
+alone, 
+single. 
+Podo which also occurs in alle kinds of phrases has the meaning 
+"evidently, only". It is always phrase-initial and accordingly the phrase-
+marker of substantive-phrases 0 is absent af ter podo: 
+podomo kajaganina Seetani -
+only protections against demons 
+(VI, 13). 
+podomo momarampina i momatena hU11lai -
+close relatives of the 
+dead man only (VII, 12). 
+48 
+podo beugaugauaka -
+you are probably only telling lies (XII, 38). 
+E. Phrases having te -
+and, with, ara -
+or, or atawa -
+or, as nuc-
+leus need a special discussion as they show some peculiarities in their 
+syntactical use which distinguish them from other phrases. 
+1. When the attribute is a substantive the te-, ara-, or ata-wa-phrase 
+is distinguished from a preposition-phrase by the fact that it is 
+a separate phrase even when it is the attribute of a substantive: 
+biana te bajuna -
+her sarong and her jacket (XV, 28). 
+Wa Turuqkoleo te La Mbatambata -
+Wa Turuqkoleo and La 
+Mbatambata (XV, 60). 
+A phrase with te, ara, or atawa is the normal termination after a series 
+of co-ordinate substantive-phrases: 
+apeqkaadariaka baca, bun, tanu, posorumba, pesulasula te Sámala 
+-
+they learn reading, writing, weaving, sewing, embroidery, and 
+contemplation (IV, 35). 
+o tandakia, posusua atau-a posuoa -
+circumcision, earpiercing, or 
+locking up (V, 5). 
+Te, ara, and atawa are usually phrase-initial and accordingly 0 is absent 
+from the following substantive. 
+The negation of a te-phrase having a substantive as attribute is inda, e.g. 
+indamo te buluna panina -
+not having any more wing-feathers 
+(XII, 18). 
+Noteworthy is the use of such a te-phrase as attribute of the impersonal 
+verb-form daaqia -
+there is, are. 
+daaqia te haejati apakawi -
+there is a, plan to arrange a marriage 
+(V, 2). 
+daaqia te anata? -
+have you any children? (IV, 1). 
+daaqiapo te eo -
+the sun was still there (IX, 5). 
+2. In distinction to a preposition te may have a finite verb-form as 
+attribute. This verb-form may have its own attributes within the 
+same phrase but also as separate phrases sa that it looks like a 
+"subordinated clause". 
+te apetandoa i siqkaru -
+and a ring is used to lay it on (VI, 6). 
+Ara- or ata-wa-phrases having a finite verb-form seldom occur. 
+3. The attribute mayalso be a preposition with a substantive, but this 
+seems to be the case only when a preposition-phrase precedes: 
+i umane moka'wi ara i ba'lvine ipakawi humai -
+at the bridegroom's 
+or at the bride's (V, 13). 
+4. te also occurs without an attribute or with duka only. In this case 
+it always has the suffix -mo: 
+49 
+temo duka -
+anti also (XV, 26, 61, anel 65), 
+or it is replaced by its allomorph tee 32) (e.g. XI, 13; XIII, 33; 
+XV, 45). 
+F. 
+The last types of phrases to be discussed here are those containing 
+ne, ande, ane -
+if, when, ka -
+then, for, or ko -
+and. 
+1. The attribute of tie (ane or ande) usually is a finite verb-form 
+with its attributes. But it mayalso he another word or combination 
+of words which may be predicate of asentence. It may be said that 
+the attribute shows the same construction as a sentence (see the 
+following chapter) but in its entirety it constitutes one phrase even 
+when it contains elements which otherwise constitute separate 
+phrases. This phrase always precedes the predicate of the sentence 
+ne aka'lWmo wakutuuna -
+when the time has come (V, 9). 
+ne aumba uka sampearona -
+when he came back next time 
+(XI, 21). 
+ande inda ukandea ntaupo 0 kawolena amamu -
+if you had not 
+eaten your father's c1eaned fish (XV, 25). 
+It is remarkable that a ne-phrase may have a demonstrative word as 
+attribute: 
+ne pada apcbaho hmnai -
+when he had bathed (VIII, 4). 
+2. Ka introduces a finite verb-form or a construction resembling a 
+sentence. This verb-form or sentence-like construction denotes 
+something which follows or which is the reason of that denoted 
+by the predicate of the sentence. When ka is followed by such a 
+sentence-like construct ion, this construction shows the same com-
+position of phrases as the corresponding sentence. Ka is the first 
+word of the first phrase of this construction which always comes 
+af ter the predicate of the sentence with its attributes. 
+3l1) Tt is remarkable that alt the words which have only one vowe\: the artic1e 
+0, the prepositions j, and to, te (and), so (only), ko (and), ka (for, then), ne (if 
+when), La which precedes proper names of men, and Wa which precedes proper 
+names of wamen, usualty appear as the first word of a phrase. They may 
+occur in the middle of a phrase (except ko, ka, and ne), when two of them are 
+combined (but not alt combinations are really used!) or in those phrases which 
+contain elements usualty occurring as separate phrases. But in these farms they 
+never are the last word of the phrase and they never constitute a phrase of 
+themselves. In those cases they are represented by a form having two (identical) 
+vowels instead of one, or have the suffix -mo, e.g. temo (see above). tee occurs 
+regulary and so does soo. But the two-vowel-forms of the other especialty occur 
+as nouns with the meaning of se\f-denotation: 00 -
+the word "ot 0 kaa -
+the word "ka". So it is c1ear that words having only one vowel may occur only 
+at the beginning or in the middle of a phrase, but never as the last or the only 
+word of a phrase. 
+50 
+ka indapo ambu/i -
+{or he had not yet returned (XII, 13). 
+ka alagu duka -
+then again she sang (XV, 85). 
+ka sakawa11'tami i tawo 0 La Hoohoo aliqkamo duka samiamiana 
+-
+for when we had reached the sea Heron walked off alcme 
+(XII, 14). 
+3. Phrases with ko always appear at the beginning of a sentence 
+which usually is interrogative. They denote a new theme to which 
+the discourse passes over in coherence with the preceding. Ko 
+always is the first word and its attribute is a substantive with its 
+attributes. 
+ko 11'taqa bawine -
+and the girls (are they taught the same?) 
+(IV, 31). 
+ko iqkoo -
+and you (how many leaves?) (XIII, 12). 
+ko ikanemiu itu -
+and these fish of yours (where did you get 
+them?) (XV, 80). 
+THE SENTEN CE 
+5. 2. 
+The sentence is the maximal linguistic unit of utterance 33). It 
+may consist of one or more phrases. The sentence is marked by the 
+sentence-accent and, when it consists of more than one phrase, by the 
+sentence-intonation. 
+5. 2. (1). The sentence-accent always occurs on the last vowel of the 
+sentence and has four types: 
+1. Low pitch-accent: the pitch of the last vowel is as low as the pitch 
+of the first vowel of the sentence. This type of accent is character-
+istic for statement-sentences (symbol: 
+.). 
+apoilimo i taJikuna. -
+he looked back (XIV, 6). 
+o inana aleamo duka i tawo. -
+their mother dived back into the 
+sea (XV, 91). 
+2. Rising pitch-accent: the pitch of the last vowe1 begins nearly as 
+high as the second last vowel but rises sharply. This type is cha-
+racteristic for interrogative sentences (symbol : ?). 
+inda amap,imapii? -
+are they not i11? (IV, 11). 
+opeamo ikarajaa? -
+what should he do? (XIV, 15). 
+3. Level-pitch-accent: the last vowel has the same pitch as the second 
+last vowe1 or is slightly lower. This type of accent is character-
+istic for exc1amatory sentences (symbol: I). 
+33) Of course in W olio, like in other languages, greater entities of utterance are 
+found. But these do not show the functional, systematical alld obligatory character 
+of the sentence. A greater entity is, from a linguisticpoint of view, only a 
+series of senten ces. 
+51 
+He sabaqka! -
+Say comrade! (XIV, 22). 
+Pasumpuakea uwe! -
+Let him drink water! (XV, 34). 
+4. Falling pitch-accent: the pitch of the last vowel begins as high 
+(or nearly as high) as the pitch of the second last vowel and then 
+slightly faUs. This type indicates that a further sentence is to 
+follow. This "suspensive" accent is especially used when a 
+quotation follows (symbol: :). 
+aabakimo mopebuanina sumai: "/nda ukamata iqkomiu ° bawine 
+aliqkaaka taqi i awif" Alawanimo nwpebuanina sumai: "Takamata 
+i awi". -
+They asked these fishermen : "Did not you yesterday see 
+a woman who walked along weeping ?" The fishermen answered: 
+"We did see yesterday" (XV, 56-59). 
+5. 2. (2). The sentence-intonation is the pitch-relation of the phrases 
+constituting the sentence. It has 5 types: 
+a. Rising intonation: the pitch of the phrases rises gradually, the 
+pitch of each phrase being slightly higher than the pitch of the 
+preceding phrase. 
+b. Level-rising intonation: the first two or more phrases have the 
+same pitch, the foUowing phrases show the rising intonation des-
+cribed under a. 
+c. Broken intonation: the sentence begins with rising intonation (a) 
+but suddenly comes to a stop and af ter a pause it goes on again, 
+starting with the same pitch as the first phrase (symbol : ,). 
+d. Linked intonation; the intonation is the same as the broken into-
+nation (c.) except in the last phrase before the pause which has 
+falling pitch on its last vowel (symbol: ,). 
+e. Level-intonation: all the phrases have equal (or nearly equal) pitch. 
+About the combination of intonation and sentence-accent it may 
+be remarked that all combinations occur exa:pt that of level-
+intonation with low pitch, rising pitch, and falling pitch-accent. 
+It follows that level-intonation only occurs in exclamatory sentences. 
+The intonation may be interrupted when a vocative is intercalated. 
+The vocative has a relatively low pitch (symbol: ,-,). 
+Ko iqkoo, Ndokendoke, pia ntakemof -
+and you, Monkey, how 
+many leaves? (XIII, 12). 
+Coordinate substantive-phrases have similar pitch so that a temporary 
+level-intonation is inserted (symbol: ,). As already has been remarked 
+(see: 5. 1., E.), such a series of coordinate substantive-phrases is con-
+cluded by a te-, atawa-, or ara-phrase with which the original intona-
+tion is resumed. 
+52 
+Apeqkaadariaka baca, buri, tanu, posorumba, pesulasula te $ámala 
+-
+They leam reading, writing, weaving, sewing, embroidery, and 
+contemplation (IV, 35). 
+M otandakina, moposusuna ara moposuona apadmno uka ako-
+kariacIakea -
+They also stop holding feast for those who are 
+circumcised, those whose ears are pierced, and those who are 
+locked up (V, 24). 
+Kariaa padamo atopatantu wakutuuna, incia kananeal1a -i kariaa 
+kawia hU1nai daaqia uka 0 tandakia, posusua atawa posuoa -
+When the time of the feast has been fixed, usually circumcision, 
+ear-piercing or locking up are combined with the weddingfeast 
+(V, 5). 
+Incidental deviations of intonation are mostly found in exc1amatory 
+sentences, e.g.: 
+KoJuntuna 0 mia sii! -
+How lazy this man is! 
+in which the first word has abnormally high pitch combined with 
+stress. 
+5. 2. (3). A sentence usually contains a predicate which may be a 
+substantive-phrase, a preposition-phrase, or a finite verb-form. When 
+the predicate is a substantive-phrase or a preposition-phrase, the 
+sentence always also contains a subject, whereas in sentences having 
+a verb-phrase as predicate the subject is at least indicated by the actor-
+prefix. 
+The most important exceptions are: 
+a. Fragmentary sentences in which elements are "lacking" which 
+are sufficiently denoted in a preceding sentence, e.g. an answer 
+to a question and the like. 
+Santakemo -
+One leaf (XIII, 11). 
+Mincuana gola, 0 raaI -
+1t is no sugar, it is blood! (XIII, 47). 
+b. Sentences containing fixed expressions, titles of a story etc. 
+Umbe -
+Yes. 
+A.(li -
+I don't know (XII, 14). 
+Taqkanapo -
+That is all (VII, 28). 
+Tulatulana Lowulo'lVU M orikana -
+The story of Old-Lowulowu 
+(X, title). 
+c. Some exclamatory expressions, vocatives, series of phrases used in 
+counting, etc. 
+Karombuna Ulouloqkobulu ndea! -
+How bad Hairy-Caterpillar 
+is! (XII, 40). 
+He sabaqka! -
+Say comrade! (XIV, 22). 
+53 
+Sambaa, rua 1Ilbaa .... -
+One, two .... (XIV, 36). 
+A finite verb-form without an actor-prefix occurs in the following 
+cases: 
+1. Imperatives : 
+I qka papesua dadi! -
+Come on, put me in, if you dare! (XII, 42). 
+Mai sapo, Ulouloqkobulu! -
+Do come down, Hairy-Caterpillar 
+(XII, 45). 
+Taburakaakaakupo sagaa te iaktt, Ndokendoke! -
+Drop some for 
+me also, Monkey! (XIII, 20). 
+2. Impersonal verbs denoting meteorological phenomena etc.: 
+Koeo -
+The sun is shining. 
+Kowao -
+It is raining. 
+But these verbs mayalso occur with the actor-prefix of the 3d pers on : 
+akoeo, akowao, etc., e.g.: 
+Daaqia saaqu wakutuu akowao maranca -
+Once upon a time it 
+was raining very hard (XIII, 1). 
+A $amaramo amana, roonamo amalo, kasiimpo ambuli sU1Ilai -
+Their father was angry hecause it was evening by the time they 
+returned (XV, 100). 
+As already has been mentioned (see the note to 5. 1. D.) the actor-
+prefix of the 3d person may be absent when the subject is mentioned 
+within the same phrase as the verb. But this is never the case when 
+this verb is predicate. 
+5. 2. (4). When the predicate is the first phrase of the sentence, the 
+intonation is rising. But when one or more phrases precede the predi-
+cate, the intonation is level-rising, the predicate being the phrase where 
+the rising part of the intonation begins. 
+It may he said in general that all phrases preceding the predicate are 
+slightly emphasized. In fact many attributes which play an important 
+role in the meaning of the sentence because of their meaning (which 
+may be modal, local, temporal, or the like) always precede the predicate. 
+There is no need to list them all here as numerous examples are found 
+in the texts. But some of them need a special discussion : 
+a. Phrases with ko and phrases with ne, ande, or ane (see 5. 1. P.) 
+show the peculiarity of having always falling pitch on their last 
+vowel. In interrogative sentences a ne-phrase may follow the 
+predicate. This is connected with the preference of such sentences 
+for having the predicate as the first phrase. 
+Opea ikarajaa, ne daaqia te kau:ia! -
+What is done when there is 
+a wedding? (V, 1). 
+54 
+b. A phrase containing a verb-form with prefix sa- usually is the 
+first phrase of the sentence. It may be followed by a noun-phrase 
+denoting the subject of the sa-form. When this is the case an 
+attribute otherwise being a part of the phrase containing the sa-
+form may follow in a separate phrase. 
+Sabarina 0 ikaneku iaku kumbulimo katauku ara La H oohoo 
+ambulimo duka, roonamo indamo kukamatea -When I had much 
+fish I returned, for I thought that Heron had perhaps also 
+returned as I no longer saw him (XII, 16). 
+Satuwuna 0 buluna panina apolakamo La H oohoo ambulimo i 
+banuana -
+when the feathers of his wings had grown, Heron 
+flew back home (XII, 23). 
+Sakawana 0 La Ndokendoke i banuana kawa anwkasu amalo, 
+amaimo inana La Hoohoo aabaki La Ndokendoke i apaimo La 
+H oohoo, ka indapo ambuli -
+After Monkey had come home, when 
+evening was near, Heron's mother came to ask Monkey where 
+Heron was, for he had not yet returned (XII, 13). 
+Smnapupuna 0 loka masasa sumai akandea La Ndokendoke 
+asabumo i weta marumpurumpuna, lausaka akana i ampa itaana 
+La Kolokolopua -
+Af ter Monkey had eaten up all the ripe bananas 
+he jumped down on the grassy si de and immediately came down 
+on to the man-traps set up by Tortoise (XIII, 30). 
+As the given examples show the subject of the sa-form is usually men-
+tioned when it is not the same as the subject of the sentence. 
+c. Sometimes the predicate is preceded by a noun phrase correspon-
+ding to the suffix -na attached to the subject following the 
+predicate: 
+Incana kaadari incia hU1nai abari mpuu 0 waranaana -
+The con-
+tents of the schooling is very varied (IV, 27). 
+o buri Walanda inda abari 1nomakidana -
+There are not many 
+who know Roman characters (lIl, 2). 
+Onina 11wqa mancuana kooni 0 Lowulowu i piamo itu daaqia 
+sawuliqa adencu maqa miana -
+The old people tell that once upon 
+a time people left Lowulowu (X, 1). 
+5. 2. (5). As already has been said above the subject of a sentence 
+having a verb as predicate is expressed by the actor-prefix of the verb. 
+If the subject is mentioned explicitly, it constitutes a separate phrase. 
+This phrase usually is a substantive-phrase. 
+So umboombooremo itu komiu maasiakea 0 andimu, roonamo iaku 
+bekuliqkamo, karana 0 amamiu alabi kawolena te iqkomiu -
+You 
+55 
+stay here, he kind to your brother, for I am going away, because 
+your father esteems his c1eaned fish more than you (XV, 27). 
+But it mayalso be a verb-form: 
+Potalatala adi komiu, mamudaakana amalape kugagarikomiu -
+You go and tie next to each other in order that I can count you 
+weIl (Htt.: that I-count-you be good) (XIV, 32). 
+When the predicate is a substantive-phrase or a preposition-phrase the 
+subject is always mentioned (except in fragmentary sentences, see 
+5.2. (3), a.). 
+When this subject is a participle the sentence usually suggests that the 
+chosen predicate stands in strong opposition to another possibility. 
+Somo susuna indapo molwonana -
+Only her breasts were not 
+yet scaly (in distinction to other parts of her body) (XV, 94). 
+Taqkanapo sambaa molapana -
+Only one escaped (XII, 31). 
+o ndokemo duka mohobutina buluna panina La H oohoo sumai 
+molapana -
+The same monkey that pulled out Heron's wing-
+feathers was the one who escaped (XII, 32). 
+Accordingly this type of sentence is especially used in interrogative 
+sentences, because the essence of the question is preferably expressed 
+by the predicate at the very beginning of the sentence. 
+Opea sadia ikandena maqar -
+What do they usuaIly eat? (I, 3). 
+I apai maqa sabaqkamiu, ka inda kukamatear -
+Where are your 
+comrades, for I don't see them? (XIV, 23). 
+Opea ikarajaa nedaaqia te kawiar -
+What is done when there 
+is a wedding? (V, 1). 
+As shown by the examples given the subject usually follows the predi-
+cate. But it precedes when it is emphasized even when this emphasis 
+is very slight. 
+Maka iqkoo umempili -
+But you we re fastidious (XV, 41). 
+lncia 0 amata alabiaka kawolel1a te iqkita -
+Our father esteems 
+his c1eaned fish more than us (XV, 42). 
+Andiku La Mbatambata, iaku Wa Turuqkoleo -
+My brother is 
+La Mbatambata, I am Wa Turuqkoleo (XV, 47). 
+5. 2. (6). When the predicate is a transitive finite verb-form the 
+object may constitute a separate phrase. This phrase usually follows 
+the predicate but it precedes when it is emphasized. 
+Garaaka ndea, Mbatambata, 0 inata sii abencibencimea 0 biana -
+Truly, Mbatambata, there our mother has torn her sarong 
+(XV, 39). 
+56 
+o Wa Turuqkoleo akembaia i sa"ipina -
+She called Wa Turuq-
+koleo to her side (XV, 24). 
+o bajuna abencibencimea dttka -
+Her jacket she also tore up 
+(XV, 51). 
+The emphasis of an object preceding the predicate is stronger than the 
+emphasis of a subject in similar position, because an object constituting 
+a separate phrase is already slightly emphasizéd even when it follows 
+the predicate, as an object without any emphasis is part of the verb-
+phrase (see 5. 1. C,4.). 
+When subject and object both are mentioned in separate phrases, the 
+one which is most emphasized precedes the predicate, the other folbws. 
+When neither of them is emphasized they both follow the predicate 
+(which then has the greatest emphasis), the subject preceding the object. 
+o La Musa abawea 0 boku sii -
+La Musa brings this book. 
+o bO/lU sii abawea 0 La Musa -
+This book La Musa brings. 
+Saeona malomalo atambimea Wa Turuqkoleo 0 La Mbatambata, 
+aliqkamo apeelo inana -
+Next morning Wa Turuqkoleo carried 
+La Mbatambata and went to look for her mother (XV, 36). 
+Lausakamo aalea amana 0 ikane sumai -
+At once their father took 
+the fish (XV, 82). 
+As shown by the examples the verb usually has the object-suffix when 
+the object is mentioned in a separate phrase (cross-reference). But this 
+is not always the case. The object-suffix is absent when the object is 
+strongly emphasized. 
+Taraqo opea? -
+What should we have heard? (XIV, 25). 
+Akamatamo 0 harimau igauna i saao itu -
+He saw the tiger he 
+had just tricked (XIV, 7): 
+o Wa Tttruqkoleo te La Mbatambata so adawu saide -
+To Wa 
+Turuqkoleo and La Mbatambata he only gave a little bit (XV, 83): 
+The object usually is a substantive-phrase, but it mayalso be a phrase 
+showing the same construction as asentence. Such a phrase may begin 
+with o. 
+I nda amataua i apai apalai -
+He did not know where he was 
+running (XIV, 10). 
+M aqa wutitinai aumbamo aporOmOr01tlU apogauaka naipiamo 0 
+kariaa lmmai te opea beikamjaa -
+The relatives then gather in a 
+meeting and discuss, when the feast will take place and what wilt 
+be done (V, 3). 
+Aabakimea 0 opea inda ikobuluakana panina sumai -
+She asked 
+57 
+him how it happened that he had no longer any wing-feathers 
+(XII, 19). 
+5. 2. (7). A sentence may contain a series of phrases which shows 
+the structure of a sentence but is in its whole an attribute to the predi-
+cate. When such a sentence-like series of phrases precedes the predicate 
+it has linked intonation and may be introduced by such words as 
+moomini -
+although, kawa -
+when, baraqkala -
+if, etc. 
+Amapupu biana, abencibenci11lo bajuna -
+When her sarong was 
+used up she tore up her jacket (XV, 30). 
+So amaqulemo alagu 0 Wa Turuqkoleo, indamo abaqu 0 inana -
+Although Wa Turuqkoleo tired herself out with singing, her 
+mother did not come up (XV, 102). 
+M oomini kukembaia, amendeu aose iaku. -
+Although I called him, 
+he did not want to come with me (XII, 15). 
+Kawa 0 La Kolokolopua aalamo pilita, aalamo puuna -
+When 
+Tortoise made his choice he took the trunk (XIII, 8). 
+Baraqkala aanuko mia, daampo kupapakia -
+If anyone would 
+tease you, I shall certainly bite him (XII, 4). 
+When such a sentencè-like series of phrases follows the predicate, it 
+has broken intonation and may be introduced by such words as ka -
+then (see 5. 1. F, 2.), kasiimpo -
+then, mamudaakana -
+in order that, 
+pokawaaka -
+until, roonamo -
+because, sal]aquna -
+because, karana 
+-
+because, madaakana -
+because, 'maka -
+but, tabeana -
+but, sa11lpe 
+-
+till, etc. 
+Ka'Wa amalo, La Mbatambata sama/oa ataqiaka inana, amatuu1110 
+borokona -
+At night La Mbatambata cried all the night for his 
+mother, his throat being dry (XV, 33). 
+Lausakamo aaZea amana 0 ilwne sumai, kasiimpo anasua, ka akande 
+-
+At once their father took the fish, then cooked them and then 
+ate them up (XV, 82). 
+Aemanimea, 11lamudaakana aose WaZanda humai, roonamo onina 
+beakambelimbeliakea, mamudaakana apokamakamataakea miana 
+gunia -
+He asked him to go with that Dutchman, because he 
+would go travelling with him, as he said, to show him to the 
+people of the world (XI, 20). 
+Saeo saeo tuamo itu apogoraaka maqa, pokawaaka amate 0 lokana 
+La N dokendoke -
+Each day they called out to each other like 
+this, until Monkey's banana died (XIII, 14). 
+Alawanimo La H oohoo amende u asapo, roonamo amaeka, salla-
+58 
+quna daaqia amakidikidi -
+Reron answered that he did not want 
+to go down, because he was afraid, as he was small (XII, 2). 
+So umboombooremo itu komiu maasiakea 0 andimu, roonamo iaku 
+bekuliqkamo, karana 0 amamiu alabi kawolena te iqkomiu -
+You 
+just stay here, he kind to your brother, for I am going away, 
+because your father esteems his c1eaned fish more than you 
+(XV, 27). 
+Garaaka ndea, Mbatambata, 0 inata sii abencibencimea 0 biana, 
+111adaakana iqkoo i awi umempili ukande -
+Truly, Mbatambata, 
+there our mother has torn her sarong because you were so fasti-
+dious in eating yesterday (XV, 39). 
+Adawumea ikane 0 inana, malm amende u so ataqi arambirambitaka 
+karona, tabeana beakande lmwolena a111ana -
+Ris mother gave 
+him fish, but he refused. He just cried heating about his body, but 
+he wanted to eat his father's c1eaned fish (XV, 13). 
+Temo aala parewana tanuana inana La Mbatambata, kasiimpo abe-
+beaka inana La Mbatambata, sampe amakatukatu -
+And he took 
+the weaving-loom of La Mbatambata's mother, then he hit La 
+Mbatambata's mother with it till it broke (XV, 21). 
+59 
+TEXTS 
+I. 
+1. Pia mpearo saeo akande maqa mia i W olio! 
+2. Maqa 'mia i WoUo akande talu mpearo saeo. 
+3. Opea sadia ikandena maqa! 
+4. lkandena maqa i nuncana talu mpearo humai apokanakana. 
+S. 0 nwlomalo akande jepe ata'lua 0 bae ara 0 kaitela. 
+6. Pontaqaeo 0 bae, kaitela ara wikau. 
+7. 0 malo himbomo uka humai. 
+8. lkandena uka 0 ikane, 0 tawana kau ara 11taqa kantatuu. 
+II. 
+1. Pia wuliqa 0 daoa i Baubau sa $ aharJi! 
+2. 0 daoa saeo saeo i Baubau. 
+3. Opea iasona maqa mia? 
+4. Maqa 'mia 00$0 sagala giu: bae, kaitela, wikau, tagambiri, paqana, 
+tal]ako, matigi, kapulu, ndamu, paqawa, rabuta, bajubaju te sagiu 
+sagiuna. 
+S. Abari uka 0 mia mominaakana i sambali! 
+6. Abari. Aminaaka i maqa kampakampo. 
+7. Aminaaka i karidoana maqa mia humai! 
+8. Umbe, sagaa talu pulu kilo karidona. 
+9. Sagaa akole i data. 
+10. Akaliqkaliqka maqa? 
+11. U mbe, sagaa abuntubuntuli. 
+12. lnda amaqule maqa? 
+13. Amaqule uka, roonamo takamatea akahaahaa. 
+14. Maka akawa uka i kawaana. 
+lIl. 
+1. Abari 0 mia momakidana abaca ara aburi! 
+2. 0 buri Walanda inda abari momakidana. 
+3. Taqkanamo buri Wolio te buri Maqgasa abari. 
+60 
+I. 
+1. How may times a day do the people in Wolio eat? 
+2. The people in Wolio eat three times a day. 
+3. What do they usually eat? 
+4. Their food is the same these three times. 
+5. In the morning they eat rice-milk, rice or maize. 
+6. At noon rice, maize or cassava. 
+7. The same in the evening. 
+8. Fish, vegetables or shellfish they also eat. 
+11. 
+1. How many times a week is a market held in Baubau? 
+2. There is a market in Baubau every day. 
+3. What do the people seII? 
+4. People seIl all kinds of things:rice, maize, cassava, gambier, areca, 
+tobacco, lime, choppers, axes, sails, cords, garments, etc. 
+5. Are there many people who come from the country? 
+6. Yes, they come from the villages. 
+7. Do those people come from far? 
+8. Yes, sometimes from a distance of thirty kilometres. 
+9. Sometimes they sleep by the roadside. 
+10. Do they go by foot? 
+11. Yes, sometimes in jog-trot. 
+12. Do they not get tired? 
+13. They do indeed get tired, for one sees them pant. 
+14. But still they reach their target. 
+111. 
+1. Are there many people who can read or write? 
+2. There are not many who know Roman characters. 
+3. But there are many (who know) Wolio and Macassar script. 
+61 
+4. Saopea kabarina sikola i WoZio? 
+5. Kabarina sikola i W olio himbo itu daaqia nama pulu aqu. 
+6. Sikola humai 0 sikolana pamarinta? 
+7. Umbe, baribaria sikolana pamarinta. 
+8. Taqkanamo rua aqu mincuana. 
+9. S aaqu sikolana Zending 34), saaqu sikolana Missie 34). 
+IV. 
+1. Daaqia te anata? 
+2. U mbe, daaqia pata mia. 
+3. 0 aka 0 umane ataUla 0 ba'Wine r 
+4. 0 aka 0 ba'Wine. 
+5. Maka inda baribaria 0 bau:ine? 
+6. Inda, rua mia 0 bawine te rua mia 0 umane. 
+7. Asikalamo? 
+8. Umbe, rua mia, rua miana indapo. 
+9. Saopeamo 0 'umuruna 0 andi? 
+10. 0 'umuruna 0 andi li1na mbulamo. 
+11. I nda amaPimaPii? 
+12. Baribaria daaqia amalamalape. 
+13. Apeelu sadia akande? 
+14. Unibe, sadia apeelu maqa akande. 
+15. Maqa anaana amahaqa uka sagaa? 
+16. Sadia amahaqa. 
+17. Sadia inda araqoni. 
+18. Ne inda araqoni ato~emba maqa? 
+19. Umbe, ato~emba. 
+20. I W olio abari uka maqa anaana ato~emba? 
+21. Abari, maka abariaka i piama itu, roonamo i piamo itu kadaaqiana 
+lipu aposalamo te siisii. 
+22. Roonamo i piamo itu maqa mia daaqia akeniaka mpuu 0 'afjati 
+nwqeqe. 
+23. M aqa anaana atogurudii mpuu. 
+24. 0 ba'Wine ataUla 0 umane apokawaaka kaadari porikana, kasiimpo 
+amembali asapo i tana. 
+25. Himbomo maqa anaana umane, amakidapo mpuu, kasiimpo ato-
+rambasaka. 
+3~) As these words are pronounced as foreign words, they are given here in 
+their original Dutch spelling. 
+62 
+4. How many schools are there in Wolio? 
+5. As to the number of the schools in Wolio, there are sixty. 
+6. Are these government-schools? 
+7. Yes, they are all government-schools. 
+8. Only two are not. 
+9. One is a (Protestant) mission-school, the other is a (Catholic) 
+mission-school. 
+IV. 
+1. Have you any children? 
+2. Yes, (there are) four. 
+3. Is the oldest a boy or a girl? 
+4. The oldest is a girl. 
+5. But they are not all girls? 
+6. No, two are girls and two are boys. 
+7. Do they go to school? 
+8. Yes, two do, two others not yet. 
+9. How old is the youngest? 
+10. The youngest is five months oid. 
+11. Are they not ill? 
+12. They are all quite healthy. 
+13. Have they got a good appetite? 
+14. Yes, they always want to eat. 
+15. Are the children ever naughty? 
+16. They are always naughty! 
+17. They are never obedient. 
+18. When they are disobedient, are they then punished? 
+19. Yes, then they are punished. 
+20. Are children of ten punished in W olio? 
+21. Yes, but formerly more often, for in olden times the situation of 
+the country was different from now. 
+22. For formerly people held fast very much to the old customs. 
+23. The children are kept very much under control. 
+24. A girl or boy is first taught, afterwards they may go out. 
+25. As to the boys, when they are very clever, one lets them go. 
+63 
+26. I neia wakutuuna torambasaka humai, apoolimo atosaroqi ame-
+mbalimo ajagani karona. 
+27. lneana kaadari incia humai abari mpuu 0 waranaana. 
+28. Kaadarina bawine sagiu uka, kaadarina umane sagiu uka. 
+29. Opea apeqkaadariaka 0 maqa anaana humai! 
+30. Baabaana 0 'acjati, kasiimpo 0 agama, kasii'mpo poewaqi. 
+31. K 0 maqa bawine apokana 0 kaadarina! 
+32. Aposala, roonamo maqa bawine abari ambooreaka i banua. 
+33. Apeqkaadariaka 'acjati te agama. 
+34. Kasiimpo aposala 0 kaadarina maqa Wa Ode te kaadarina maqa 
+bau'Ïne mosagaanana. 
+35. Apeqkaadariaka baca, buri, tanu, posorumba, pesulasula te 'ámala. 
+V. 
+1. Opea ikarajaa ne daaqia te kawiaf 
+2. Baabaana atopaumba maqa wutitinai kooni daaqia te haejati 
+apakawi. 
+3. M aqa wutitinai aumbamo aporomuromu apogauaka naipiamo 0 
+kariaa humai te opea beikarajaa. 
+4. Pada humai aposambulimo uka samia samia i banuana, mamudaa-
+kana apepuu amakakauaka kariaa humai. 
+5. Kariaa padamo atopatantu wakutuuna, inda kananea1'la i kariaa 
+kawia humai daaqia uka 0 tandakia, posusua atawa posuoa. 
+6. IncÏa mpuu akawamo wakutuuna, aposaumbamo maqa wutitinai 
+ara maqa sabasabaqka apohambahamba. 
+7. Sagaa mopakaronamo galampa, sagaa mobelokinamo banua, sagaa 
+mobawanamo kahambana. 
+8. M orambina ganda daaqiamo uka. 
+9. Ne akawamo wakutuuna riwporikanana 0 posuoa. 
+10. Wakutuuna atopaumba maqa bawine hU111ai kooni atosuo, waku-
+tuunamo uka humai atorambi 0 ganda. 
+11. 0 siimo 0 kapepuuana 0 kariaa. 
+12. lncia lima malo 0 ganda saeo saeo atorambi. 
+13. 0 kariaa ineia sii apooli atopadaaqia i umane mokawi ara i bawine 
+ipakauIÎ humai. 
+14. M otopaisila11lllna alost/omo uka. 
+15. I nunealla walwluuna kariaa ht/mai saeo saeomo aumbamo 0 
+mantomu. 
+16. Aumbaaka 11lantomu alorambiakamo uka ganda. 
+64 
+26. That is the moment that they are let free, when one can say they 
+are able to look af ter themse1ves. 
+27. The contents of the schooling is very varied. 
+28. The schooling of the girls is different from that of the boys. 
+29. What are the children taught? 
+30. In the first place the adat (customs), then religion, then fighting. 
+31. And the girls are they taught the same? 
+32. It is different, for the girls usually live at home. 
+33. They are taught adat and religion. 
+34. Then the schooling of the Wa Ode (women belonging to the 
+nobility) is different from that of the other girls. 
+35. They learn reading, writing, weaving, sewing, embroidery, and 
+contemplation. 
+V. 
+1. What is done when there is a wedding? 
+2. First the relatives receive an announcement that there is a plan 
+to arrange a marriage. 
+3. The relatives then gather in a meeting and discuss when the feast 
+will take place and what will be done. 
+4. Afterwards everybody returns to his own home in order to begin 
+preparing the feast. 
+5. When the time of the feast has been fixed, usually circumcision, 
+ear-piercing or locking up (of girls) are combined with the 
+weddingfeast. 
+6. When the time has come, the relatives or friends come to help. 
+7. Some build the galampa (temporary building for a feast), others 
+decorate the house, yet others bring their contribution with them. 
+8. The drummers are also present. 
+9. What comes first, when the time has come, is the locking up. 
+10. When those girls are told that they are to be locked up, the drums 
+are beaten at the same time. 
+11. That is the beginning of the feast. 
+12. Then for five days the drums are beaten every day. 
+13. The feast can be held at the bridegroom's or at the bride's (house). 
+14. They who are to be circumcised are also locked up. 
+15. During the feast contributions come in every day. 
+16. While the contributions are carried in, the drums are beaten for 
+them. 
+65 
+17. 0 kariaa i bawine, 0 umàne amnbamo i banuana kariaa humai. 
+18. [we humai 0 umane atopakawi wakutuuna matana. 
+19. Maqa posusuna te motandakina wakutuuna matana humai ato-
+paajomo uka, kasiimpo atobawa i galampa. 
+20. Kasiimpo apada humai, atopambulimo maqa anaana humai. 
+21. APadamo. 0 miana galampa adawumea pasali. 
+22. M aqa mia i banuana kariaa atopasalimo uka. 
+23. Pada 0 pasalia hmnai, maqa mia motokembana humai aposambuli-
+mbulimo. 
+24. 0 kariaa apadamo. M otandakina, moposusuna ara moposuona 
+apadamo uka akokariaaakea. 
+25. Af aka 0 mia mokawina humai ambooremo i bamtana ba'lmne lima 
+malo kaqeqena. 
+26. Pada humai, kasiimpo amembali asapo i tana. 
+27. Maka taqkanapo 0 umane porikana mosapona. 
+28. Asapo i tana humai, umane ambuli i banuana sabantara, kasiimpo 
+ambuli i banuana bawinena. 
+29. Ambuli hUl1U1i, abawamo kambakamba itobena i dala abakuaka 0 
+bawinena. 
+30. 0 kambakamba humai agiugiumo 0 waranaana. 
+31. Sagaa 0 dali, kalo ara 0 siqkaru maliqumo ipeeluna 0 
+~tmane 
+humai. 
+32. Pada aumbaaka kabaku humai, 0 bawine amembalimo uka aliqka 
+akambelimbeli. 
+33. Akambelimbeli incia sii ali.qka i banuana. umane akole ara pia malo 
+maliqttmo kapeeluna maqa. 
+34. Pada humai amaliqumo peepeeluana i apai aliqka. 
+35. Amapupumo uka 0 sarasarana kariaa humai. 
+VI. 
+1. Ne akawamo heqgana beaumbamo 0 anaana atokembaakamo 0 
+bisa. 
+2. Sagaa aumbamo uka maqa wutitinai. 
+3. 
+Atofzusaal~a 0 anaana humai atopekaqkilomo atobahomo. 
+4. 0 lolaina atododo. 
+5. 0 akana atodikamo i nuncana kaluku. 
+66 
+17. If the teast is at the woman's (house), the man comes to the house 
+of the feast. 
+18. There the man is married at the climax (of the feast). 
+19. (The girls) whose ears are pierced and (the boys) who are circum-
+cised are supplied with fine cloth during that climax, then they 
+are led into the galampa. 
+20. When that is done, these children are sent back home. 
+21. 1t is finished. The people of the galampa are given a festive gift. 
+22. The people of the house of the feast also get a festive gift. 
+23. Af ter the giving of the festive gifts the invited guests all go 
+home. 
+24. The feast is finished. They also stop holding feast for those who 
+are circumcised, those whose ears are pierced, and those who are 
+locked up. 
+25. But the bridal pair remains in the woman's house for five days. 
+26. Then they are allowed to go out. 
+27. But only the man goes out first. 
+28. When he has gone outside, the man returns to his home for a 
+while, then he returns to the house of his wife. 
+29. On his return he brings flowers with him picked along the road-
+side and gives them to his wife. 
+30. Those "flowers" are of various kinds. 
+31. Sometimes earrings, a necklace or a ring, whatever the man likes. 
+32. Af ter he has brought that gift, the woman mayalso go out 
+walking. 
+33. This walk consists of going to the man's house and sleeping there 
+as many nights as they like. 
+34. Then they may go where they want to. 
+35. The ceremonies of the feast are also finished. 
+VI. 
+1. When the time comes that a child is about to be born, a midwife 
+is called. 
+2. Sometimes the relatives also come. 
+3. When born, the child is cleansed and bathed. 
+4. The navel-string is cut. 
+5. The afterbirth is put into a coconut. 
+67 
+6. 0 kadodona lolai ne i kampo adodoakea lumai te apetandoa i 
+siqkaru. 
+7. 0 sii 0 sarasaranamo uka. 
+8. Pada atopekaqkilo, 0 anaana humai ato~aquakamo. 
+9. Sagaa maqa anaana atosaqo inda atotauraka i lante. 
+10. 0 sii 0 kapoolina samia samia. 
+11. 0 anaana humai apakolea i kumba kooni indaaka amaisia Kabi-
+nduboroko te adikaakea uka 0 kapulu ara 0 piso i saripina. 
+12. 1 totona baana adikaakca 0 paiasa. 
+13. 0 sii kooni podomo kajaganina Seetani indaaka amai ahaqahaqai 
+o anaana humai. 
+14. 0 anaana maidiidi humai sagaa saumbana atopakandemo, sagaa 
+uka so daaqia atopadudu ara fia mbula. 
+VII. 
+1. Ne daaqia te momatena atopaltmbamo maqa wutitinai. 
+2. Amaimo apokawakawa apogauaka opeamo ikarajaa, maqa ince-
+mama mobahoa, incemamo mobacaakea talakii. 
+3. Amambotuaka apepuumo nza,qa akarajaa. 
+4. Daaqiamo mobencina balu, mokarajaana maiasa, mokarajaana 
+kapatea, mokarajaana dopi te mopekarakarajaana i nuncana banua, 
+mobahona maeati temo mo:Jurusuna kinande. 
+5. I ko~uru aselimo uka maqa mia 0 tana. 
+6. Kawaaka wakutuuna 0 kapatea atoba'Wamo i kO'~uru. 
+7. Maka baabaana 0 maeati atosambaheaaka sagaa i banua matea 
+humai, sagaa uka atobawa i masigi. 
+8. Apadaaka abawamea i ko~uru, sadia aratifluakea. 
+9. Aumbaaka i ko~uru atolamuimo 0' mia mate humai. 
+10. 0 balo humai abubuakea bia maputi. 
+11. Kasiimpo 0 maeati atotau i nuncana kabaloqko. 
+12. 0 maqa mia mola'Watia i kabaloqko humai podomo momarampina 
+i momatena humai. 
+13. 0 maeati humai atodikamo i diqkanana. 
+14. 0 maeati ataburi kaanana. 
+15. Kasiimpo atoaroni 0 kabokena, 
+16. Pada humai atutubimea 0 balo humai te dopi. 
+68 
+6. The cutting of the navel-string, if done in a village, is performed 
+with a sharp piece of bamboo and a ring is used to lay it on. 
+7. This is a custom. 
+8. When the child has been bathed, a prayer is said for it. 
+9. Usually children are held in one's lap and they are not laid down 
+on the floor. 
+10. That is to he decided by everyone. 
+11. The child is put to sleep in a kumba (young leaf-sheath of a 
+banana-tree), it is said in order that it may not be visited by a 
+"Pull-throat" (a kind of demon), and a chopper or a knife is laid 
+beside it. 
+12. Near the head a mirror is put. 
+13. These are all said to be only protections against demons in order 
+that they will not come and plague the child. 
+14. The child is given food immediately af ter birth, or else it is 
+suckled for some months. 
+VII. 
+1. When someone has died, the relatives are informed. 
+2. They come together and discuss what is to he done, who are to 
+wash him, and who shall recite the talqin for him. 
+3. When a decision has been reached, they set to work. 
+4. Some tear the shroud, some make the grave-tablet, some make 
+the litter, some make the board and some do odd jobs in the 
+house, soms wash the corpse and others organize the meal. 
+5. In the graveyard people dig into the ground. 
+6. When the time has come, the litter is carried to the graveyard. 
+7. But first a salät is performed for the corpse, sometimes in the 
+house, sometimes he is brought to the mosque. 
+8. Then he is carried to the graveyard, continuously religious 
+formulas heing recited for him. 
+9. When arrived at the graveyard, the corpse is put into the ground. 
+10. The grave is covered with a white cloth. 
+11. Then the corpse is laid down into the grave. 
+12. The people who receive him in the grave, are all close relatives 
+of the dead man only. 
+13. The corpse is laid in its place. 
+14. The corpse is laid on its right side. 
+15. Then his tapes are loosened. 
+16. Then the aperture is closed with the board. 
+69 
+17. Aposapenepenemo maqa mia i bawo. 
+18. Somo samia momboorena mobacana rio'a. 
+19. Pada abaca, akompamo uka incia. 
+20. Kasiimpo 0 balo humai atumbuniakamea tana. 
+21. Abukeaka adikaakamea 0 maiasa i totona boona mia mate humai. 
+22. Ne umane momatena saa,qu 0 maiasana. 
+23. Ne 0 bawine rua aqu 0 maiasana. 
+24. Pada adika 0 maiasa abuburiakamea 0 buqabuqa te abubusiakamea 
+uwe irjO'a 0 koquru humai. 
+25. Padooka humai abacaakamea talakii. 
+26. Kasiimpo aposambulimbulimo maqa mia humai i banuana. 
+N. Sagaa ambulimo i banuana mate humai, roonamo daaqia abaca 
+malona. 
+28. Taqkanapo. 
+VIII. 
+1. Daaqia opuamami, ne apebaho apebaho 0 uwe pitu gusi kabarina. 
+2. M aka 0 incia humai samiamiana uka. 
+3. Ne pada apebaho 0 karona kabila.qa himbo paiasa. 
+4. Maliqu kapeqkenisana ne pada apebaho humai adikaakea 0 bia 
+maputi, mamudaa.kana inda akeni maqa kapeqkenisa ara maqa 
+rindi ipadana uka ikenina maqa mia. 
+5. Himbomo di 0 tulatulana. 
+IX. Tulatulana 0 
+J Araqu makido,. 
+1. Daaqia samia 0 J Araqu 0 haji. 
+2. Abariaka mia i daoa apatiumbamo 0 kakidana. 
+3. Makasuaka soo eo akembamo maqa anaana, kasiimpo atumpua 
+akamata i nuncana mbalombalo. 
+4. Incana humai uka asapomo 0 eo. 
+5. Ne maqa anoona akamata i nuncana mbalombalo humai sadia duka 
+akamata dooqiapo te eo. 
+6. Sampe 0 
+J Araqu humai atomaroboakamo te atopujimo kooni: 
+"A makida I" 
+7. Sampe 0 hagara incia sii akawamo uka i kamali. 
+8. Maka amentemo oputa 0 apokia ' Araqu humai apatipatiumba 
+kakidana i kabariana mia. 
+9. Saeaakana uka 0 ' Aragu humai aromusakamo uka maqa anaana i 
+daoa. 
+70 
+17. The people in the grave come up. 
+18. Only one remains, who says prayers. 
+19. After he has finished, he also climbs out. 
+20. Then the grave is filled with earth. 
+21. When it is fuIl, they place the grave-tablet at the dead man's 
+head end. 
+22. When the dead person is a man, there is one grave-tablet. 
+23. When it is a woman, there are two. 
+24. When the grave-tablet has been set up, they scatter flowers on 
+the grave and sprinkle it with holy water. 
+25. Then they recite the talqïn over it. 
+26. Then people all return home. 
+27. Sometimes they return to the dead man's house, because a funeral 
+meal is held. 
+28. That is all. 
+VIII. 
+1. Once upon a time there was an ancestor of ours who, when he 
+bathed, used seven tubs of water. 
+2. But he was not an ordinary person. 
+3. Af ter he had bathed, his body was like a mirror. 
+4. All things which he might touch, were covered for him with white 
+cloth, when he had bathed. in order that he would not touch 
+railings or waIls which people had touched already. 
+5. This is his story. 
+IX. The story of a clever Arab. 
+1. Once upon a time there was an Arab, a hajji. 
+2. When there were many people at the market, he demonstrated 
+his cleverness. 
+3. When the sun was almost setting, he called the children and then 
+told them to look into a bamboo. 
+4. In the meantime the sun had set. 
+5. When the children looked into the bamboo, they saw that the sun 
+was still there. 
+6. Consequently the Arab was much discussed and was praised with 
+the words: "How'clever he is!" 
+7. So the tale also penetrated to the palace. 
+8. Now the ruler wondered why that Arab continuously demon-
+strated his cleverness in public. 
+9. One day that Arab again gathered the children at the market. 
+71 
+10. Sasoona uka eo atumpumea maqa anaana humai akamata i 
+nttncana mbalombalo hUl1uLÏ te apaumbaia: "0 eo padamo uka 
+kudikaia i mbalombalo sU. 
+11. Kamatamea sii itu!" 
+12. M aqa anaana humai akamatamo. 
+13. Maka 0 eo inda atokamata i nuncana mbalombalo humai. 
+14. Sabutuna akoonimo maqa anaana humai: "Ka inda takamatea 0 
+eo, taqkanamo randana aena oputa!" 
+15. 0' 
+Ara~u humai inda aparacaea. 
+16. Akamatamo uka. 
+17. Maka so uka aka1tU'ttamo himbomo ikamatana maqa anoona humai. 
+18. Sakamatana humai apenemo i kamali ae1tU'tni ma'afu. 
+19. Himbomo humai tulatulana. 
+X. Tulatulana Lowulowu M orikana. 
+1. Onina maqa mancuana kooni 0 Lowulowu i piamo itu dooqia 
+sawuliqa adencu maqa miana. 
+2. Roonamo saeoakana sanampuu ma.qa mia agaamea maqa banuana, 
+roonamo indamo atara maqa amboore i nuncana banua, roonamo 
+o kampo hu1tU'ti ahumbunimea 0 kolo 'uma. 
+3. Maka 0 kolo'uma incia sii inda apokana te maqa kolo'uma biasa 
+sii, roonamo amaoge mpuu. 
+4. Ne apondele akotibuaka asombusombua maqa padana banua. 
+5. Sampe maqa mia harusumo agooqia maqa 0 banuana, roonamo 
+indamo atara amboore i nuncana banua. 
+6. Amaekamo ataburia maqa kolo 'uma maoge humai. 
+7. Sabutuna ali,qkamo maqa amboore uka i tampa mosagoonana. 
+8. Mbakanamo 0 koonuanuna maqa miana Lowulowu 0 tuamo sii: 
+9. Miana Lowulowu sii ataburia 0 kolo'uma. 
+10. 0 siimo tulatulana 0 Lowulowu M orikana. 
+XI. Tulatulana La Damu Sarina. 
+1. Dooqia samia te anana. 
+2. 0 mia humai himbomo uka 0 mia mosagoonana. 
+3. M aka 0 anana humai samaogena aposalamo mpuu te maqa anaana 
+mosagaanana. 
+4. Karona, limana te maqa aena sajulujuluna kaogena te kaaratena. 
+72 
+10. Af ter the sun had set, he told the children to look into the bamboo 
+and said to them: "I have again put the sun into this bamboo". 
+11. "Look at this". 
+12. The children looked. 
+13. But the sun was not to be seen in the bamboo. 
+14. So the children said: "But we do not see the sun, but only His 
+Majesty ourLord". 
+15. The Arab did not believe it. 
+16. He also looked. 
+17. But he also only saw the same the children had seen. 
+18. When he had seen that, he went up to the palace to ask forgi-
+veness. 
+19. So is his story. 
+X. The story of Old-Lowulowu. 
+1. The old people teIl that once upon a time people left Lowulowu, 
+2. For one day people suddenly left their houses, because they could 
+no longer bear staying in their houses as the village was overrun 
+by snails. 
+3. But these snaiIs did not resem bIe ordinary snails, for they were 
+very large. 
+4. When they feIl down as they crawled, they penetrated right 
+through the roofs of the houses. 
+5. So the people we re forced to leave their houses, as they could 
+not stand staying in their houses. 
+6. They were afraid that those great snails would overwhelm them. 
+7. Therefore they went to live in another place. 
+8. That is why the people of Lowulowu are teased like this: 
+9. The people of Lowulowu are overwhe1med by snails. 
+10. This is the story of Old-Lowulowu. 
+XI. The story of La Damu Sarina. 
+1. Once upon a time there was someone who had a child. 
+2. That person was just like all other people. 
+3. But this child of his, when it was grown up, differed greatly 
+from other children. 
+4. His body, his arms and his legs continually increased in length 
+and size. 
+73 
+5. Aposala mpuu kaogena te kaogena mia. 
+6. Mbakanamo 0 1nancuanana afikirimo: "Garaaka 0 anaku sii inda 
+apokana te maqa anaG1'ta mosagaanana. 
+7. Amaoge mpuu 0 anaana siit" 
+8. Mbakanamo akarajaamea, mamlldaakana 0 anaana humai ama-
+kaaaka bukuna. 
+9. Saeo saeo atudaakamea batu. 
+10. Arambiakamea kau. 
+11. Amapasamo kaluku i baana. 
+12. Sampe 0 anaana humai indamo anamisia I'naqa kasikisaa hun'tai. 
+13. Tee akolelemo uka i Kota Wolio kooni daaqia te mia hi11l,bo 0 
+humai kaogena. 
+14. Sabutuna atopeelomo. 
+15. Apamembalimea kaose. 
+16. Sabutuna opuna humai ne alimba i umala indamo amabaho, roo-
+nama 0 mia humai asodamo incia. 
+17. Rampana kalaqana indamo an'tabaho 0 aena opuna hU11'tai waku-
+tuuna apolimba 1naqa. 
+18. Daaqia saeo aumbamo kapalana Walanda. 
+19. Akamatea daaqia te mia nw,oge humai. 
+20. Ae11'tanimea, mamudaakana aose TValanda humai, roonamo onina 
+beakambelimbeliakea, nw,mudaakana apokamakamataakea miana 
+4ûnia. 
+21. Apojanjimo: ne aumba uka smnpearona, kasiimpo beabawea. 
+22. M aka garaaka wakutuuna amnbamo 0 mia l1taoge humai daaqiamo 
+pia malo amate. 
+23. Jaji indamo akawa 0 haejatina 0 Walanda humai. 
+24. H imbomo sii tulatulana. 
+XII. 0 sii tulatulana La N dokendoke te La H oohoo. 
+1. Baabaana sii 0 La N dokendoke asa./e La H ooho beasapo apenanda. 
+2. Alawanimo La H oohoo amendeu asapo, roonamo anw,eka, sa~a-
+~una daaqia amakidikidi. 
+3. Akoonimo La Ndokendoke: "Opeamo u1naeka? 
+4. Baraqkala aanuko mia, dactmpo kupapakia". 
+5. Aundamo La H oohoo asapo ara/w ikane. 
+6. Sakawana i tawo apeelomo ikane maqa. 
+7. Maka saopeapo La Ndokendoke apeelo ikane, inda apokawaaka. 
+74 
+5. His si ze greatly differed from that of the people. 
+6. So his father thought: "Indeed, this child of mine is not the same 
+as other children. 
+7. This child is very big I" 
+8. Therefore he did his best that the child should be strong. 
+9. Daily he threw stones at him. 
+10. He hit him with a stick. 
+11. A coconut would break on his head. 
+12. Consequently that child no longer feIt these tortures. 
+13. And it became known in the palace about him that there was 
+someone who was as big aS that. 
+14. Theresult was that he was looked for. 
+15. He was made a "follower" (a kind of servant of the ruler). 
+16. So his lord, when coming to a river, did not get wet, because that 
+man carried him on his shoulder. 
+17. Because of his length his ruler's feet no longer got wet when they 
+crossed. 
+18. One day a ship of a Dutchman arrived. 
+19. He saw that there was such a big man. 
+20. He asked him to go with that Dutchman, because he would go 
+travelling with him, as he said, to show him to the people of the 
+world. 
+21. They agreed that, when he came back next time, he would take 
+him with him. 
+22. But 10 I, when he came, the giant had died a few days before. 
+23. So the Dutchman's plan fell through. 
+24. This is his story. 
+XII. This is the story of Monkey and Beron. 
+1. The beginning was that Monkey invited Heron to go down (to 
+the beach) to fish. 
+2. Heron answered that he did not want to go down, because he was 
+afraid, as he was small. 
+3. Monkey said: "Why are you afraid?" 
+4. "If anyone would tease you, I shall certainly bite him". 
+5. Then Heron agreed to go down to catch fish. 
+6. When they had arrived at the sea, they looked for fish. 
+7. But however intently Monkey looked for fish, he could not find 
+anything. 
+75 
+8. Roonamo akagusagusa apolanda i tawo, sampe apalai 0 ikane. 
+9. [ncia La Hoohoo abarimo ikanella. 
+10. Kawa apontaqa eo, a111,arewumo incana 0 La Ndokendoke. 
+11. Akeniakamo La H oohoo, kasiimpo ahobuti buluna panina, kasii-
+mpo aala ikanena, kasiimpo ambuli. , 
+12. 1ncia La Hoohoo indamo apooli ambuli i banuana, roonamo ama-
+pupumo buluna panina ahobutia La Ndokendoke. 
+13. Sakawana 0 La Ndokendol?e i bant/ana kawa amakasu amalo, 
+amaimo inana La H oohoo aabal~i La N dokendoke i apaimo La 
+Hoohoo, ka indapo ambuli. 
+14. Alawanimo La Ndokendoke: "Aai, ka sakawamami i tawo 0 La 
+Hoohoo aliqkamo dltka samiamiana. 
+15. Moomini kukembaia, amendeu aose iaku. 
+16. Sabarina 0 ikaneku iaku kumbulimo katauku ara 0 La H oohoo 
+ambulimo duka, roonamo indamo kukamatea". 
+17. Araqo incia sumai, 0 inana La Hoohoo apolakamo asapomo i tawo 
+apeelo anana. 
+18. Sakawana i tawo aka11latamea La H oohoo so akabalebalemo 
+indamo te buluna panina. 
+19. Aabakimea 0 opea inda ikobuluakana panina sumai. 
+20. Alawanimo La Hoohoo: ahobutia La Ndokendoke, incia 0 ikanena 
+La Hoohoo apadea aalea La Ndokendoke. 
+21. Saraqona incia sU1nai a111areU:U1nO inca/la 0 inana La Hoohoo. 
+22. Abawamea i nuncana lia 0 La Hoohoo, kasii11lpo atautauakea 
+kinande, pokawaaka atuwu buluna· panina. 
+23. Satuwuna 0 buluna panina apolakamo La H oohoo ambulimo i 
+banuana. 
+24. Sakawana apogaugaumo maliqu hoo beasale maliqu ndoke beapc-
+kabaqkabaqka, mamudaakana beabolosia·ka namisina La Hoohoo. 
+25. Alipamo La Hoohoo akemba La Ndokendoke beapekabaqkabaqka 
+bealiqka arako ikane i saaqu duka liwuto, roonamo kooni iwe 
+sumai abari 0 ikane. 
+26. Saraqona maqa ndoke baribaria aposaundemo. 
+27. Akarajaamo baqka maqa. 
+28. Samondona 0 baqkana sumai aposasawimo maliqu ndoke baribaria 
+te maliqu hoo baribaria. 
+76 
+8. For he walked over the beach with much noise, so that the fishes 
+fled away. 
+9. But Heron got much fish. 
+10. When noon came, Monkey became angry. 
+11. He got hold of Heron, then he pulled out his wing-feathers, then 
+he took away his fish, then he went home. 
+12. But Heron could not return home as the feathers of his wings 
+had all been pulled out by Monkey. 
+13. After Monkey had come home, when evening was near, Heron's 
+mother came to ask Monkey where Heron was, for he had not 
+yet return ed. 
+14. Monkey answered: "I do not know, for when we had reached 
+the sea, Heron walked off alone. 
+15. Although I called him, he did not want to come with me. 
+16. When I had much fish, I returned, for I thought that Heron had 
+perhaps also returned, as I no longer saw him". 
+17. When Heron's mother heard that, she flew down to the sea to 
+look for her child. 
+18. Arrived by the sea she saw Heron standing up, not having any-
+more wing-feathers. 
+19. She asked him how it happened that he had no longer any wing-
+feathers. 
+20. Heron answered that Monkey had pulled them out and that 
+Monkey had taken away all Heron's fish. 
+21. Having heard this Heron's mother grew angry. 
+22. She brought Heron into a cave and afterwards she let down food 
+to him, until his wing-feathers had grown. 
+23. When the feathers of his wings had grown, Heron flew back 
+home. 
+24. When he had arrived there, all herons discussed inviting all 
+monkeys to go boating with them in order to take revenge for 
+what Heron had suffered. 
+25. Heron went to call Monkey to come boating to go fishing on an 
+other island, for there must be a lot of fish there. 
+26. Hearing this all monkeys agreed. 
+27. They made boats. 
+28. When the boats were ready, all monkeys and all herons got in 
+together. 
+77 
+29. Incia atondu 0 tana, incia akutua 0 baruna baqka 0 tnaqa hoo, 
+kasiimpo aposapolaka maqa baribaria. 
+30. Sabutuna 0 tnaqa ndoke aposaniate baribaria afondu i mtncana 
+tawo. 
+31. Taqkanapo sambaa molapana. 
+32. 0 ndokemo duka mohobutina buluna panina La H oohoo sU111ai 
+molapana. 
+33. Atorampemo i inawuna Ulouloqkobulu. 
+34. Sakawana apenemo i ati La N dokendoke te akahuhuhuhu. 
+35. Sakanwtana La Ndokendoke 0 Uloqkobulu asapomo apentaaia, 
+roonamo asomba beakande maliqu antona inawuna sumai. 
+36. Sakawana aabakimea: "I apaimo duka umina itu, Ndokendoke'!" 
+37. Alawanimo La Ndokendoke kooni: "Kutnagari. Kuminaaka i 
+Jawa". 
+38. Akoonimo Ulouloqkobulu: "Podo beugaugauaka. 
+39. Aipo umina ukande antona koinawuna itu". 
+40. A ~atnaramo La N dokendoke te akooni: "Karombuna Ulottloqko-
+bulu ndeal 
+41. Ande kupapesuaia i aqoku daana anwte I" 
+42. Alawanimo Ulouloqkobulu: "Iqka papesua dcidil" 
+43. Saraqona La Ndokendoke apapesuamea i nuncana aqona. 
+44. Laulausaka Ulouloqkobulu i otona La Ndokendoke, kasiimpo 
+akande otona. 
+45. Akakeekeemo La Ndokendoke: "Mai sapo, Ulouloqkobulttl 
+K ukaboqa I" 
+46. Inda araqo Ulouloqkobulu. 
+47. So apancuru akande otona. 
+48. Sampe amate 0 La Ndokendoke. 
+XIII. 0 sii tulatulana La Ndokendoke te La Kolokoloptta. 
+1. Daaqia saaqu wakutuu akowaonwranca. 
+2. Wakutuu incia sunwi akomawamo 0 uwe. 
+3. Apogaumo La Ndokendoke te La Kolokolopua beasapo apentaa 
+rampe itauna tnawa. 
+4. Akawa i uwe, asiwulumo loka sapuu. 
+5. Lausaka aalea maqa, kasiimpo apotumpoa beapombulaia. 
+6. Maka 0 La Ndokendoke mokenina kapooli. 
+7. Aalamo lolana, roonama alentua beamadeiaka akobake. 
+78 
+29. When the land had disappeared, the herons pecked through the 
+caulk of the boats, then all flew away together. 
+30. So all monkeys died sinking down into the sea. 
+31. Only one escaped. 
+32. The same monkey that pulled out Heron's wing-feathers was the 
+one who escaped. 
+33. He was washed ashore in the garden of Hairy-Caterpillar. 
+34. Arrived there Monkey went on land shivering. 
+35. When Hairy-Caterpillar had seen Monkey, he went down to wait 
+for him, for otherwise he would eat up everything in his garden. 
+36. Arrived there he asked him: "Where have you come from, 
+Monkey?" 
+37. Monkey answered: "I am cold. I have come from Java". 
+38. Hairy-Caterpi11ar said: "You are propably only telling lies. 
+39. Perhaps you come from eating in somebody's garden". 
+40. Monkey became angry and said: "How bad Hairy-Caterpillar is! 
+41. If I put him into my nose, he is sure to die!" 
+42. Hairy-Caterpillar answered: "Come on, put me in, if you dare!" 
+43. Hearing this Monkey put him into his nose. 
+44. Immediately Hairy-Caterpillar went on to Monkey's brains, then 
+he ate up his brains. 
+45. Monkey screamed out: "Do come down, Hairy-Caterpillar! I was 
+joking!" 
+46. Hairy-Caterpillar did not listen. 
+47. He just went on eating his brains. 
+48. So Monkey died. 
+XIII. This is the story of Monkey and Tortoise. 
+1. Once upon a time it was raining very hard. 
+2. At the same time there was aflood. 
+3. Monkey and Tortoise agreed to go down to wait for flotsam 
+carried down by the flood. 
+4. When they had arrived at the water, a banana tree was floating 
+downstream. 
+5. Immediately they took it, then cut it in order to plant it. 
+6. Now Monkey was the one who held power. 
+7. He took the top, because he thought it would soon bear fruit. 
+79 
+8. Kawa 0 La Kolokolopua aalamo pilita, aalamo puuna. 
+9. Alausaka '11'!aqa apombulaia 0 lokana sumai. 
+10. Saeona amaimo La Ndokendoke agoraaka La Kolokolopua 
+aabakia ara pia ntakemo tawana loka ipombulana sumai. 
+11. Alawanimo La Kolokolopua kooni: "Santakemo. 
+12. Ko iqkoo, Ndokendoke, pia ntakemof" 
+13. "Atwwu, atuwu, ambaleuleu. Atwu'It, atuwu, ambaleuleu". 
+14. Saeo saeo tuamo itu apogoraaka maqa, pokawaaka amate 0 lokana 
+La Ndokendoke. 
+15. lncia 0 lokana La Kolokolopua akobakemo. 
+16. Kawa amasasanw, La Kolokolopua beakompasimea 0 lokana 
+sumai. 
+17. Maka inda apooli. 
+18. AliqkO;mo akemba La N dokendoke bemokompasia. 
+19. Sakawana La Ndokendoke akompamo, kasiimpo apomakande 
+baribaria loka masasa sumai. 
+20. Agoramo La Kolokolopua: "Taburakaakaakupo saga a te iaku, 
+N dokendoke I" 
+21. M aka 0 La N dokendoke inda ataburakaakea. 
+22. So ataburaka kulina, 0 antona apadea akandea. 
+23. So alawani: "Bolipo iqkoo. Kupenapenamiqkukupea". 
+24. Pokawaaka amapupu 0 bakena loka sumai. 
+25. Sabutuna La Kolokolopua kakeakeamo incana. 
+26. Aliqkamo atadami ampa, kasiimpo atumbulakea i saripina puuna 
+loka sumai ataaia i korumpuana. 
+27. Kasiimpo apaumba La Ndokendoke kooni: 
+28. "Ande usabu, Ndokendoke, boli usabu i madetedetena, sabu i 
+marumpur1t1npunal 
+29. Roonamo ande usabu i madetedetena beaworako mantoana lakina 
+lipu". 
+30. Samapupuna 0 loka masasa sumai akandea La Ndokendoke asa-
+bumo i weta marumpurumpuna, lausaka akana i ampa itaana La 
+Kolokolopua. 
+31. Sampe amate La Ndokendoke. 
+32. Sakamatana incia sumai La Kolokolopua aalamo mbalo, kasiimpo 
+ataanakaaka raana La Ndokendoke, kasiimpo aliqka aaso. 
+33. Tee baquna gorana kooni: "lnda uali, inda uali 0 gola, yeyef I" 
+80 
+8. When Tortoise made his choice, he took the trunk. 
+9. They proceeded to plant their bananas. 
+10. Next day Monkey came calling Tortoise asking him, how many 
+leaves the banana had he had planted. 
+11. Tortoise answered: "One leaf. 
+12. And you, Monkey, how many leaves?" 
+13. "It is growing a little, it is drooping a littJe. It is growing a little, 
+it is drooping a little!" 
+14. Each day they called out to each other like this, until Monkey's 
+banana died. 
+15. Tortoise's banana however bore fruit. 
+16. When it was ripe, Tortoise wanted to c1imb into his banana tree. 
+17. But he could not. 
+18. He went to eall Monkey who was to c1imb into it. 
+19. Arrived there Monkey c1imbed, then he ate all the ripe bananas. 
+20. Tortoise called: "Drop some for me also, Monkey!" 
+21. But Monkey did not drop any for him. 
+22. He only dropped the skins, the contents he ate up. 
+23. He only answered: "Wait a moment, you! I shall eat them up 
+little-by-little" . 
+24. So it went on until the fruits of this banana were finished. 
+25. So Tortoise fell into a rage. 
+26. He went to sharpen man-traps, then he set them in the ground 
+beside the banana tree setting them in the grassy plot. 
+27. Then he said to Monkey: 
+28. "When you jump down, Monkey, do not jump down on to the 
+plain, j ump down on to the grassy plot. 
+29. For if you jump down on to the plain, you will be barked at by 
+the ruler's dogs". 
+30. Af ter Monkey had eaten up all the ripe bananas, he jumped down 
+on the grassy si de and immediately came down on to the man-
+traps set up by Tortoise. 
+31. So Monkey died. 
+32. Seeing this Tortoise took a bamboo, thcn he collected Monkey's 
+blood in it, then he went to sell it. 
+33. And the way he called was: "Oh, won't you buy, won't you buy 
+sugar? !" 
+81 
+34. Saraqona 0 lakina lipu atumpumo mia bemogoraaka La Kolo-
+kolopua beaali golana sumai. 
+35. Sapadana aalia kawa beapomea haragaana, La Kolokolop'ta 
+amendeu aala kupa, tabeana beaala mbololo. 
+36. Aalamo mbololo 0 haragaana gola sumai. 
+37. lneia satotuuna mineuana gola, tabeana 0 raana La Ndokendoke. 
+38. Sakaaratea dala La Kolokolopua aliqkaaka rambi 0 mbololona 
+sumai temo alagu: 
+39. "Atidoqu, atidoqu, atidololololo! 
+40. U kandekande 0 bukuna raqamiu. U sumpusumpu 0 raana raqa-
+miu". 
+41. Saraqona lakina lipu a}amaramo. 
+42. Atumpu mia bemogoraakea La Kolokolopua. 
+43. "Aipo La Kolokolopua sii amaqapaalimo raa. 
+44. AiPo mineuana gola". 
+45. Saraqona kakemba La Kolokolopua amaimo. 
+46. Kawa aabakia, amaqakumo kooni: 
+47. "Mineuana gola, 0 raa!" 
+48. Ahukumumea La Kolokolopua beasumbelea. 
+49. Aundamo La Kolokolopua beatosumbele, maka tabeana beapo-
+polaqo i paana lakina lipu. 
+50. Apopolaqomo i paana lakina tipu. 
+51. lncia adodoa 0 borokona, ineia asowo 0 baana La Kolokolopua. 
+52. Sabutuna 0 kapttlu kasumbelena sumai akanamo paana lakina lipu. 
+53. Lausaka amate 0 lakina lipu. 
+54. Taqkanapo. 
+XIV. Tulatulana La Paapaando. 
+1. Saeoakana akambelimbelimo La Paapaando i nuneana koo. 
+2. Daaqia akana ineana, roonamo pada agau harimau. 
+3. So aliqkaakamo akaketekete. 
+4. Sadia daaqia audani 0 harimau igauna i saao. 
+5. M aka sanampuu araqomo ruqka. 
+6. A poilimo i talikuna. 
+7. Akamatamo 0 harimau igauna i saao itu. 
+8. Opeamo ikarajaa! Taqkanamo 0 palai. 
+9. Sanampuu abuntulimo. 
+10. lnda a'mataua i apai apalai, so aliqkamo. 
+11. M aka 0 harimau humai akamata La Paapaando humai apalai, 
+abuntubuntulimo uka i talikuna. 
+82 
+34. Having heard this the ruler commanded someone to caU to Tor-
+toise that he would buy his sugar. 
+35. Having bought it he wanted to pay the price, but Tortoise dicl 
+not want to take money, but he wanted to get a gong. 
+36. He got a gong as price for that sugar. 
+37. But actually it was not sugar, but Monkey's blood. 
+38. All the way Tortoise went heating his gong and singing : 
+39. "Bang-bong, jingle-jangle! 
+40. You are eating the bones of your comrade, you are drinking your 
+comrade's blood". 
+41. Hearing this the ruler got angry. 
+42. He commanded someone to call for Tortoise. 
+43. "Maybe Tortoise has sold us blood. 
+44. Maybe it is no sugar". 
+45. Hearing the calling Tortoise came. 
+46 .. When asked, he admitted saying: 
+47. "It is no sugar, it is blood!" 
+48. He condemned Tortoise to he slaughtered by him. 
+49. Tortoise agreed to be slaughtered, but he should have the ruler's 
+thigh as a cushion. 
+50. He indeed did get the ruler's thigh as a cushion. 
+51. The very moment that he was going to cut off his neck, Tortoise 
+drew in his head. 
+52. So the slaughter-knife hit the ruler's thigh. 
+53. Immediately the ruler died. 
+54. That is all. 
+XIV. A story of M ouse-deer. 
+1. One day Mouse-deer was walking in the wood. 
+2. He was pleased, because he had tricked the tiger. 
+3. He walked along sniggering. 
+4. All the time he remembered the tiger he had just tricked. 
+5. But suddenly he heard a rustling. 
+6. He looked back. 
+7. He saw the tiger he had just tricked. 
+8. What should he do? Only flight. 
+9. Suddenly he ran away. 
+10. He did not know where he was running, he just ran. 
+11. But the tiger saw Mouse-deer running away and trotted af ter him. 
+83 
+12. Atumpumo incana akamata La Paapaando humai indamo amatatt 
+incana apalai. 
+13. La Paapaanáo adawudawu mpuu incana abuntuli. 
+14. Sanampuu akawamo umala maoge. 
+15. Opeamo ikarajaa! 
+16. Apotonto i taliktma, daaqia te harimau. 
+17. Apotonto i aroa, daaqia te uwe. 
+18. Asukaramo mpuu incana. 
+19. 0 harimau humai akatootooromo uka akamakamata La Paapaanáo 
+ináa momatauna incana humai. 
+20. Atumpumo mpuu incana te akooni i incana: "Siisii kupoolikomo!" 
+21. M aka sanampuu La Paapaando akamatamo buea mopoqano. 
+22. Agoraakamea: "He sabaqka! [ apai ulipa itu! 
+23. [apai maqa sabaqkamiu, ka ináa kuka'matea! 
+24. Buaka ináa uraqo!" 
+25. "Taraqo opea!" 
+26. "0 lakina lipu sii apeelu beamataua kabarimiu. 
+27. Mbakanamo iqkomiu harusu utogagari. 
+28. Sipea, daaqiamo te harimau mokamakamatana uka kabarimiu. 
+29. Mbakanamo pokembakembamo, mamuáaakana utogagariaka sii-
+sii". 
+30. 0 buea.humai akembamo maqa sabaqkana. 
+31. Aposaumbaumbamo uka wakutuu incia humai. 
+32. "Potalatala adi komiu, mamudaakana amalape kugagarikomiu". 
+33. M aqa buea humai aporapiraPimo. 
+34. Abukea 0 kaewana umala humai rampana kabarina. 
+35. La Paapaando atumpumo incana. 
+36. Apepuumo agagari: "sambaa, rua mbaa ... . ", sampe apaáea. 
+37. Maka akawamo uka i sawetana umala, roonamo apolandamo i 
+torukuna maqa buea humai. 
+38. "0 sii paáamo utogagari komiu. 
+39. Mbulimo i banuamiu!" 
+40. 0 harimau rampana katumpuna incana i saao 0 La Paapaando 
+amarasaimo indamo aparahatikaia opeamo ikarajaana La Paa-
+paanáo. 
+41. [ncia mpuu akamatea garaaka 0 La Paapaando i sawetanamo 0 
+umala, alumbumo mpuu 0 incana. 
+42. Apajeremea abuntulnno. 
+43. M aka kawa i taqataqana uwe so atidomu. 
+84 
+12. He was glad to see that Mouse-deer was upset while he ran. 
+13. Mouse-deer greatly concentrated on running. 
+14. Suddenly he reached a great river. 
+15. What should he do? 
+16. He looked around, there was the tiger. 
+17. He looked in front, there was the water. 
+18. He was in apinch. 
+19. The tiger sat down looking at Mouse-deer who did not know 
+what to do. 
+20. He was very pleased and said to himself: "Now I have got you r' 
+21. But suddenly Mouse-deer sawa crocodile swimming. 
+22. He called to him: "Say comrade! Where are you going? 
+23. Where are your comrades, for I don't see them? 
+24. Haven't you heard?" 
+25. "vVhat should we have heard?" 
+26. "The ruler wants to know your number. 
+27. So you must he counted. 
+28. Look here, the tiger also sits looking at your number. 
+29. So eaU each other, that you may now he counted". 
+30. The crocodile caIIed his comrades. 
+31. They aU came at the very moment. 
+32. "You go and lie next to each other in order that I can count you 
+weU". 
+33. The crocodiies lay down si de by side. 
+34. The breadth of the river was fiIIed by their number. 
+35. Mouse-deer was glad. 
+36. He began counting: one, two .... until he was ready. 
+37. But he had also reached the other side of the river, as he had 
+walked over the backs of the crocodiles. 
+38. "Now you have been counted. 
+39. Go back home!" 
+40. The ti-ger had taken no notice of what Mouse-deer was doing 
+because of his j oy that Mouse-deer was in difficuIties. 
+41. As soon as he saw that Mouse-deer was actually at the other si de 
+of the river, he got very angry. 
+42. He foUowed him running. 
+43. But haJfway the water he sank down. 
+85 
+44. Rampana 0 lumbuna i saao inda amataua garaaka ilandakina sii 
+o maqa buea asaroqia podo batana kau. 
+45. Atidomupo, kasiimpo amatau incana. 
+46. Garaaka apapenamimea uka 0 La Paapaando. 
+47. Sataqa mate, kasiimpo akawa i ati. 
+48. Maka 0 La Paapaando indamo atokamata i apai alipa. 
+xv. 0 sii tulatulana Wa Ndiudiu. 
+1. Baabaana 0 nua sttmai te anana rua m~a samw bawine, sa17tta 
+umane. 
+2. 0 bawine 0 sarona Wa Turuqkoleo. 
+3. 0 umane 0 sarona La Mbatambata. 
+4. Kawa 0 amana Wa Turuqkoleo te La Mbata11lbata sttl1lai ataamo 
+kampepe. 
+5. Akana'mo ikane kampepena sumai. 
+6. Aalamea, kasiimpo awolea, ka adikaia i ombu. 
+7. Kawa aliqka 0 amana Wa ntruqkoleo, ajanjimo inana Wa Tzt-
+ruqkoleo, mamudaakana boli alea 0 kawolena sumai. 
+8. Akooni11w inana, Wa Turuqkoleo: 
+9. "Incemamo beaalea, taqkanamo maqa anaana sii". 
+10. Alau"animo amana Wa Turuqkoleo: 
+11. "M oomini maqa anaana sii boli alaakea". 
+12. Inda maqeqe aliqka, ataqimo La Mbatambata gauna beakandc 
+kawolena amana sunwi. 
+13. Adawumea ikane 0 inana, maka amendett so ataqi arambirambi-
+taka karona, tabeana beakande kawolena a11lana. 
+14. Akamata incia sumai, 0 inana amaasimo adodoakamea lencilencina 
+saide, ka atunuakea. 
+15. Daaqiamo i nuncana akandekandea, akawamo amana. 
+16. Sakamatana lausaka alipa aparakisaa kawolena. 
+17. Ineia akamatea akailaqamo, incia a'amaramo. 
+18. Akoonimo inana La Mbatambata: 
+19. "Tombakana so kualaakamo, roonamo amendeu akande ikane, 
+tabeana 0 kawolemu, kualaakamea lencina saide, roonamo arambi-
+rambitakamo karona". 
+20. So alawani amana: "M oomini ataqi, boli alaakea". 
+21. TC'mo aala parewana tanuana inana La Mbatambata, kasiimpo 
+abebeaka inana La Mbatambata, sampe anwkatukatu. 
+86 
+44. Through his anger he did not know that really what he stepped 
+on we re crocodiies. He thought it was onIy sterns. 
+45. Only while he was sinking, he came to himself. 
+46. Truly, Mouse-deer had tricked him again. 
+47. He was half dead before he came on land. 
+48. But is was no longer to be seen where Mouse-deer had gone. 
+xv. This is the story of Wa Ndiudiu. 
+1. Once upon time there were people who had two children, one a 
+boy and one a girl. 
+2. The name of the girl was Wa Turuqkoleo. 
+3. The boy was called La Mbatambata. 
+4. It came to pass that Wa Turuqkoleo and La Mbatambata's father 
+put out bow-nets. 
+5. Fish came into these bow-nets. 
+6. He took them, then c1eaned them, then he put them in the smoke. 
+7. While Turuqkoleo's father went away, he impressed Wa Tu-
+ruqkoleo's mother not to take the c1eaned fish. 
+8. Wa Turuqkoleo's mother said: 
+9. "Who would take it, only these children". 
+10. Wa Turuqkoleo's father answered: 
+11. "Even for these children you must not take them". 
+12. He had not been gone long, when La Mbatambata began to cry 
+saying that he wished to eat his father's c1eaned fish. 
+13. His mother gave him fish, but he refused. He just cried, beating 
+about his body, but he wanted to eat his feather's c1eaned fish. 
+14. Seeing this his mother feIt pity for him. She cut off a piece of 
+tail for him, then roasted it for him. 
+15. Whiie he was eating it up, his father came. 
+16. As soon as he saw it, he immediately went to investigate his 
+c1eaned fish. 
+17. As soon as he noticed some of it was gone, he got angry. 
+18. La Mbatambata's mother said: 
+19. "The reason I took it for him is that he refused to eat fish, but 
+only wanted your c1eaned fish; I took a piece of tail for him, 
+as he was beating about his body". 
+20. His father onIy answered: "Even if he cries, you must not give 
+it to him". 
+21. And he took the weaving-Ioom of La Mbatambata's mother, then 
+he hit La Mbatambata's mother with it till it broke. 
+87 
+22. So asarandarandamo, so asambelambelamo inana La Mbatambata. 
+23. Sapadana tua sumai incia aonto asikisaaia, incia akemba La Mba-
+tambata apasttsua. 
+24. 0 Wa Turuqkoleo akembaia i saripina temo ataqitaqisia te apau-
+mbaia: 
+25. "Ande inda ukandea ntaupo 0 kawolena amamu inda bekupona-
+misi tua sii". 
+26. Temo duka apaumba Wa Turuqkoleo: 
+27. "So umboombooremo itu komiu maasiakea 0 andimu, roonamo 
+iaku bekuliqkamo, karana 0 amamiu alabi kawolena te iqkomiu". 
+28. Satumpuna incana 0 La Mbatambata asusu aalamo biana 0 inana 
+te bajuna, kasiimpo aposaqa i anana ruamiaia, kasiimpo aliqka. 
+29. Sakawana i lawala-wana banuana abencibencimo biana, kasiimpo 
+ataburakea i dala sakaaratea dala, mamudaakana beakamatea 
+anana. 
+30. Atnapupu biana, abencibencimo bajuna. 
+31. lncia amapupu 0 bajuna, incia akawa i tawo. 
+32. Aaronimo ajimana, kasiimpo adikaia i bawona batu, kasiimpo 
+ataburaka karona i tawo. 
+33. Kawa amalo, La Mbatambata samaloa ataqiaka inana, amatuumo 
+borokona. 
+34. So akooni 0 amana apaumba Wa Turuqkoleo: "Pasumpuakea 
+uwe!" 
+35. So abukemo kompona, inda aonto ataqi. 
+36. Saeona malomalo atambimea Wa Turuqkoleo 0 La Mbatambata, 
+aliqkamo apeelo inana. 
+37. Salimbana i lawala-wana banuana akamatamo kabencina biana 
+inana. 
+38. Ataqimo temo akooni: 
+39. "Garaaka ndea, Mbatambata, 0 inata sii abencibencimea 0 biana, 
+madaakana iqkoo i awi umempili ukande. 
+40. Ande inda ttkande kawolena amata ntaupo inda bealiqka 0 inata, 
+sadaadaa tamboomboore te inata. 
+41. Maka iqkoo umempili. 
+42. lncia 0 amata alabiaka kawolena te iqkita". 
+43. Anunumo kabencina biana inana sumai maqa temo aliqkaaka taqi 
+sakaaratea dala. 
+88 
+22. La Mbatambata's mother was all covered with bruises and 
+wounds. 
+23. When that was finished, as soon as he stopped punishing her, she 
+called La Mbatambata and suckled him. 
+24. She called Wa Turuqkoleo to her side, while she kept weeping 
+over them, and said: 
+25. "If you had not eaten your father's cleaned fish, I would not 
+suffer like this". 
+26. She also said to Wa Turuqkoleo: 
+27. "You just stay here, be kind to your brother, for I am going 
+away, because your father esteems his cleaned fish more, that 
+you". 
+28. When La Mbatambata was satisfied with sucking, his mother 
+took her sarong and her jacket, then she said farewell to both 
+her children, then she went away. 
+29. Arrived at the gate of the house she tore up her sarong, then 
+threw it on the road all along the road, in order that her children 
+should see it. 
+30. When her sarong was used up, she tore up her jacket. 
+31. Just when her jacket was used up, she arrived by the sea. 
+32. She loosened her amulet, then laid it on a stone, then she threw 
+herself into the sea. 
+33. At night La Mbatambata cried all the night for his mother, his 
+throat being dry. 
+34. Ris father only said to Wa Turuqkoleo: "Let him drink water". 
+35. Although his stomach was full, he did not stop crying. 
+36. Next morning Wa Turuqkoleo carried La Mbatambata and went 
+to look for her mother. 
+37. As she went out by the gate of her house, she saw the torn piece5 
+of her mother's sarong. 
+38. She wept and said: 
+39. "Truly, Mbatambata, there our mother has torn her sarong, 
+because you were so fastidious in eating yesterday. 
+40. If you had not eaten of our father's cleaned fish, our mother 
+would not have gone away, we would stilf be with our mother. 
+41. But you were fastidious. 
+42. Our father esteems his cleaned fish more than us". 
+43. They looked for the torn pieces of their mother's sarong and went 
+weeping along the whole road. 
+89 
+44. 0 Wa Turuqkoleo aliqkaaka lagu te ataqi. 
+45. Tee baquna laguna: 
+46. "Wa ina, Wa Ndiudiu, mai pasusu andiku. 
+47. Andiku La Mbatambata, iaku Wa Turuqkoleo". 
+48. Samaqeqena akaliqkaliqka akamatamo duka kabencina bajuna. 
+49. Akoonimo duka 0 Wa Turuqkoleo apaumba La Mbatambata: 
+50. "Garaaka ndea 0 inata sii atalanjamo indamo te pakeana. 
+51. 0 bajuna abencibencimea duka". 
+52. Pokawaaka akawa i tawo. 
+53. Sakawana i tawo akamatamo ajimana inana i bawona batu. 
+54. Aalamea topoudaniana te inana. 
+55. Wakutuu incia sumai daaqia te maqa mopebuanina. 
+56. Aabakimo mopebuanina sumai: 
+57. "Inda ukamata iqkomiu 0 bawne aliqkaaka taqi i awf" 
+58. Alawanimo mopebuanina sumai: 
+59. "Takamata i aw, maka aleamo i nuncana tawo sii, indamo abaqu 
+pokawaaka malo". 
+60. Ataqimo Wa Turuqkoleo te La Mbatambata. 
+61. Temo duka alagu 0 Wa Turuqkoleo simbao duka laguna i saao. 
+62. Sali,qkana mopebuanina sumai abaqumo inana Wa Turuqkoleo 
+minaaka incana tawo te katarena ikanena. 
+63. M aka akoonamo 0 bawona aena simbao ikane. 
+64. Sakawana asaqomo La Mbatambata, kasiimpo apasusua. 
+65. Temo duka ataqitaqisia te apaumbaia: 
+66. "Ande so ukande ntaupomo inda betapogaa te iaku". 
+67. lncia atumpu incana La Mbatambata asusu, atumpumea ambuli 
+i banuana te Wa Turuqkoleo te adawuakamea katarena ikanena 
+sumai. 
+68. Wa Turuqkoleo te La Mbatambata beaosemo inana, maka ame-
+ndeua te akooni: 
+69. "Bolimo ose iaku! 
+70. Boliakamo iqkomiu mbulimo i banua, roonamo iaku sii bekume-
+mbalimo ikane. 
+71. Coba kamatea sii! 
+72. 0 bawona aeku sii apepuumo akoona". 
+73. Ambulimo Wa Turuqkoleo te La Mbatambata i banuana akeni-
+kenimo te katarena ikanena. 
+74. Apaumbamea duka 0 inana sumai: 
+90 
+44. Wa Turuqkoleo went singing and weeping. 
+45. And what she sang was: 
+46. "Mother Wa Ndiudiu, come, suckle my brother. 
+47. My brother is La Mbatambata, I am Wa Turuqkoleo". 
+48. When they had been walking for a long time, they also saw 
+pieces of her jacket. 
+49. Wa Turuqkoleo again said to La Mbatambata: 
+50. "There, our mother was naked, she had no more cloths on. 
+51. Her jacket she also tore up". 
+52. Then they came by the sea. 
+53. Arrived by the sea they saw their mother's amulet on a stone. 
+54. They took it with them as a souvenir of their mother. 
+55. At the same time fishermen we re there. 
+56. They asked these fishermen : 
+57. "Did not you yesterday see a woman who walked along weeping ?" 
+58. The fishermen answered: 
+59. "We did see yesterday, but she dived into the sea; she had not 
+come up when evening came". 
+60. Wa Turuqkoleo and La Mbatambata wept. 
+61. And Wa Turuqkoleo again sang the same she had just sung. 
+62. When the fishermen had gone away, Wa Turuqkoleo's mother 
+emerged from the sea with a bunch of fish. 
+63. But the upper side of her feet had scales like a fish. 
+64. When she had come, she took La Mbatambata on to her lap, then 
+suckled him. 
+65. She also wept over him and said to him: 
+66. "If you had just eaten, then you would not part from me". 
+67. As soon as La Mbatambata was satisfied with sucking, she sent 
+him back home with Wa Turuqkoleo and gave them that bunch 
+of fish. 
+68. Wa Turuqkoleo and La Mbatambata wanted to follow their 
+mother, but she refused saying: 
+69. "Do not follow me! 
+70. You gust go home, for I shall become a fish. 
+71. Just look at this! 
+72. The top of my feet has already begun to grow scaly". 
+73. Wa Turuqkoleo and La Mbatambata returned home carrying 
+their bunch of fish with them. 
+74. Their mother also said to them: 
+91 
+75. "Ande aabakikomiu atl'tamitt ittt paumbaia inda upokawa te iaku 
+te 0 ikanemiu itu adawukomiu mia momaasina". 
+76. Sapadana aleamo dttka i tawo 0 inana sumai. 
+77. Sakawana i banua aabakimea amana: 
+78. "Upokawa te inamiu?" 
+79. Alawanimo maqa: "lnda tapokawa". 
+80. "Ko ikanemiu itu i apai uala?" 
+81. "Adawukami momaasina i tawo siroo". 
+82. Lausakamo aalea a1nana 0 ikane sttmai, kasiimpo anasua, ka 
+akande. 
+83. 0 Wa Turuqkoleo te La Mbatambata so adawu saide. 
+84. Kawa amalo, samaloa duka 0 La Mbatambata ataqiaka inana te 
+amatuu borokona. 
+85. Saeona atambimea duka Wa Turuqkoleo 0 La Mbatambata, ka 
+asapo i tawo, ka alagu duka: 
+86. "Wa ina, Wa Ndiudiu, mai pasusu andiku! 
+87. Andiku La Mbatambata, iaku Wa Turuqkoleo". 
+88. Saraqona duka kaasi 0 inana abaqumo duka temo duka katarena 
+ikanena. 
+89. Sakawana apasusumo duka La Mbatambata. 
+90. Satumpuna duka incana asusu ambulimo duka maqa i banuana. 
+91. 0 inana aleamo duka i tawo. 
+92. Saeo saeo tuamo itu, pokawaaka pittt eo. 
+93. lncia akawa pittt eo, incia atipumo onana. 
+94. S oma susuna indapo mokoonana. 
+95. Wakutuumo incia sumai akoonimo Wa Ndiudiu kooni: 
+96. "Naile komiu bolimo sapo, rOOMmo iaku indamo amembali beku-
+pene i ati. 
+97. Tombakanamo komiu boliakamo, akonowiapo, kasiimpo umbuli i 
+banua, roonamo eomo sii kapadaana tapokawa". 
+98. lncia akonowia, atumpumo incana La Mbatambata asusu. 
+99. Ambulimo tnaga temo duka katarena ikanena. 
+100. AS amaramo amana, roonamo amalo, kasiimpo ambuli sumai. 
+101. Saeona asapomo duka i tawo Wa Turuqkoleo te La Mbatambata. 
+102. So atnaqulemo alagu 0 Wa Turuqkoleo, indamo abaqu 0 inana, 
+pokawaaka asoo eo. 
+103. Taqkanamo so akamatamo katarena ikane i bawona batu diqka-
+nana ajimana inana sutnai. 
+104. S 0 aalamo katarena ikane sumai maqa, kasiimpo ambuli. 
+92 
+75. "When your father asks you, tell him that you did not meet me 
+and that someone who felt pity gave you this fish". 
+76. Then their mother dived inta the sea again. 
+77. When they came home their father asked: 
+78. "Did you meet your mot her ?" 
+79. They answered : "We did not meet her". 
+80. "And these fish of yours, where did you get them?" 
+81. "A kindhearted person gave them to us there by the seaside". 
+82. At once their father took the fish, then he cooked them and then 
+ate them up. 
+83. To Wa Turuqkoleo and La Mbatambata he only gave a Httle bit. 
+84. When night had fallen, La Mbatambata cried again the whole 
+night for his mother and his throat was dry. 
+85. Next day Wa Turuqkoleo again took along La Mbatambata in 
+a cloth and went to the sea; then again she sang: 
+86. "Mother Wa Ndiudiu, come, suckle my brather. 
+87. My brother is La Mbatambata, I am Wa Turuqkoleo". 
+88. When she heard this again, sad to relate!, their mother again 
+emerged and again she had a bunch of fish with her. 
+89. When she had come, she again suckled La Mbatambata. 
+90. When he was satisfied again with sucking, they returned home 
+again. 
+91. Their mother dived back into the sea. 
+92. It was the same thing each day, until seven days had passed. 
+93. When the seventh day had come, she was quite scaly. 
+94. Only her breasts were not yet, scaly. 
+95. At that moment Wa Ndiudiu said: 
+96. "Tornorrow you must not come, for I wil! no longer be able to 
+come on land. 
+97. 
+FOT that reason you should just stay until midday, then go home, 
+for this will be the last day that we meet each other". 
+98. At midday La Mbatambata was satisfied with sucking. 
+99. They went back home with their bunch of fish. 
+100. Their father was angry, because it was evening by the time they 
+returned. 
+101. Next day Wa Turuqkoleo and La Mbatambata 
+again went to the sea. 
+102. Although Wa Turuqkoleo tired hers elf out with singing, her 
+mother did not come up, until the sun set, 
+103. They only sawa bunch of fish on the stone on which the amulet 
+of their mother had been laid. 
+104. They only took that bunch of fish, then they went home. 
+93 
+ADDmONS 
+Page 15 
+Deviant, both in fonn and in derivation, is koamasina -
+to be demanding, 
+ambitious, from masina - jealous, desirous. 
+Page18 
+Irregular is the fonn of kapeepewuli -
+to telllies. 
+Page 18** 
+Productivity occurs in the case of denominal pe- verbs meaning either 
+"fish with" or "play with": 
+peompo -
+catch fish with a trap, ompo -
+fish trap. 
+pepuka -
+to fish with a dragnet, puka -
+dragnet 
+pebuia -
+to play cards, buia -
+playing card. 
+pegolu -
+to play with a balI, golu -
+balI. 
+Page 19 
+Members of this category - which is productive - show a tendency to 
+distinguish between a dual actor fonn with unreduplicated root and a 
+plural actor fonn with reduplicated root. 
+pogaa -
+part, separate (oftwo persons),pogaagaa -
+disperse, split up 
+(of many people, a meeting), gaa -
+part, go away. 
+This reciprocal fonn may be based on another po- fonn: 
+popotawai -
+smile at each other, potawa -
+to smile. 
+Page 21 
+The same double suffix as in potawaiki is found in samaraiki -
+to be 
+angry with, from Samara -
+to be angry. 
+Page 22 
+Exceptional is jamaJaaka -
+to attend the Friday service in the mosque, 
+fromjamasa -
+Friday service. 
+94 
+Page 27 
+h. Suffix -a. This suffix gives the verb-fonn a subjunctive meaning. 
+matana ingkoo -
+that you may know! 
+Page 29 
+More or less in between these two types are fonnations like 
+tohobuti -
+fall out (of hair or feathers), hobuti -
+pull out 
+toloe -
+hang, loe -
+hang up. 
+topinto -
+fall otf, pinto -
+emerge. 
+Exceptional is the case of 
+tomeriaka -
+doubt (transitive!) from meri ~ be in doubt 
+Page 29** 
+The sterns in question may weIl be regarded as a subclass of the verb and 
+called adjectives. These further show the possibility of a fonnation with 
+prefix sa- and suffix -na. The meaning of these is: having a high degree 
+of ... 
+samalapena -
+as beautiful as can be, from malape -
+beautiful. 
+Page)] 
+If derived from a noun, the meaning usually is: thing shaped like, 
+imitation of: 
+kapisopiso -
+kind of fish, having the shape of a knife, from piso -
+knife. 
+karourou -
+picture of a face, from rou -
+face. 
+In cases like these there is a variant fonn with qka-. 
+Page 32 
+Prenasalization of the initial consonant of the root is found in: 
+kampalea -
+obstacle, from pale -
+to pass. 
+Page 33 
+Combination with suffix -i is found in: 
+kalelei -
+habit, custom, from lele -
+pennanent. 
+Page 33** 
+Xv. 
+Prefix maqa-. This non-productive prefix fonns agent-nouns from 
+verbs: 
+maqaagoi -
+robber, from agoi -
+to rob. 
+maqapoqko -
+murderer, from poqko -
+to kill. 
+95 
+Page 34 
+J. Also found with numeral coeflicients only is the prefix ko-, with the 
+meaning "some, a few": 
+kombula -
+some months. 
+kotao -
+a few years. 
+96 
+BffiUOGRAPHY 
+Abas, Husen, A. Kadir Manyambeang, Ibnu Nandar and Shaidy 
+1983 
+Struktur Bahasa Wolio. Jakarta: Pusat Pembinaan dan Pengem-
+bangan Bahasa, Departemen Pendidikan dan Kebudayaan, xiii + 
+62pp. 
+, 
+Abas, Husen, Shaidy and LukmanulhakimJaya 
+1985 Kamus Wolio-Indonesia. Jakarta: Pusat Pembinaan dan Pengem-
+bangan Bahasa, Departemen Pendidikan dan Kebudayaan, xiv + 
+191 pp. 
+Abidin, Salmayati 
+1983 Proses morfemis kata kerja Bahasa Wolio. Ujung Pandang: Fakultas 
+Ilmu-Ilmu Sosial dan Budaya, Universitas Hasanuddin, viii + 99 
+pp. [M. A. thesis,] 
+Anceaux,]. C. 
+1952 
+The Wolio language; Outline of grammatical description and texts. 
+'s-Gravenhage: Nijhoff, iv + 93 pp. [KITLV, Verhandelingen 11.] 
+1978 'The linguistic position of South-East Sulawesi: a preliminary 
+outline', in: SA Wurm and Lois Carrington (eds), Second Interna-
+tional Conference on Austronesian Linguistics: Proceedings, 1. l%stern 
+Austronesian, pp. 275-283. Canberra: Department of Linguistics, 
+Research School of Pacific Studies, Australian National University. 
+[Pacific Linguistics, Series C, No. 61.] 
+1981 
+'Regelmaat en produktiviteit in een Austronesische taal', Forum 
+der Letteren 22:143-147. 
+1986 'Sociale en taalkundige aspecten van de Wolio letterkunde', in: 
+C. M. S. Hellwig and S. O. Robson (eds), A man ofIndonesian letters; 
+Essays in honour of Professor A Teeuw, pp. 238-241. Dordrecht/ 
+Cinnaminson: Foris. [KITLV, Verhandelingen 121.] 
+1987 
+Wolio dictionary (Wolio-English-Indonesian) - Kamus Bahasa Wolio 
+(Wolio-Inggeris-Indonesian), Dordrecht/Providence: Foris, xix + 
+195 pp. [KITLV.] 
+Berg, E.]. van den 
+1937 'De viering van den raraja hadji in de Kota Wolio (Boeton)' 
+Tijdschrift voor Indische Taal-, Land- en Volkenkunde (TBC) 77:650-
+660. 
+97 
+1939 
+'Adatgebruiken in verband met de sultansinstallatie in Boeton', 
+Tijdschrift voor Indische Taal-, Land- en Volkenkunde (TBC) 79:469-
+528. 
+1939 'Poelau Makassar', Cultureel Indië 1 :366. 
+Cense,A. A. 
+1954 
+'Mededelingen uit de verslagen van Dr E. J. van den Berg', 
+Bijdragen tot de Taal-, Land- en Volkenkunde 110:154-184. 
+Gani, Ambo, H. Abd. Kadir Manyambeang, Ibnu Nandar, Hamzah 
+Mahmud and Lukmanul Hakim 
+1986 
+Morfologi kata kerja Bahasa WoZia. Jakarta: Pusat Pembinaan dan 
+Pengembangan Bahasa, Departemen Pendidikan dan Kebu-
+dayaan, xv + 70 pp. 
+Malim, La Ode 
+1981 
+Kesenian daerah WaZia. Jakarta: Proyek Penerbitan Buku Sastra 
+Indonesia dan Daerah, Departemen Pendidikan dan Kebu-
+dayaan, 52 pp. 
+Mattalitti, M. Arief, M uhammad Sikki, Amir Kadir, Shaidy and Abd. Kadir 
+Mulya 
+1985 
+Sastra lisan WaZio. Jakarta: Pusat Pembinaan dan Pengembangan 
+Bahasa, Departemen Pendidikan dan Kebudayaan, xiii + 85 pp. 
+Zahari, Abdul Mulku 
+1979 
+Sekelumit bahasa daerah WaZio. Baadia, xi + 412 pp. [Typescript.] 
+1981 
+Adat dan upacara perkawinan Walia. Jakarta: Proyek Penerbitan 
+Buku Sastra Indonesia dan Daerah, Departemen Pendidikan dan 
+Kebudayaan, 148 pp. 
+98 
