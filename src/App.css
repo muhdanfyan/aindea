@@ -406,3 +406,84 @@ body {
   color: #555 !important;
   font-style: italic;
 }
+
+/* La Ayi Learning Mode Styles */
+.ayi-avatar {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-wrapper.ayi {
+  align-self: flex-start;
+}
+
+.message-wrapper.ayi .message-bubble {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-bottom-left-radius: 4px;
+}
+
+.question-bubble {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+  font-weight: 500;
+}
+
+/* Evaluation Bubbles */
+.message-wrapper.evaluation {
+  align-self: center;
+  max-width: 90%;
+}
+
+.evaluation-bubble {
+  padding: 12px 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.evaluation-bubble.correct {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+}
+
+.evaluation-bubble.incorrect {
+  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+  color: white;
+}
+
+.eval-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.correct-answer {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+}
+
+.correct-answer strong {
+  color: #fff;
+}
+
+/* Correction Bubble */
+.message-wrapper.correction {
+  align-self: center;
+  max-width: 90%;
+}
+
+.correction-bubble {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  color: #8B4513;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  text-align: center;
+}

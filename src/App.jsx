@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Bot, User, Loader2, Languages, MessageCircle, ArrowLeftRight } from 'lucide-react';
+import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dictionary from './dictionary.json';
@@ -12,21 +12,22 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 const stripMarkdown = (text) => {
   if (!text) return text;
   return text
-    .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove **bold**
-    .replace(/\*(.*?)\*/g, '$1')       // Remove *italic*
-    .replace(/__(.*?)__/g, '$1')       // Remove __underline__
-    .replace(/_(.*?)_/g, '$1')         // Remove _italic_
-    .replace(/`(.*?)`/g, '$1')         // Remove `code`
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/\*(.*?)\*/g, '$1')
+    .replace(/__(.*?)__/g, '$1')
+    .replace(/_(.*?)_/g, '$1')
+    .replace(/`(.*?)`/g, '$1')
     .trim();
 };
 
 function App() {
-  const [mode, setMode] = useState('translate'); // 'translate' or 'discuss'
-  const [translateDirection, setTranslateDirection] = useState('id-wolio'); // 'id-wolio' or 'wolio-id'
+  const [mode, setMode] = useState('translate');
+  const [translateDirection, setTranslateDirection] = useState('id-wolio');
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [showTranslation, setShowTranslation] = useState({});
+  const [conversationHistory, setConversationHistory] = useState([]);
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
@@ -35,13 +36,21 @@ function App() {
         ? 'Indonesia → Wolio'
         : 'Wolio → Indonesia';
       setMessages([
-        { role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.`, wolio: null }
+        { role: 'bot', text: `Halo! Saya asisten penerjemah bahasa Wolio. Mode: ${directionText}. Ketik teks yang ingin diterjemahkan.` }
       ]);
+      setConversationHistory([]);
     } else {
+      // Ayi Conversational Mode
       setMessages([
-        { role: 'bot', text: 'Mari berdiskusi dalam bahasa Wolio! Saya akan mengajukan pertanyaan, dan Anda bisa menjawab dalam bahasa Indonesia.', wolio: null }
+        {
+          role: 'ayi',
+          primary: "Tabea! Aku Ayi. 👋",
+          secondary: "Halo! Aku Ayi.",
+          isGreeting: true
+        }
       ]);
-      startDiscussion();
+      setConversationHistory([]);
+      startConversation();
     }
     setShowTranslation({});
   }, [mode, translateDirection]);
@@ -54,25 +63,24 @@ function App() {
     scrollToBottom();
   }, [messages]);
 
-  const startDiscussion = async () => {
+  const startConversation = async () => {
     setIsLoading(true);
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1beta' });
 
       const prompt = `
-        Kamu adalah guru bahasa Wolio yang ahli dan sabar.
+        Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio. Kamu ingin mengajak temanmu berdiskusi dalam bahasa Wolio.
         
-        LANGKAH 1 - REFERENSI KAMUS:
-        Pelajari kamus Wolio berikut untuk memahami kosakata dan pola bahasa Wolio:
-        ${dictionary.context.substring(0, 8000)}
+        REFERENSI KAMUS WOLIO:
+        ${dictionary.context.substring(0, 10000)}
         
-        LANGKAH 2 - BUAT PERTANYAAN:
-        Ajukan satu pertanyaan sederhana dalam bahasa Wolio kepada siswa.
-        Pertanyaan harus mudah dipahami dan menggunakan kosakata dari kamus di atas.
+        TUGAS:
+        Ajukan pertanyaan sederhana dalam bahasa Wolio untuk memulai percakapan sehari-hari.
+        Contoh topik: kabar, nama, kegiatan hari ini, makanan, keluarga.
         
         FORMAT RESPONS (HARUS TEPAT):
-        WOLIO: [pertanyaan dalam bahasa Wolio - harus natural dan benar secara tata bahasa]
-        INDONESIA: [terjemahan pertanyaan dalam bahasa Indonesia]
+        WOLIO: [pertanyaan dalam bahasa Wolio yang natural]
+        INDONESIA: [terjemahan ke Indonesia]
       `;
 
       const result = await model.generateContent(prompt);
@@ -82,19 +90,20 @@ function App() {
       const wolioMatch = text.match(/WOLIO:\s*(.+)/i);
       const indonesiaMatch = text.match(/INDONESIA:\s*(.+)/i);
 
-      const wolioText = wolioMatch ? stripMarkdown(wolioMatch[1]) : stripMarkdown(text);
-      const indonesiaText = indonesiaMatch ? stripMarkdown(indonesiaMatch[1]) : '';
+      const wolioText = wolioMatch ? stripMarkdown(wolioMatch[1]) : "Umbemo?";
+      const indonesiaText = indonesiaMatch ? stripMarkdown(indonesiaMatch[1]) : "Apa kabar?";
 
-      const botMessage = {
-        role: 'bot',
+      setConversationHistory([{ role: 'ayi', wolio: wolioText }]);
+
+      setMessages(prev => [...prev, {
+        role: 'ayi',
         primary: wolioText,
         secondary: indonesiaText,
-        isWolioPrimary: true
-      };
-      setMessages(prev => [...prev, botMessage]);
+        isQuestion: true
+      }]);
     } catch (error) {
-      console.error('Discussion error:', error);
-      setMessages(prev => [...prev, { role: 'bot', primary: 'Maaf, terjadi kesalahan. Silakan coba lagi.', secondary: null }]);
+      console.error('Conversation error:', error);
+      setMessages(prev => [...prev, { role: 'ayi', primary: 'Umbemo?', secondary: 'Apa kabar?' }]);
     } finally {
       setIsLoading(false);
     }
@@ -105,55 +114,29 @@ function App() {
 
     const userMessage = { role: 'user', primary: input, secondary: null };
     setMessages(prev => [...prev, userMessage]);
+    const userInput = input;
     setInput('');
     setIsLoading(true);
 
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1beta' });
 
-      let prompt;
       if (mode === 'translate') {
+        // Translation mode
+        let prompt;
         if (translateDirection === 'id-wolio') {
           prompt = `
-            Kamu adalah penerjemah ahli bahasa Wolio (bahasa daerah Sulawesi Tenggara, Indonesia).
-            
-            LANGKAH 1 - PAHAMI KONTEKS:
-            Baca dan pahami dulu makna dari teks berikut ini. Perhatikan konteks, maksud, dan nuansa yang ingin disampaikan.
-            
-            LANGKAH 2 - REFERENSI KAMUS:
-            Gunakan kamus Wolio berikut sebagai referensi utama untuk menerjemahkan:
-            ${dictionary.context}
-            
-            LANGKAH 3 - TERJEMAHKAN:
-            Teks Indonesia yang akan diterjemahkan: "${input}"
-            
-            INSTRUKSI PENTING:
-            1. Pahami dulu MAKNA dan KONTEKS teks, bukan hanya kata per kata.
-            2. Cari padanan kata dalam kamus yang sesuai dengan konteks.
-            3. Jika kata tidak ada di kamus, gunakan pola bahasa Wolio yang umum.
-            4. Pastikan terjemahan terdengar alami dalam bahasa Wolio.
-            5. RESPONS HANYA BERISI HASIL TERJEMAHAN WOLIO SAJA, tanpa penjelasan.
+            Kamu adalah penerjemah ahli bahasa Wolio.
+            REFERENSI KAMUS: ${dictionary.context}
+            Terjemahkan ke Wolio: "${userInput}"
+            INSTRUKSI: Pahami konteks, terjemahkan natural. RESPONS HANYA HASIL TERJEMAHAN.
           `;
         } else {
           prompt = `
-            Kamu adalah penerjemah ahli bahasa Wolio (bahasa daerah Sulawesi Tenggara, Indonesia).
-            
-            LANGKAH 1 - PAHAMI KONTEKS:
-            Baca dan pahami dulu makna dari teks Wolio berikut ini. Perhatikan konteks dan maksud yang ingin disampaikan.
-            
-            LANGKAH 2 - REFERENSI KAMUS:
-            Gunakan kamus Wolio berikut sebagai referensi untuk memahami arti kata:
-            ${dictionary.context}
-            
-            LANGKAH 3 - TERJEMAHKAN:
-            Teks Wolio yang akan diterjemahkan: "${input}"
-            
-            INSTRUKSI PENTING:
-            1. Pahami dulu MAKNA dan KONTEKS teks Wolio tersebut.
-            2. Cari arti kata dalam kamus yang sesuai dengan konteks.
-            3. Jika kata tidak ada di kamus, coba deduksi dari konteks.
-            4. Pastikan terjemahan terdengar alami dalam bahasa Indonesia.
-            5. RESPONS HANYA BERISI HASIL TERJEMAHAN INDONESIA SAJA, tanpa penjelasan.
+            Kamu adalah penerjemah ahli bahasa Wolio.
+            REFERENSI KAMUS: ${dictionary.context}
+            Terjemahkan ke Indonesia: "${userInput}"
+            INSTRUKSI: Pahami konteks, terjemahkan natural. RESPONS HANYA HASIL TERJEMAHAN.
           `;
         }
 
@@ -161,79 +144,75 @@ function App() {
         const response = await result.response;
         const text = stripMarkdown(response.text());
 
-        const botMessage = { role: 'bot', primary: text, secondary: null };
-        setMessages(prev => [...prev, botMessage]);
+        setMessages(prev => [...prev, { role: 'bot', primary: text, secondary: null }]);
       } else {
-        // Discussion mode
-        prompt = `
-          Kamu adalah guru bahasa Wolio yang ahli dan sabar. Siswa menjawab dalam bahasa Indonesia.
+        // Conversational mode - Ayi responds in Wolio
+        const historyStr = conversationHistory.map(h => `${h.role}: ${h.wolio}`).join('\n');
+
+        const prompt = `
+          Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio. Kamu sedang berdiskusi dengan temanmu.
           
-          LANGKAH 1 - PAHAMI JAWABAN SISWA:
-          Baca dan pahami dulu makna dari jawaban siswa ini: "${input}"
-          Perhatikan konteks, maksud, dan nuansa yang ingin disampaikan siswa.
+          RIWAYAT PERCAKAPAN:
+          ${historyStr}
+          Teman: "${userInput}"
           
-          LANGKAH 2 - REFERENSI KAMUS WOLIO:
-          Gunakan kamus Wolio berikut sebagai referensi utama untuk menerjemahkan:
+          REFERENSI KAMUS WOLIO:
           ${dictionary.context.substring(0, 8000)}
           
-          LANGKAH 3 - TERJEMAHKAN DAN TANGGAPI:
-          1. Terjemahkan jawaban siswa ke bahasa Wolio dengan memahami konteksnya, bukan kata per kata
-          2. Berikan tanggapan/feedback singkat dalam bahasa Wolio yang natural
-          3. Ajukan pertanyaan baru dalam bahasa Wolio
+          TUGAS:
+          1. Evaluasi apakah respons teman sudah tepat/sesuai konteks percakapan
+          2. Berikan respons dalam bahasa Wolio:
+             - Jika tepat: puji dalam Wolio, lalu lanjutkan percakapan dengan pertanyaan/pernyataan baru
+             - Jika kurang tepat atau tidak sesuai: koreksi dengan lembut dalam Wolio, berikan contoh yang benar
           
           FORMAT RESPONS (HARUS TEPAT):
-          TERJEMAHAN_WOLIO: [terjemahan jawaban siswa ke Wolio - harus natural dan sesuai konteks]
-          TANGGAPAN_WOLIO: [tanggapan dalam Wolio]
-          TANGGAPAN_INDONESIA: [terjemahan tanggapan]
-          PERTANYAAN_WOLIO: [pertanyaan baru dalam Wolio]
-          PERTANYAAN_INDONESIA: [terjemahan pertanyaan]
+          STATUS: [TEPAT atau PERLU_KOREKSI]
+          RESPONS_WOLIO: [respons Ayi dalam bahasa Wolio - termasuk pujian/koreksi dan pertanyaan lanjutan]
+          TERJEMAHAN: [terjemahan respons ke Indonesia]
+          KOREKSI: [jika perlu koreksi, tuliskan cara yang benar. jika tepat, kosongkan]
         `;
 
         const result = await model.generateContent(prompt);
         const response = await result.response;
         const text = response.text();
 
-        const translationMatch = text.match(/TERJEMAHAN_WOLIO:\s*(.+)/i);
-        const tanggapanWolioMatch = text.match(/TANGGAPAN_WOLIO:\s*(.+)/i);
-        const tanggapanIndonesiaMatch = text.match(/TANGGAPAN_INDONESIA:\s*(.+)/i);
-        const pertanyaanWolioMatch = text.match(/PERTANYAAN_WOLIO:\s*(.+)/i);
-        const pertanyaanIndonesiaMatch = text.match(/PERTANYAAN_INDONESIA:\s*(.+)/i);
+        const statusMatch = text.match(/STATUS:\s*(TEPAT|PERLU_KOREKSI)/i);
+        const responsWolioMatch = text.match(/RESPONS_WOLIO:\s*(.+)/i);
+        const terjemahanMatch = text.match(/TERJEMAHAN:\s*(.+)/i);
+        const koreksiMatch = text.match(/KOREKSI:\s*(.+)/i);
 
-        // Add translation of user's answer (small bubble - Indonesian source, large bubble - Wolio translation)
-        if (translationMatch) {
+        const isCorrect = statusMatch && statusMatch[1].toUpperCase() === 'TEPAT';
+        const ayiWolio = responsWolioMatch ? stripMarkdown(responsWolioMatch[1]) : "Iyo!";
+        const terjemahan = terjemahanMatch ? stripMarkdown(terjemahanMatch[1]) : "";
+        const koreksi = koreksiMatch ? stripMarkdown(koreksiMatch[1]) : "";
+
+        // Update conversation history
+        setConversationHistory(prev => [
+          ...prev,
+          { role: 'teman', wolio: userInput },
+          { role: 'ayi', wolio: ayiWolio }
+        ]);
+
+        // Show correction if needed
+        if (!isCorrect && koreksi && koreksi.toLowerCase() !== 'kosongkan' && koreksi !== '-') {
           setMessages(prev => [...prev, {
-            role: 'system',
-            primary: stripMarkdown(translationMatch[1]),
-            secondary: input,
-            isWolioPrimary: true,
-            isUserTranslation: true
+            role: 'correction',
+            primary: `💡 ${koreksi}`,
+            secondary: null
           }]);
         }
 
-        // Add bot response (Wolio primary, Indonesian secondary)
-        if (tanggapanWolioMatch) {
-          setMessages(prev => [...prev, {
-            role: 'bot',
-            primary: stripMarkdown(tanggapanWolioMatch[1]),
-            secondary: tanggapanIndonesiaMatch ? stripMarkdown(tanggapanIndonesiaMatch[1]) : '',
-            isWolioPrimary: true
-          }]);
-        }
-
-        // Add new question
-        if (pertanyaanWolioMatch) {
-          setMessages(prev => [...prev, {
-            role: 'bot',
-            primary: stripMarkdown(pertanyaanWolioMatch[1]),
-            secondary: pertanyaanIndonesiaMatch ? stripMarkdown(pertanyaanIndonesiaMatch[1]) : '',
-            isWolioPrimary: true,
-            isQuestion: true
-          }]);
-        }
+        // Add Ayi's response
+        setMessages(prev => [...prev, {
+          role: 'ayi',
+          primary: ayiWolio,
+          secondary: terjemahan,
+          isResponse: true
+        }]);
       }
     } catch (error) {
       console.error('Error:', error);
-      setMessages(prev => [...prev, { role: 'bot', primary: 'Maaf, terjadi kesalahan. Silakan coba lagi.', secondary: null }]);
+      setMessages(prev => [...prev, { role: 'ayi', primary: 'Maaf, ada kesalahan. Coba lagi ya!', secondary: null }]);
     } finally {
       setIsLoading(false);
     }
@@ -255,11 +234,11 @@ function App() {
       <div className="glass-card">
         <header className="chat-header">
           <div className="header-icon">
-            <Languages size={24} color="#fff" />
+            {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
           </div>
           <div className="header-info">
-            <h1>Penerjemah Wolio</h1>
-            <p>Didukung oleh Gemini AI</p>
+            <h1>{mode === 'translate' ? 'Penerjemah Wolio' : 'Diskusi dengan Ayi'}</h1>
+            <p>{mode === 'translate' ? 'Didukung oleh Gemini AI' : 'Belajar Bahasa Wolio'}</p>
           </div>
         </header>
 
@@ -273,10 +252,10 @@ function App() {
             <span>Terjemahan</span>
           </button>
           <button
-            className={`mode-btn ${mode === 'discuss' ? 'active' : ''}`}
-            onClick={() => setMode('discuss')}
+            className={`mode-btn ${mode === 'learn' ? 'active' : ''}`}
+            onClick={() => setMode('learn')}
           >
-            <MessageCircle size={16} />
+            <GraduationCap size={16} />
             <span>Diskusi</span>
           </button>
         </div>
@@ -299,46 +278,60 @@ function App() {
                 key={index}
                 initial={{ opacity: 0, y: 10, scale: 0.95 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
-                className={`message-wrapper ${msg.role} ${msg.isUserTranslation ? 'user-translation' : ''}`}
+                className={`message-wrapper ${msg.role}`}
               >
-                {msg.role !== 'system' && (
-                  <div className="avatar">
-                    {msg.role === 'bot' ? <Bot size={18} /> : <User size={18} />}
+                {msg.role === 'ayi' && (
+                  <div className="avatar ayi-avatar">
+                    🧑‍🏫
                   </div>
                 )}
-                <div className="message-content">
-                  {/* Primary bubble (large) */}
-                  <div className={`message-bubble shadow-premium ${msg.isWolioPrimary ? 'wolio-bubble' : ''}`}>
-                    {msg.primary || msg.text}
+                {msg.role === 'bot' && (
+                  <div className="avatar">
+                    <Bot size={18} />
                   </div>
+                )}
+                {msg.role === 'user' && (
+                  <div className="avatar">
+                    <User size={18} />
+                  </div>
+                )}
 
-                  {/* Secondary bubble (small translation) */}
-                  {msg.secondary && (
-                    <div className="translation-section">
-                      {mode === 'discuss' && !showTranslation[index] ? (
-                        <button
-                          className="toggle-translation-btn"
-                          onClick={() => toggleTranslation(index)}
-                        >
-                          Lihat terjemahan
-                        </button>
-                      ) : null}
+                <div className="message-content">
+                  {msg.role === 'correction' ? (
+                    <div className="correction-bubble">
+                      {msg.primary}
+                    </div>
+                  ) : (
+                    <>
+                      <div className={`message-bubble shadow-premium ${msg.isQuestion ? 'question-bubble' : ''}`}>
+                        {msg.primary || msg.text}
+                      </div>
 
-                      {(mode === 'translate' || showTranslation[index]) && (
-                        <div className="message-bubble-small translation-bubble">
-                          {msg.secondary}
+                      {msg.secondary && (
+                        <div className="translation-section">
+                          {!showTranslation[index] ? (
+                            <button
+                              className="toggle-translation-btn"
+                              onClick={() => toggleTranslation(index)}
+                            >
+                              💡 Lihat terjemahan
+                            </button>
+                          ) : (
+                            <>
+                              <div className="message-bubble-small translation-bubble">
+                                {msg.secondary}
+                              </div>
+                              <button
+                                className="toggle-translation-btn"
+                                onClick={() => toggleTranslation(index)}
+                              >
+                                Sembunyikan
+                              </button>
+                            </>
+                          )}
                         </div>
                       )}
-
-                      {mode === 'discuss' && showTranslation[index] && (
-                        <button
-                          className="toggle-translation-btn"
-                          onClick={() => toggleTranslation(index)}
-                        >
-                          Sembunyikan
-                        </button>
-                      )}
-                    </div>
+                    </>
                   )}
                 </div>
               </motion.div>
@@ -348,12 +341,14 @@ function App() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="message-wrapper bot"
+              className={`message-wrapper ${mode === 'learn' ? 'ayi' : 'bot'}`}
             >
-              <div className="avatar"><Bot size={18} /></div>
+              <div className={`avatar ${mode === 'learn' ? 'ayi-avatar' : ''}`}>
+                {mode === 'learn' ? '🧑‍🏫' : <Bot size={18} />}
+              </div>
               <div className="message-bubble loading shadow-premium">
                 <Loader2 className="animate-spin" size={18} />
-                <span>{mode === 'translate' ? 'Menerjemahkan...' : 'Berpikir...'}</span>
+                <span>{mode === 'translate' ? 'Menerjemahkan...' : 'Ayi sedang berpikir...'}</span>
               </div>
             </motion.div>
           )}
@@ -370,7 +365,7 @@ function App() {
               placeholder={
                 mode === 'translate'
                   ? (translateDirection === 'id-wolio' ? 'Ketik dalam bahasa Indonesia...' : 'Ketik dalam bahasa Wolio...')
-                  : 'Jawab dalam bahasa Indonesia...'
+                  : 'Jawab dalam bahasa Wolio...'
               }
               disabled={isLoading}
             />
