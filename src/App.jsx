@@ -45,8 +45,8 @@ function App() {
       setMessages([
         {
           role: 'ayi',
-          primary: "Tabea! Aku Ayi. 👋",
-          secondary: "Halo! Aku Ayi.",
+          primary: "Tabea! Yaku Ayi. 👋",
+          secondary: "Halo! Saya Ayi.",
           isGreeting: true
         }
       ]);
