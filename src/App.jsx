@@ -486,6 +486,7 @@ function App() {
                   <div className="avatar ayi-avatar">🧑‍🏫</div>
                   <div className="message-bubble loading">
                     <Loader2 className="animate-spin" size={20} />
+                    <span className="loading-text">La Ayi mefiki-fikiri...</span>
                   </div>
                 </div>
               )}

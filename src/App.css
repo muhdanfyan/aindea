@@ -222,13 +222,22 @@ html,
 }
 
 .correction-bubble {
-  font-size: 0.75rem;
-  color: var(--primary-dark);
+  font-size: 0.85rem;
+  /* Match translation size */
+  color: #0d9488;
+  /* Distinct Teal for correction */
   font-style: italic;
-  opacity: 0.7;
   padding: 4px 0;
   background: transparent;
   border: none;
+  display: block;
+}
+
+.loading-text {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-left: 10px;
 }
 
 /* --- Subtle Translation Section --- */
