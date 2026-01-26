@@ -415,8 +415,8 @@ function App() {
         ) : (
           <div className="chat-view">
             <header className="chat-header">
-              <div className="header-icon">
-                {mode === 'translate' ? <Languages size={24} color="#fff" /> : <GraduationCap size={24} color="#fff" />}
+              <div className="header-icon branding">
+                <img src="/logo.png" alt="Aindea Logo" />
               </div>
               <div className="header-info">
                 <h1>{mode === 'translate' ? 'Aindea: Penerjemah' : 'Aindea: Tutor Wolio'}</h1>

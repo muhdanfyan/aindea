@@ -265,6 +265,14 @@ html,
   align-items: center;
   justify-content: center;
   color: white;
+  overflow: hidden;
+  /* For branding image */
+}
+
+.header-icon.branding img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .header-info h1 {
