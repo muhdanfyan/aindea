@@ -82,9 +82,12 @@ body {
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  /* Center the chat window */
   align-items: center;
   padding: 20px;
+  position: relative;
+  /* For absolute footer */
 }
 
 .glass-card {
@@ -438,7 +441,9 @@ body {
 }
 
 .app-footer-links {
-  margin-top: 16px;
+  position: absolute;
+  bottom: 24px;
+  z-index: 20;
 }
 
 .dev-link {
