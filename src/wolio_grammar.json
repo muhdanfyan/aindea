@@ -1,0 +1,225 @@
+{
+    "name": "Wolio Language Grammar Reference",
+    "source": "The Wolio Language - J.C. Anceaux (1952/1988)",
+    "description": "Panduan gramatika bahasa Wolio untuk membantu AI memahami struktur bahasa",
+    "phonology": {
+        "vowels": [
+            "a",
+            "e",
+            "i",
+            "o",
+            "u"
+        ],
+        "consonants": [
+            "p",
+            "b",
+            "t",
+            "d",
+            "k",
+            "g",
+            "s",
+            "h",
+            "m",
+            "n",
+            "ng",
+            "ny",
+            "l",
+            "r",
+            "w",
+            "y",
+            "c",
+            "j",
+            "f"
+        ],
+        "prenasalized": [
+            "mp",
+            "mb",
+            "nt",
+            "nd",
+            "nc",
+            "nj",
+            "ngk",
+            "ngg"
+        ],
+        "rules": [
+            "Semua kata Wolio berakhir dengan vokal",
+            "Pola kata: vokal-konsonan-vokal (VCV, CVCV, dll)",
+            "Aksen kata pada suku kedua dari belakang (penultimate)"
+        ]
+    },
+    "morphology": {
+        "verb_prefixes": {
+            "ko-": {
+                "meaning": "memiliki, memakai, dalam keadaan",
+                "examples": [
+                    "kobulu (berbulu)",
+                    "kobaju (memakai baju)",
+                    "kooni (berbicara)"
+                ],
+                "type": "intransitif"
+            },
+            "ma-": {
+                "meaning": "dalam keadaan, bersifat",
+                "examples": [
+                    "maluntu (malas)",
+                    "makasu (dekat)",
+                    "matau (tahu)",
+                    "masodo (panas)"
+                ],
+                "type": "intransitif"
+            },
+            "po-/pe-": {
+                "meaning": "aksi tubuh, aksi berulang",
+                "examples": [
+                    "potawa (tertawa)",
+                    "pomea (menguap)",
+                    "pomeke (batuk)"
+                ],
+                "type": "intransitif"
+            },
+            "me-": {
+                "meaning": "aksi/keadaan berkelanjutan",
+                "examples": [
+                    "mesumpu (selalu minum)",
+                    "mentaqi (selalu menangis)",
+                    "mengkole (selalu tidur)"
+                ],
+                "type": "intransitif"
+            },
+            "ka-": {
+                "meaning": "dengan reduplikasi = aksi berulang/terus menerus",
+                "examples": [
+                    "kaliqkaliqka (berjalan kaki)",
+                    "kauncuuncura (terus duduk)"
+                ],
+                "type": "intransitif"
+            },
+            "ti-": {
+                "meaning": "masuk ke dalam keadaan",
+                "examples": [
+                    "tiumba (muncul)",
+                    "tidoie (berbaring)"
+                ],
+                "type": "intransitif"
+            },
+            "poma-": {
+                "meaning": "tanpa kontrol, ke segala arah",
+                "examples": [
+                    "pomabebe (memukul ke segala arah)",
+                    "pomakande (makan sembarangan)"
+                ],
+                "type": "transitif/intransitif"
+            }
+        },
+        "suffixes": {
+            "-mo": "sudah, telah (aspek perfektif)",
+            "-po": "dulu, belum (aspek prospektif)",
+            "-aka": "membuat, menyebabkan (kausatif)",
+            "-a": "akhiran objek",
+            "-i": "akhiran lokatif/direktif"
+        },
+        "reduplication": {
+            "rule": "Duplikasi sampai vokal kedua",
+            "examples": [
+                "baa → baabaa",
+                "mboloqa → mbolomboloqa",
+                "batu → batubatu"
+            ],
+            "meaning": "intensif, berulang, jamak"
+        },
+        "prenasalization": {
+            "rule": "k→ngk, t→nt, p→mp, c→nc",
+            "context": "Terjadi dengan prefix tertentu atau dalam komposisi kata",
+            "examples": [
+                "sa- + baa = sambaa",
+                "me- + kole = mengkole"
+            ]
+        }
+    },
+    "syntax": {
+        "word_order": "SVO (Subjek-Verba-Objek)",
+        "sentence_types": [
+            "Pernyataan",
+            "Pertanyaan",
+            "Perintah"
+        ],
+        "pronouns": {
+            "aku/yaku": "saya",
+            "ingko/ingkoe": "kamu",
+            "incia": "dia",
+            "ingkami": "kami",
+            "ingkita": "kita",
+            "manga": "mereka"
+        }
+    },
+    "common_words": {
+        "greetings": {
+            "tabea": "halo, selamat",
+            "umbemo": "apa kabar",
+            "malapepo": "baik-baik"
+        },
+        "basic_verbs": {
+            "kande": "makan",
+            "sumpu": "minum",
+            "kole": "tidur",
+            "liqka/lingka": "pergi",
+            "umba": "datang",
+            "ala": "ambil",
+            "dawu": "beri",
+            "kamata": "lihat",
+            "rango": "dengar",
+            "pogau": "bicara",
+            "tula": "cerita",
+            "karaja": "kerja",
+            "baca": "baca",
+            "buri": "tulis"
+        },
+        "basic_nouns": {
+            "mia": "orang",
+            "ana/ana-ana": "anak",
+            "ama": "ayah",
+            "ina": "ibu",
+            "aka": "kakak",
+            "andi": "adik",
+            "banua": "rumah",
+            "lipu": "negeri/kampung",
+            "eo": "hari/matahari",
+            "malo": "malam",
+            "uwe": "air",
+            "waa": "api",
+            "kande": "makanan",
+            "baju": "baju"
+        },
+        "adjectives": {
+            "malape": "baik",
+            "madaki": "buruk",
+            "maoge": "besar",
+            "maidi": "kecil",
+            "malanga": "tinggi",
+            "mapisu": "pendek",
+            "masodo": "panas",
+            "magari": "dingin"
+        },
+        "numbers": {
+            "ise": "satu",
+            "jua/rua": "dua",
+            "talu": "tiga",
+            "uapa": "empat",
+            "lima": "lima",
+            "ana": "enam",
+            "pitu": "tujuh",
+            "walu": "delapan",
+            "siwa": "sembilan",
+            "ompulu": "sepuluh"
+        }
+    },
+    "ai_instructions": [
+        "Semua kata Wolio berakhir dengan vokal - jika tidak, mungkin salah",
+        "Perhatikan prefix dan suffix untuk memahami makna kata",
+        "Reduplikasi menandakan intensitas atau pengulangan",
+        "Prefix ma- biasanya menandakan sifat/keadaan",
+        "Prefix ko- menandakan kepemilikan atau pemakaian",
+        "Suffix -mo berarti 'sudah/telah'",
+        "Gunakan konteks kalimat untuk memahami makna yang tepat"
+    ]
+}

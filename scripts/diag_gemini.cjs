@@ -1,7 +1,6 @@
-const { GoogleGenerativeAI } = require('@google/generative-ai');
-
+require('dotenv').config();
 async function listModels() {
-    const API_KEY = "AIzaSyBBQQbVPJr8Mv8RSZh7v64wFfaL__9malU";
+    const API_KEY = process.env.VITE_GEMINI_API_KEY;
     const genAI = new GoogleGenerativeAI(API_KEY);
 
     try {

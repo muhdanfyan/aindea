@@ -3,9 +3,10 @@ import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, Che
 import { motion, AnimatePresence } from 'framer-motion';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dictionary from './dictionary.json';
+import grammar from './wolio_grammar.json';
 import './App.css';
 
-const API_KEY = "AIzaSyBBQQbVPJr8Mv8RSZh7v64wFfaL__9malU";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 // Helper function to strip markdown formatting
@@ -68,18 +69,57 @@ function App() {
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1beta' });
 
+      // Helper to get relevant dictionary context
+      const getRelevantContext = (query, limit = 50) => {
+        if (!dictionary.entries) return "";
+
+        let filtered = dictionary.entries;
+        if (query) {
+          const searchTerms = query.toLowerCase().split(/\s+/);
+          filtered = dictionary.entries.filter(entry =>
+            searchTerms.some(term =>
+              entry.word.toLowerCase().includes(term) ||
+              entry.definition.toLowerCase().includes(term) ||
+              entry.example_id.toLowerCase().includes(term)
+            )
+          );
+        }
+
+        // If query too specific or no results, just take some general ones
+        if (filtered.length === 0) {
+          filtered = dictionary.entries.slice(0, limit);
+        } else {
+          filtered = filtered.slice(0, limit);
+        }
+
+        return filtered.map(e => `${e.word} (${e.definition}): ${e.example_wolio} -> ${e.example_id}`).join('\n');
+      };
+
+      const dictionaryContext = getRelevantContext(null); // Initial context for conversation start
+
       const prompt = `
-        Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio. Kamu ingin mengajak temanmu berdiskusi dalam bahasa Wolio.
+        Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio secara alami. Kamu ingin mengajak temanmu berdiskusi dalam bahasa Wolio.
         
-        REFERENSI KAMUS WOLIO:
-        ${dictionary.context.substring(0, 10000)}
+        ATURAN GRAMATIKA WOLIO (PENTING):
+        - Semua kata Wolio berakhir dengan vokal (a, e, i, o, u)
+        - Prefix ko- = memiliki/memakai (kobaju = memakai baju)
+        - Prefix ma- = sifat/keadaan (malape = baik, masodo = panas)
+        - Suffix -mo = sudah/telah (umbeamo = sudah datang)
+        - Urutan kalimat: Subjek-Verba-Objek
+        - Kata ganti: aku/yaku (saya), ingko (kamu), incia (dia)
+        
+        KATA-KATA UMUM:
+        ${JSON.stringify(grammar.common_words, null, 2)}
+        
+        REFERENSI KAMUS WOLIO (Gunakan sebagai referensi kosakata):
+        ${dictionaryContext}
         
         TUGAS:
         Ajukan pertanyaan sederhana dalam bahasa Wolio untuk memulai percakapan sehari-hari.
         Contoh topik: kabar, nama, kegiatan hari ini, makanan, keluarga.
         
         FORMAT RESPONS (HARUS TEPAT):
-        WOLIO: [pertanyaan dalam bahasa Wolio yang natural]
+        WOLIO: [pertanyaan dalam bahasa Wolio yang natural - HARUS berakhir vokal]
         INDONESIA: [terjemahan ke Indonesia]
       `;
 
@@ -121,20 +161,45 @@ function App() {
     try {
       const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }, { apiVersion: 'v1beta' });
 
+      const getRelevantContext = (query, limit = 100) => {
+        if (!dictionary.entries) return "";
+        const searchTerms = query.toLowerCase().split(/\s+/);
+        let filtered = dictionary.entries.filter(entry =>
+          searchTerms.some(term =>
+            entry.word.toLowerCase().includes(term) ||
+            entry.definition.toLowerCase().includes(term) ||
+            entry.example_id.toLowerCase().includes(term) ||
+            entry.example_wolio.toLowerCase().includes(term)
+          )
+        );
+
+        if (filtered.length < 20) {
+          // Add some general ones if too few results
+          filtered = [...filtered, ...dictionary.entries.slice(0, 20)];
+        }
+
+        return filtered.slice(0, limit).map(e => `${e.word} (${e.definition}): ${e.example_wolio} -> ${e.example_id}`).join('\n');
+      };
+
       if (mode === 'translate') {
         // Translation mode
+        const dictionaryContext = getRelevantContext(userInput);
         let prompt;
         if (translateDirection === 'id-wolio') {
           prompt = `
             Kamu adalah penerjemah ahli bahasa Wolio.
-            REFERENSI KAMUS: ${dictionary.context}
+            REFERENSI KAMUS: 
+            ${dictionaryContext}
+
             Terjemahkan ke Wolio: "${userInput}"
             INSTRUKSI: Pahami konteks, terjemahkan natural. RESPONS HANYA HASIL TERJEMAHAN.
           `;
         } else {
           prompt = `
             Kamu adalah penerjemah ahli bahasa Wolio.
-            REFERENSI KAMUS: ${dictionary.context}
+            REFERENSI KAMUS: 
+            ${dictionaryContext}
+
             Terjemahkan ke Indonesia: "${userInput}"
             INSTRUKSI: Pahami konteks, terjemahkan natural. RESPONS HANYA HASIL TERJEMAHAN.
           `;
@@ -149,25 +214,36 @@ function App() {
         // Conversational mode - Ayi responds in Wolio
         const historyStr = conversationHistory.map(h => `${h.role}: ${h.wolio}`).join('\n');
 
+        const dictionaryContext = getRelevantContext(userInput);
         const prompt = `
-          Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio. Kamu sedang berdiskusi dengan temanmu.
+          Kamu adalah Ayi, orang Buton yang berbicara bahasa Wolio secara alami dan fasih.
+          
+          ATURAN GRAMATIKA WOLIO (WAJIB DIIKUTI):
+          - Semua kata Wolio HARUS berakhir dengan vokal (a, e, i, o, u)
+          - Prefix: ko- (memiliki), ma- (sifat), po-/pe- (aksi), me- (berkelanjutan)
+          - Suffix: -mo (sudah), -po (dulu), -aka (menyebabkan)
+          - Reduplikasi = intensif/berulang (malape-lape = sangat baik)
+          - Urutan: Subjek-Verba-Objek
+          
+          KATA-KATA UMUM:
+          ${JSON.stringify(grammar.common_words, null, 2)}
           
           RIWAYAT PERCAKAPAN:
           ${historyStr}
           Teman: "${userInput}"
           
-          REFERENSI KAMUS WOLIO:
-          ${dictionary.context.substring(0, 8000)}
+          REFERENSI KAMUS WOLIO (Gunakan untuk mengevaluasi dan merespons):
+          ${dictionaryContext}
           
           TUGAS:
           1. Evaluasi apakah respons teman sudah tepat/sesuai konteks percakapan
-          2. Berikan respons dalam bahasa Wolio:
-             - Jika tepat: puji dalam Wolio, lalu lanjutkan percakapan dengan pertanyaan/pernyataan baru
-             - Jika kurang tepat atau tidak sesuai: koreksi dengan lembut dalam Wolio, berikan contoh yang benar
+          2. Berikan respons dalam bahasa Wolio yang BENAR secara gramatika:
+             - Jika tepat: puji dalam Wolio, lalu lanjutkan percakapan
+             - Jika kurang tepat: koreksi dengan lembut dalam Wolio, berikan contoh yang benar
           
           FORMAT RESPONS (HARUS TEPAT):
           STATUS: [TEPAT atau PERLU_KOREKSI]
-          RESPONS_WOLIO: [respons Ayi dalam bahasa Wolio - termasuk pujian/koreksi dan pertanyaan lanjutan]
+          RESPONS_WOLIO: [respons Ayi dalam bahasa Wolio - SEMUA kata harus berakhir vokal]
           TERJEMAHAN: [terjemahan respons ke Indonesia]
           KOREKSI: [jika perlu koreksi, tuliskan cara yang benar. jika tepat, kosongkan]
         `;
