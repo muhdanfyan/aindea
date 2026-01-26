@@ -342,6 +342,20 @@ function App() {
                 transition={{ delay: 0.1 }}
                 className="about-section"
               >
+                <h2>🚀 Visi & Misi</h2>
+                <div className="about-card">
+                  <p className="project-desc">
+                    Aindea bukan sekadar penerjemah. Ini adalah upaya digitalisasi budaya untuk memastikan <strong>Bahasa Wolio</strong> tetap relevan di era kecerdasan buatan. Melalui integrasi literatur klasik dan teknologi Gemini AI, kami menghadirkan tutor bahasa yang cerdas dan berakar pada tradisi.
+                  </p>
+                </div>
+              </motion.section>
+
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="about-section"
+              >
                 <h2>🧑‍💻 Profil Pengembang</h2>
                 <div className="profile-card">
                   <div className="profile-header">
@@ -369,21 +383,7 @@ function App() {
               <motion.section
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-                className="about-section"
-              >
-                <h2>🚀 Visi & Misi</h2>
-                <div className="about-card">
-                  <p className="project-desc">
-                    Aindea bukan sekadar penerjemah. Ini adalah upaya digitalisasi budaya untuk memastikan <strong>Bahasa Wolio</strong> tetap relevan di era kecerdasan buatan. Melalui integrasi literatur klasik dan teknologi Gemini AI, kami menghadirkan tutor bahasa yang cerdas dan berakar pada tradisi.
-                  </p>
-                </div>
-              </motion.section>
-
-              <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.3 }}
                 className="about-section"
               >
                 <h2>🛠️ Teknologi</h2>
@@ -410,7 +410,7 @@ function App() {
               <motion.section
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
+                transition={{ delay: 0.4 }}
                 className="about-section"
               >
                 <h2>📚 Referensi Literasi</h2>
