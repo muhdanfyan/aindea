@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle, Info, ExternalLink, Trash2 } from 'lucide-react';
+import { Send, Bot, User, Loader2, Languages, GraduationCap, ArrowLeftRight, CheckCircle, XCircle, Info, ExternalLink, Trash2, Book, Search, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import dictionary from './dictionary.json';
 import grammar from './wolio_grammar.json';
@@ -48,6 +48,9 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [showTranslation, setShowTranslation] = useState({});
   const [conversationHistory, setConversationHistory] = useState([]);
+  const [isDictionaryOpen, setIsDictionaryOpen] = useState(false);
+  const [dictionarySearch, setDictionarySearch] = useState('');
+  const [dictionaryMode, setDictionaryMode] = useState('id-wolio');
   const messagesEndRef = useRef(null);
 
   // Load messages from localStorage on mount
@@ -530,6 +533,9 @@ function App() {
                 <p>{mode === 'translate' ? 'Penerjemah Cerdas Bahasa Wolio' : 'Belajar Langsung dengan La Ayi'}</p>
               </div>
               <div className="header-actions">
+                <button className="header-btn dictionary-btn" onClick={() => setIsDictionaryOpen(true)} title="Kamus Per Kata">
+                  <Book size={18} />
+                </button>
                 <button onClick={() => setMode('about')} className="header-btn about-btn" title="Tentang Aindea">
                   <Info size={18} />
                 </button>
@@ -607,11 +613,111 @@ function App() {
                   <div className="avatar ayi-avatar">🧑‍🏫</div>
                   <div className="message-bubble loading">
                     <Loader2 className="animate-spin" size={20} />
-                    <span className="loading-text">La Ayi mefiki-fikiri...</span>
+                    <span className="loading-text">{mode === 'translate' ? 'Pekamontaai...' : 'La Ayi mefiki-fikiri...'}</span>
                   </div>
                 </div>
               )}
               <div ref={messagesEndRef} />
+
+              {/* Dictionary Modal */}
+              <AnimatePresence>
+                {isDictionaryOpen && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="modal-overlay"
+                    onClick={() => setIsDictionaryOpen(false)}
+                  >
+                    <motion.div
+                      initial={{ scale: 0.9, y: 20 }}
+                      animate={{ scale: 1, y: 0 }}
+                      exit={{ scale: 0.9, y: 20 }}
+                      className="dictionary-modal"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <div className="modal-header">
+                        <h3>Kamus Per Kata</h3>
+                        <button className="close-btn" onClick={() => setIsDictionaryOpen(false)}>
+                          <X size={20} />
+                        </button>
+                      </div>
+
+                      <div className="dictionary-controls">
+                        <div className="dict-search-wrapper">
+                          <Search className="search-icon" size={18} />
+                          <input
+                            type="text"
+                            placeholder="Cari kata..."
+                            value={dictionarySearch}
+                            onChange={(e) => setDictionarySearch(e.target.value)}
+                          />
+                        </div>
+                        <button
+                          className="dict-direction-btn"
+                          onClick={() => setDictionaryMode(prev => prev === 'id-wolio' ? 'wolio-id' : 'id-wolio')}
+                        >
+                          {dictionaryMode === 'id-wolio' ? 'ID → Wolio' : 'Wolio → ID'}
+                          <ArrowLeftRight size={14} />
+                        </button>
+                      </div>
+
+                      <div className="dictionary-results">
+                        {dictionarySearch.length > 0 ? (
+                          dictionary.entries
+                            .filter(entry => {
+                              // Skip compiler/meta entries
+                              if (entry.word.toLowerCase() === 'penyusun') return false;
+
+                              const q = dictionarySearch.toLowerCase().trim();
+                              if (!q) return false;
+
+                              if (dictionaryMode === 'id-wolio') {
+                                // Search only in the Indonesian word part (before first comma/period/semicolon)
+                                const primaryDef = entry.definition.split(/[;.,]/)[0].toLowerCase();
+                                return primaryDef.includes(q);
+                              } else {
+                                // Search only in the Wolio word field
+                                return entry.word.toLowerCase().includes(q);
+                              }
+                            })
+                            .slice(0, 50)
+                            .map((entry, idx) => (
+                              <div key={idx} className="dict-entry">
+                                <div className="entry-word">{entry.word}</div>
+                                <div className="entry-def">{entry.definition}</div>
+                                {entry.example_wolio && (
+                                  <div className="entry-example">
+                                    <span className="wolio-ex">{entry.example_wolio}</span>
+                                    <span className="id-ex">{entry.example_id}</span>
+                                  </div>
+                                )}
+                              </div>
+                            ))
+                        ) : (
+                          <div className="dict-placeholder">
+                            <Book size={48} />
+                            <p>Masukkan kata untuk mencari terjemahan</p>
+                          </div>
+                        )}
+                        {dictionarySearch.length > 0 && dictionary.entries.filter(entry => {
+                          if (entry.word.toLowerCase() === 'penyusun') return false;
+                          const q = dictionarySearch.toLowerCase().trim();
+                          if (!q) return false;
+                          if (dictionaryMode === 'id-wolio') {
+                            const primaryDef = entry.definition.split(/[;.,]/)[0].toLowerCase();
+                            return primaryDef.includes(q);
+                          } else {
+                            return entry.word.toLowerCase().includes(q);
+                          }
+                        }).length === 0 && (
+                            <div className="no-results">Kata tidak ditemukan</div>
+                          )}
+                      </div>
+                    </motion.div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </main>
 
             <footer className="chat-input-area">

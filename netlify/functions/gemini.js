@@ -6,20 +6,29 @@ exports.handler = async (event, context) => {
         return { statusCode: 405, body: "Method Not Allowed" };
     }
 
-    // Ambil semua kunci API dari environment yang berawalan GEMINI_API_KEY_
-    let apiKeys = Object.keys(process.env)
-        .filter(key => key.startsWith("GEMINI_API_KEY_"))
+    // Ambil kunci API normal (GEMINI_API_KEY_1 sampai GEMINI_API_KEY_4)
+    let normalKeys = Object.keys(process.env)
+        .filter(key => key.startsWith("GEMINI_API_KEY_") && key !== "GEMINI_API_KEY_ULTIMATE_FALLBACK")
         .sort()
         .map(key => process.env[key])
         .filter(value => !!value);
 
-    // Tambahkan kunci default jika ada
+    // Acak urutan kunci normal agar beban terbagi rata
+    normalKeys = normalKeys.sort(() => Math.random() - 0.5);
+
+    // Ambil kunci fallback terakhir
+    const ultimateFallbackKey = process.env.GEMINI_API_KEY_ULTIMATE_FALLBACK;
+
+    // Gabungkan: kunci normal yang diacak + kunci fallback di akhir
+    let apiKeys = [...normalKeys];
+    if (ultimateFallbackKey && !apiKeys.includes(ultimateFallbackKey)) {
+        apiKeys.push(ultimateFallbackKey);
+    }
+
+    // Tambahkan kunci default lama jika ada (untuk backward compatibility)
     if (process.env.GEMINI_API_KEY && !apiKeys.includes(process.env.GEMINI_API_KEY)) {
         apiKeys.unshift(process.env.GEMINI_API_KEY);
     }
-
-    // Acak urutan kunci agar tidak selalu mencoba kunci yang sama (yang mungkin sudah mati) di urutan pertama
-    apiKeys = apiKeys.sort(() => Math.random() - 0.5);
 
     if (apiKeys.length === 0) {
         return {
