@@ -181,6 +181,12 @@ function App() {
         { icon: <Book size={20} />, label: "Kamus Per Kata" },
         { icon: <CheckCircle size={20} />, label: "Koreksi Otomatis" }
       ]
+    },
+    {
+      title: "Warisan Buton 🏰",
+      subtitle: "Digitalisasi Budaya",
+      content: "Mari bersama menjaga kelestarian Bahasa Wolio. Setiap kata yang Anda pelajari adalah langkah kecil menjaga budaya Buton.",
+      icon: <CheckCircle size={48} className="welcome-icon-large" />
     }
   ];
 
