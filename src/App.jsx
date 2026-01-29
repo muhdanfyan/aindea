@@ -171,12 +171,6 @@ function App() {
       icon: <Languages size={48} className="welcome-icon-large" />
     },
     {
-      title: "Warisan Buton 🏰",
-      subtitle: "Digitalisasi Budaya",
-      content: "Mari bersama menjaga kelestarian Bahasa Wolio. Setiap kata yang Anda pelajari adalah langkah kecil menjaga budaya Buton.",
-      icon: <CheckCircle size={48} className="welcome-icon-large" />
-    },
-    {
       title: "Siap Menjelajah? 🚀",
       subtitle: "Ringkasan Fitur Aindea",
       content: "Semua alat yang Anda butuhkan untuk menguasai Bahasa Wolio ada di sini.",
