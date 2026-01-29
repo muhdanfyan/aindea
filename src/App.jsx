@@ -49,12 +49,20 @@ function App() {
   const [showTranslation, setShowTranslation] = useState({});
   const [conversationHistory, setConversationHistory] = useState([]);
   const [isDictionaryOpen, setIsDictionaryOpen] = useState(false);
+  const [showWelcome, setShowWelcome] = useState(false);
+  const [welcomeStep, setWelcomeStep] = useState(0);
   const [dictionarySearch, setDictionarySearch] = useState('');
   const [dictionaryMode, setDictionaryMode] = useState('id-wolio');
   const messagesEndRef = useRef(null);
 
   // Load messages from localStorage on mount
   useEffect(() => {
+    // Check first-time visitor
+    const seenWelcome = localStorage.getItem('aindea_welcome_seen');
+    if (!seenWelcome) {
+      setShowWelcome(true);
+    }
+
     const savedMessages = localStorage.getItem(STORAGE_KEYS[mode]);
     const savedHistory = localStorage.getItem(`${STORAGE_KEYS[mode]}_history`);
 
@@ -137,6 +145,50 @@ function App() {
     setConversationHistory([]);
     setShowTranslation({});
   };
+
+  const closeWelcome = () => {
+    localStorage.setItem('aindea_welcome_seen', 'true');
+    setShowWelcome(false);
+  };
+
+  const welcomeSlides = [
+    {
+      title: "Tabea! 👋",
+      subtitle: "Selamat Datang di Aindea",
+      content: "Aindea adalah asisten digital cerdas yang dirancang khusus untuk melestarikan dan memperkenalkan kekayaan Bahasa Wolio.",
+      icon: <Bot size={48} className="welcome-icon-large" />
+    },
+    {
+      title: "Kenali La Ayi 🧑‍🏫",
+      subtitle: "Teman Diskusi Anda",
+      content: "Bicara langsung dengan La Ayi dalam mode Diskusi. La Ayi akan membantu Anda berlatih dan memberikan koreksi tata bahasa secara natural.",
+      icon: <GraduationCap size={48} className="welcome-icon-large" />
+    },
+    {
+      title: "Fitur Cerdas 💡",
+      subtitle: "Terjemahan & Kamus",
+      content: "Gunakan fitur Penerjemah untuk komunikasi cepat atau Kamus Per Kata untuk memahami kosakata lebih mendalam.",
+      icon: <Languages size={48} className="welcome-icon-large" />
+    },
+    {
+      title: "Warisan Buton 🏰",
+      subtitle: "Digitalisasi Budaya",
+      content: "Mari bersama menjaga kelestarian Bahasa Wolio. Setiap kata yang Anda pelajari adalah langkah kecil menjaga budaya Buton.",
+      icon: <CheckCircle size={48} className="welcome-icon-large" />
+    },
+    {
+      title: "Siap Menjelajah? 🚀",
+      subtitle: "Ringkasan Fitur Aindea",
+      content: "Semua alat yang Anda butuhkan untuk menguasai Bahasa Wolio ada di sini.",
+      isSummary: true,
+      features: [
+        { icon: <Languages size={20} />, label: "Penerjemah Cerdas" },
+        { icon: <GraduationCap size={20} />, label: "Tutor Diskusi" },
+        { icon: <Book size={20} />, label: "Kamus Per Kata" },
+        { icon: <CheckCircle size={20} />, label: "Koreksi Otomatis" }
+      ]
+    }
+  ];
 
   useEffect(() => {
     if (mode === 'translate') {
@@ -742,6 +794,85 @@ function App() {
           </div>
         )}
       </div>
+
+      {/* Welcome Showcase Modal */}
+      <AnimatePresence>
+        {showWelcome && (
+          <motion.div
+            className="modal-overlay welcome-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="welcome-card"
+              initial={{ scale: 0.9, y: 20 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.9, y: 20 }}
+            >
+              <div className="welcome-content">
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={welcomeStep}
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -20 }}
+                    className="slide-content"
+                  >
+                    {welcomeSlides[welcomeStep].isSummary ? (
+                      <div className="features-summary-grid">
+                        {welcomeSlides[welcomeStep].features.map((f, i) => (
+                          <div key={i} className="summary-feature-item">
+                            <div className="summary-feature-icon">{f.icon}</div>
+                            <span>{f.label}</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="welcome-icon-wrapper">
+                        {welcomeSlides[welcomeStep].icon}
+                      </div>
+                    )}
+                    <h2>{welcomeSlides[welcomeStep].title}</h2>
+                    <h3>{welcomeSlides[welcomeStep].subtitle}</h3>
+                    <p>{welcomeSlides[welcomeStep].content}</p>
+                  </motion.div>
+                </AnimatePresence>
+              </div>
+
+              <div className="welcome-footer">
+                <div className="step-indicators">
+                  {welcomeSlides.map((_, idx) => (
+                    <div
+                      key={idx}
+                      className={`step-dot ${idx === welcomeStep ? 'active' : ''}`}
+                      onClick={() => setWelcomeStep(idx)}
+                    />
+                  ))}
+                </div>
+
+                <div className="welcome-actions">
+                  {welcomeStep < welcomeSlides.length - 1 ? (
+                    <button
+                      className="welcome-next-btn"
+                      onClick={() => setWelcomeStep(prev => prev + 1)}
+                    >
+                      Lanjut
+                    </button>
+                  ) : (
+                    <button
+                      className="welcome-start-btn"
+                      onClick={closeWelcome}
+                    >
+                      Mulai Sekarang
+                    </button>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

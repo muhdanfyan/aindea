@@ -1,6 +1,6 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-exports.handler = async (event, context) => {
+export const handler = async (event, context) => {
     // Hanya izinkan metode POST
     if (event.httpMethod !== "POST") {
         return { statusCode: 405, body: "Method Not Allowed" };
