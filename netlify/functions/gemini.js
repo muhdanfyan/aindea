@@ -6,21 +6,15 @@ export const handler = async (event, context) => {
         return { statusCode: 405, body: "Method Not Allowed" };
     }
 
-    // Ambil kunci API normal (GEMINI_API_KEY_1 sampai GEMINI_API_KEY_4)
-    let normalKeys = Object.keys(process.env)
+    // Ambil kunci secara berurutan (GEMINI_API_KEY_1, GEMINI_API_KEY_2, dst)
+    let apiKeys = Object.keys(process.env)
         .filter(key => key.startsWith("GEMINI_API_KEY_") && key !== "GEMINI_API_KEY_ULTIMATE_FALLBACK")
-        .sort()
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
         .map(key => process.env[key])
         .filter(value => !!value);
 
-    // Acak urutan kunci normal agar beban terbagi rata
-    normalKeys = normalKeys.sort(() => Math.random() - 0.5);
-
-    // Ambil kunci fallback terakhir
+    // Ambil kunci fallback terakhir jika ada
     const ultimateFallbackKey = process.env.GEMINI_API_KEY_ULTIMATE_FALLBACK;
-
-    // Gabungkan: kunci normal yang diacak + kunci fallback di akhir
-    let apiKeys = [...normalKeys];
     if (ultimateFallbackKey && !apiKeys.includes(ultimateFallbackKey)) {
         apiKeys.push(ultimateFallbackKey);
     }
@@ -63,14 +57,15 @@ export const handler = async (event, context) => {
             lastError = error;
 
             // Jika error adalah 403 (Forbidden/Leaked) atau error server, lanjut ke kunci berikutnya
-            // Jika error adalah 400 (Bad Request - prompt issue), tidak perlu rotasi kunci karena akan tetap gagal
+            // Jika error adalah 400 (Bad Request), cek apakah karena API key atau input user
             const statusCode = error.status || (error.response ? error.response.status : 500);
+            const errorMessage = error.message || "";
 
-            if (statusCode === 400) {
-                break; // Keluar dari loop jika input user yang salah
+            if (statusCode === 400 && !errorMessage.toLowerCase().includes("api key")) {
+                break; // Keluar dari loop jika input user yang salah (Prompt issue)
             }
 
-            // Lanjut ke iterasi berikutnya untuk mencoba kunci lain
+            // Lanjut ke iterasi berikutnya untuk mencoba kunci lain jika itu masalah API key
         }
     }
 
