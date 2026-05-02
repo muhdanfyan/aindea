@@ -1,37 +1,53 @@
-# Aindea - Asisten Bahasa Wolio Berbasis AI
+# 🏛️ Aindea: Digitalizing Buton Heritage Through Intelligent AI
 
-Aindea adalah aplikasi asisten digital cerdas yang dirancang untuk melestarikan dan memfasilitasi pembelajaran **Bahasa Wolio**, bahasa kebanggaan masyarakat Buton. Melalui teknologi AI (Gemini 2.5 Flash), Aindea hadir dalam sosok **Ayi**, seorang teman diskusi yang fasih berbahasa Wolio.
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://aindea.vercel.app)
+[![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20Vite%20%7C%20DeepSeek-blue?style=for-the-badge)](https://muhdanfyan.github.io)
 
-## 🌟 Tujuan Proyek
-*   **Preservasi Digital**: Mendigitalisasi literatur bahasa Wolio agar tetap relevan di era modern.
-*   **Pembelajaran Interaktif**: Menyediakan mitra percakapan (Ayi) yang dapat mengevaluasi dan membantu pengguna berlatih bahasa Wolio secara natural.
-*   **Aksesibilitas**: Mempermudah siapa saja dalam menerjemahkan dan memahami ungkapan-ungkapan khas Wolio.
+**Aindea** (Asisten Digital Bahasa Wolio) adalah proyek inovatif yang menggabungkan pelestarian budaya tradisional dengan teknologi *Artificial Intelligence* (AI) terkini. Proyek ini dirancang untuk menjadi jembatan bagi generasi digital dalam mempelajari dan melestarikan **Bahasa Wolio**, bahasa ibu Kesultanan Buton yang kaya akan nilai sejarah namun menghadapi tantangan digitalisasi.
+
+---
+
+## 🚀 Visi & Harapan Proyek
+Harapan utama dari pembuatan repositori ini adalah menciptakan ekosistem digital di mana Bahasa Wolio tidak hanya bertahan, tetapi juga berkembang secara dinamis. 
+- **Digital Preservation**: Mengonversi literatur klasik (seperti Kamus Ungkapan Wolio 1985) ke dalam model data yang bisa dipahami AI.
+- **Cultural Accessibility**: Mempermudah siapa pun, di mana pun, untuk mempelajari tata bahasa dan kosakata Wolio secara interaktif.
+- **AI for Local Languages**: Menunjukkan bahwa teknologi AI global dapat "diajarkan" untuk memahami dialek lokal yang spesifik melalui teknik *contextual prompting*.
+
+---
+
+## 🛠️ Tech Stack: The Modern Foundation
+
+Aindea dibangun dengan standar industri modern untuk memastikan kecepatan, keamanan, dan pengalaman pengguna yang premium:
+
+### **Frontend: Sleek & Reactive**
+- **Vite + React JS**: Framework ultra-cepat untuk performa antarmuka yang responsif.
+- **Framer Motion**: Animasi mikro yang halus untuk memberikan kesan aplikasi yang "hidup".
+- **Lucide React**: Library ikon modern untuk UI yang bersih dan intuitif.
+- **Modern CSS**: Desain kustom dengan sentuhan *glassmorphism* dan *dark mode* yang elegan.
+
+### **Backend: Robust & Secure**
+- **Vercel Serverless Functions**: Menangani logika backend secara efisien tanpa perlu server fisik.
+- **Security Proxy**: API Key disembunyikan di sisi server untuk mencegah kebocoran data (*anti-leak system*).
+- **Hybrid AI Core**: 
+  - **DeepSeek AI (Primary)**: Otak utama untuk penalaran (*reasoning*) bahasa yang superior.
+  * **Google Gemini (Fallback)**: Sistem cadangan cerdas untuk menjamin ketersediaan layanan 100%.
+
+---
+
+## ⚙️ Sistem Kerja: Bagaimana Aindea Berpikir?
+
+Aindea tidak hanya sekadar "menerjemahkan" kata-per-kata, melainkan memahami konteks budaya melalui tiga tahap:
+
+1. **Context Loading**: Menyuntikkan konteks dari database kamus ungkapan dan aturan gramatika Wolio ke dalam prompt AI (RAG-Lite approach).
+2. **Hybrid Proxying**: Frontend berkomunikasi dengan Vercel API `/api/ai`, yang melakukan negosiasi aman dengan DeepSeek/Gemini API.
+3. **Grammar Evaluation**: AI mengevaluasi akhiran vokal (karakteristik unik Wolio) dan memberikan koreksi secara natural dalam sosok **La Ayi**.
+
+---
 
 ## 🧔 Tentang Pembuat
-**Muhdan Fyan Syah Sofian** adalah seorang pengembang web profesional (Full Stack Developer) dengan pengalaman lebih dari 10 tahun.
-*   **Keahlian**: JavaScript (ReactJS), PHP (Laravel/CI), Go.
-*   **Pendidikan**: Teknik Informatika, Universitas Dipa Makassar & Pondok Informatika.
-*   **Dedikasi**: Aktif sebagai IT Freelancer, Marbot Masjid, dan mentor di **Pondok Informatika**, sebuah institusi yang menggabungkan pelatihan IT dengan bimbingan agama.
-*   **Portofolio**: [muhdanfyan.github.io](https://muhdanfyan.github.io)
+**Muhdan Fyan Syah Sofian** adalah Full Stack Developer dengan pengalaman lebih dari 10 tahun, berdedikasi dalam pengembangan komunitas lokal di Buton dan institusi **Pondok Informatika**.
 
-## 📚 Referensi & Sumber Data
-Data linguistik dalam aplikasi ini bersumber dari literatur kredibel:
-1.  **Kamus Ungkapan Wolio-Indonesia** (95 halaman) - Tim Penyusun: Aburaerah Arief, dkk. (Ujung Pandang, 1985).
-2.  **Kamus Wolio-Indonesia** (205 halaman) - Husen Abas, dkk.
-3.  **The Wolio Language: Outline of Grammatical Description and Texts** - J.C. Anceaux.
-
-## 🛠️ Teknologi yang Digunakan
-Aplikasi ini dibangun menggunakan tumpukan teknologi modern untuk performa dan skalabilitas:
-*   **Frontend**: React.js dengan Vite sebagai build tool untuk pengalaman pengembangan yang cepat.
-*   **Kecerdasan Buatan (AI)**: Google Gemini 2.5 Flash API melalui SDK `@google/generative-ai`.
-*   **Animasi & UI**: Framer Motion untuk transisi halus dan Lucide React untuk perpustakaan ikon.
-*   **Styling**: Vanilla CSS3 dengan pendekatan modern (Glassmorphism & Responsive Design).
-*   **Deployment**: Terintegrasi dengan Netlify untuk hosting dan manajemen *environment variables*.
-
-## 🚀 Fitur Utama
-*   **Diskusi (Ayi Mode)**: Berlatih bicara dengan Ayi yang akan memberikan koreksi lembut jika ada kesalahan tata bahasa.
-*   **Penerjemah**: Terjemahan dua arah Indonesia ↔ Wolio yang akurat berdasarkan konteks kamus.
-*   **Koreksi Gramatika**: Menjamin setiap kata berakhir dengan vokal (ciri khas bahasa Wolio) dan menggunakan kata ganti yang tepat (seperti "yaku" untuk saya).
+🔗 **Portofolio**: [muhdanfyan.github.io](https://muhdanfyan.github.io)
 
 ---
 *Dibuat dengan semangat melestarikan warisan budaya Buton melalui baris kode.*
