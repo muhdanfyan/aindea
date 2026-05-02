@@ -6,9 +6,9 @@ import grammar from './wolio_grammar.json';
 import phrases from './wolio_phrases.json';
 import './App.css';
 
-// Helper function to call Gemini via Netlify Function Proxy
-const callGeminiProxy = async (modelName, prompt) => {
-  const response = await fetch('/.netlify/functions/gemini', {
+// Helper function to call AI via Vercel Function Proxy
+const callAIProxy = async (modelName, prompt) => {
+  const response = await fetch('/api/ai', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ model: modelName, prompt }),
@@ -269,7 +269,7 @@ function App() {
         INDONESIA: [terjemahan ke Indonesia]
       `;
 
-      const result = await callGeminiProxy("gemini-2.5-flash", prompt);
+      const result = await callAIProxy("gemini-2.5-flash", prompt);
       const text = result.text;
 
       const wolioMatch = text.match(/WOLIO:\s*(.+)/i);
@@ -353,7 +353,7 @@ function App() {
           `;
         }
 
-        const result = await callGeminiProxy("gemini-2.5-flash", prompt);
+        const result = await callAIProxy("gemini-2.5-flash", prompt);
         const text = stripMarkdown(result.text);
 
         setMessages(prev => [...prev, { role: 'bot', primary: text, secondary: null }]);
@@ -395,7 +395,7 @@ function App() {
           KOREKSI: [jika perlu koreksi, tuliskan cara yang benar. jika tepat, kosongkan]
         `;
 
-        const result = await callGeminiProxy("gemini-2.5-flash", prompt);
+        const result = await callAIProxy("gemini-2.5-flash", prompt);
         const text = result.text;
 
         const statusMatch = text.match(/STATUS:\s*(TEPAT|PERLU_KOREKSI)/i);
@@ -494,7 +494,7 @@ function App() {
                 <h2>🚀 Visi & Misi</h2>
                 <div className="about-card">
                   <p className="project-desc">
-                    Aindea bukan sekadar penerjemah. Ini adalah upaya digitalisasi budaya untuk memastikan <strong>Bahasa Wolio</strong> tetap relevan di era kecerdasan buatan. Melalui integrasi literatur klasik dan teknologi Gemini AI, kami menghadirkan tutor bahasa yang cerdas dan berakar pada tradisi.
+                    Aindea bukan sekadar penerjemah. Ini adalah upaya digitalisasi budaya untuk memastikan <strong>Bahasa Wolio</strong> tetap relevan di era kecerdasan buatan. Melalui integrasi literatur klasik dan teknologi DeepSeek AI, kami menghadirkan tutor bahasa yang cerdas dan berakar pada tradisi.
                   </p>
                 </div>
               </motion.section>
@@ -542,7 +542,7 @@ function App() {
                 <div className="tech-grid">
                   <div className="tech-item">
                     <Bot size={24} color="#00D1B2" />
-                    <span>Gemini AI</span>
+                    <span>DeepSeek AI</span>
                   </div>
                   <div className="tech-item">
                     <GraduationCap size={24} color="#00D1B2" />
