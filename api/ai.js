@@ -1,88 +1,47 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
-
 export default async function handler(req, res) {
-  // Only allow POST methods
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method Not Allowed" });
-  }
+  if (req.method !== "POST") return res.status(405).json({ error: "Method Not Allowed" });
 
-  const { model: modelName, prompt } = req.body;
-  let lastError = null;
+  const { prompt } = req.body;
+  if (!prompt) return res.status(400).json({ error: "Prompt required" });
 
-  // 1. Try DeepSeek first
-  const deepseekKey = process.env.DEEPSEEK_API_KEY;
-  if (deepseekKey) {
+  let lastError;
+
+  // 1. Coba DeepSeek
+  const dk = process.env.DEEPSEEK_API_KEY;
+  if (dk) {
     try {
-      const response = await fetch("https://api.deepseek.com/chat/completions", {
+      const r = await fetch("https://api.deepseek.com/chat/completions", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${deepseekKey}`
-        },
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${dk}` },
         body: JSON.stringify({
           model: "deepseek-chat",
-          messages: [
-            { role: "system", content: "You are a helpful assistant specialized in Wolio language and Buton culture." },
-            { role: "user", content: prompt }
-          ],
-          temperature: 0.7,
-          max_tokens: 2048
+          messages: [{ role: "system", content: "Kamu asisten penerjemah bahasa Wolio yang ahli." }, { role: "user", content: prompt }],
+          max_tokens: 1024
         })
       });
-
-      if (response.ok) {
-        const data = await response.json();
-        const text = data.choices[0].message.content;
-
-        return res.status(200).json({ text });
-      } else {
-        const errorData = await response.json();
-        console.error("DeepSeek API error:", errorData);
-        lastError = new Error(`DeepSeek error: ${errorData.error?.message || response.statusText}`);
+      if (r.ok) {
+        const d = await r.json();
+        return res.status(200).json({ text: d.choices[0].message.content });
       }
-    } catch (error) {
-      console.error("DeepSeek connection error:", error);
-      lastError = error;
-    }
+      lastError = await r.text();
+    } catch (e) { lastError = e.message; }
   }
 
-  // 2. Fallback to Gemini
-  let apiKeys = Object.keys(process.env)
-    .filter(key => key.startsWith("GEMINI_API_KEY_") && key !== "GEMINI_API_KEY_ULTIMATE_FALLBACK")
-    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-    .map(key => process.env[key])
-    .filter(value => !!value);
-
-  const ultimateFallbackKey = process.env.GEMINI_API_KEY_ULTIMATE_FALLBACK;
-  if (ultimateFallbackKey && !apiKeys.includes(ultimateFallbackKey)) {
-    apiKeys.push(ultimateFallbackKey);
-  }
-
-  if (process.env.GEMINI_API_KEY && !apiKeys.includes(process.env.GEMINI_API_KEY)) {
-    apiKeys.unshift(process.env.GEMINI_API_KEY);
-  }
-
-  if (apiKeys.length > 0) {
-    for (let i = 0; i < apiKeys.length; i++) {
-      const apiKey = apiKeys[i];
-      try {
-        const genAI = new GoogleGenerativeAI(apiKey);
-        const fallbackModel = modelName?.includes("gemini") ? modelName : "gemini-2.0-flash";
-        const model = genAI.getGenerativeModel({ model: fallbackModel });
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        const text = response.text();
-
-        return res.status(200).json({ text });
-      } catch (error) {
-        console.error(`Gemini fallback attempt ${i + 1} failed:`, error.message);
-        lastError = error;
+  // 2. Fallback Gemini (kalau ada key)
+  const gk = process.env.GEMINI_API_KEY_1 || process.env.GEMINI_API_KEY;
+  if (gk) {
+    try {
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${gk}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+      });
+      if (r.ok) {
+        const d = await r.json();
+        return res.status(200).json({ text: d.candidates?.[0]?.content?.parts?.[0]?.text || "" });
       }
-    }
+    } catch (e) { lastError = e.message; }
   }
 
-  return res.status(lastError?.status || 500).json({
-    error: lastError?.message || "All AI services failed",
-    details: "Please try again later."
-  });
+  return res.status(500).json({ error: lastError || "All providers failed" });
 }
