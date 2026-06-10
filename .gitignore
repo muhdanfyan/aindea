@@ -1,9 +1,14 @@
 node_modules/
 .DS_Store
 .env
-
-# Local Netlify folder
 .netlify
 dist/
 .vercel
 .env*.local
+
+# File PDF sumber kamus (besar, sudah diekstrak ke JSON)
+*.pdf
+
+# File extracted text (sumber, sudah diproses)
+extracted_*.txt
+src/extracted_*.txt

@@ -1,4 +1,10 @@
 {
   "cleanUrls": true,
-  "framework": "vite"
+  "framework": "vite",
+  "functions": {
+    "api/ai.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  }
 }
